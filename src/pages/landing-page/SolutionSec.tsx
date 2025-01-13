@@ -10,17 +10,17 @@ const SolutionSec: React.FC = () => {
     {
       title: "What is Madhouse Wallet",
       descp:
-        "Madhouse Wallet offers secure self-custody options, including seed phrase management and hardware wallet integration for enhanced security.",
+        "Madhouse Wallet is a secure, user-friendly wallet that bridges bitcoin between the Bitcoin and Ethereum networks using Threshold tBTC, and provides a seamless experience for managing assets with enhanced security features like passkey technology, multi-signature authentication, and automated market making for yield farming.",
     },
     {
       title: "Is there a required payment on the loan?",
       descp:
-        "With comprehensive audits, proof of reserves, and continuous protocol assessments, Madhouse ensures that users' crypto assets are well-protected.",
+        "Madhouse Wallet does not involve loans or payments related to loans. Instead, it focuses on securely bridging bitcoin to the Ethereum network, allowing users to manage their crypto assets and generate returns through yield farming. There are no mandatory payments or loan-related obligations within the Madhouse Wallet ecosystem.",
     },
     {
       title: "How can i get paid to start a loan business ?",
       descp:
-        "Madhouse promotes the safe storage of crypto assets in multi-signature cold storage, ensuring that the majority of funds remain secure.",
+        "Madhouse Wallet does not offer traditional loan services. Instead, it provides a platform for securely managing bitcoin through a smart wallet, bridging bitcoin to the Ethereum network, and generating returns via yield farming. If you’re interested in earning through the wallet, you can provide liquidity within the platform and generate profits from activities like yield farming, where users earn bitcoin fees through liquidity pools. For traditional loan businesses, you may need to explore other platforms that specifically cater to lending and borrowing.",
     },
   ];
   const [openIndex, setOpenIndex] = useState<number | null>(null);
