@@ -62,9 +62,9 @@ const Header: React.FC = () => {
           <LoginPop login={login} setLogin={setLogin} />,
           document.body
         )}
-      <header className="siteHeader sticky top-0 py-2 w-full shadow z-[999] bg-[var(--backgroundColor)]">
+      <header className="siteHeader fixed top-3 w-full  z-[999] ">
         <div className="container mx-auto py-1">
-          <Nav className="flex items-center justify-between ">
+          <Nav className="flex items-center justify-between py-lg-3 py-2 px-lg-4 px-3 shadow rounded-full">
             <a
               href="#"
               className="text-[var(--textColor)] font-bold text-lg whitespace-nowrap"
@@ -74,15 +74,15 @@ const Header: React.FC = () => {
                 alt="logo"
                 height={10000}
                 width={10000}
-                className="max-w-full object-contain w-auto"
-                style={{ height: 40 }}
+                className="max-w-full logo object-contain w-auto"
               />
             </a>
             <Link
               target="_blank"
               href={"https://staging.madhousewallet.com/"}
               // onClick={loginTry}
-              className="btn flex items-center justify-center commonBtn"
+              className="btn flex items-center justify-center text-white commonBtn rounded-full"
+              style={{ minWidth: "unset" }}
             >
               Open App
             </Link>
@@ -100,10 +100,18 @@ const GradientHandleSwitch = styled(Switch)`
 `;
 
 const Nav = styled.nav`
+  background: rgba(255, 255, 255, 0.09);
+  backdrop-filter: blur(12.8px);
+  .logo {
+    height: 35px;
+  }
   @media (max-width: 1024px) {
     flex-wrap: wrap;
     .menu {
       padding-top: 20px;
+    }
+    .logo {
+      height: 25px;
     }
   }
 `;

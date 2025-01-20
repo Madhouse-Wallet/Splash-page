@@ -7,7 +7,7 @@ import styled from "styled-components";
 const Footer = () => {
   return (
     <>
-      <FooterDiv className="siteFooter py-2 z-10 relative bg-[#fff]">
+      <FooterDiv className="siteFooter py-2 z-10 relative bg-[#1D1C25]">
         {/* <Image
           src={bg}
           alt="graphic"
@@ -17,154 +17,9 @@ const Footer = () => {
         /> */}
         <div className="container">
           <div className="grid gap-3 grid-cols-12">
-            <div className="col-span-12 hidden">
-              <div className="border border-secondary p-lg-5 p-3 rounded-4 grid gap-3 grid-cols-12">
-                <div className="lg:col-span-3 md:col-span-4 sm:col-span-6 col-span-12">
-                  <h6 className="m-0 font-bold text-white text-xl">Pages</h6>
-                  <ul className="list-none pl-0 mb-0 mt-2">
-                    <li className="">
-                      <Link
-                        href={""}
-                        className="text-gray-500 text-xs hover:text-[#ff8735]"
-                      >
-                        Home
-                      </Link>
-                    </li>
-                    <li className="">
-                      <Link
-                        href={""}
-                        className="text-gray-500 text-xs hover:text-[#ff8735]"
-                      >
-                        Case Study
-                      </Link>
-                    </li>
-                    <li className="">
-                      <Link
-                        href={""}
-                        className="text-gray-500 text-xs hover:text-[#ff8735]"
-                      >
-                        Features
-                      </Link>
-                    </li>
-                    <li className="">
-                      <Link
-                        href={""}
-                        className="text-gray-500 text-xs hover:text-[#ff8735]"
-                      >
-                        Integeration
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="lg:col-span-3 md:col-span-4 sm:col-span-6 col-span-12">
-                  <h6 className="m-0 font-bold text-white text-xl">Utility</h6>
-                  <ul className="list-none pl-0 mb-0 mt-2">
-                    <li className="">
-                      <Link
-                        href={""}
-                        className="text-gray-500 text-xs hover:text-[#ff8735]"
-                      >
-                        Style Guide
-                      </Link>
-                    </li>
-                    <li className="">
-                      <Link
-                        href={""}
-                        className="text-gray-500 text-xs hover:text-[#ff8735]"
-                      >
-                        Instructions
-                      </Link>
-                    </li>
-                    <li className="">
-                      <Link
-                        href={""}
-                        className="text-gray-500 text-xs hover:text-[#ff8735]"
-                      >
-                        Licences
-                      </Link>
-                    </li>
-                    <li className="">
-                      <Link
-                        href={""}
-                        className="text-gray-500 text-xs hover:text-[#ff8735]"
-                      >
-                        Changelog
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="lg:col-span-3 md:col-span-4 sm:col-span-6 col-span-12">
-                  <h6 className="m-0 font-bold text-white text-xl">Contact</h6>
-                  <ul className="list-none pl-0 mb-0 mt-2">
-                    <li className="py-1">
-                      <Link
-                        href={""}
-                        className="text-gray-500 text-xs hover:text-[#ff8735] flex items-start gap-2"
-                      >
-                        <div className="icn flex-shrink-0">{phn}</div>
-                        +1 (555) 123-4567
-                      </Link>
-                    </li>
-                    <li className="py-1">
-                      <Link
-                        href={""}
-                        className="text-gray-500 text-xs hover:text-[#ff8735] flex items-start gap-2"
-                      >
-                        <div className="icn flex-shrink-0">{email}</div>
-                        thewalkerledger@googlegroups.com
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="lg:col-span-3 md:col-span-4 sm:col-span-6 col-span-12">
-                  <h6 className="m-0 font-bold text-white text-xl">
-                    Connect with Us
-                  </h6>
-                  <ul className="list-none pl-0 mb-0 mt-2 flex items-center gap-2">
-                    <li className="py-1">
-                      <Link
-                        href={"https://www.linkedin.com/in/quincyryanwalker/"}
-                        target="_blank"
-                        style={{ height: 30, width: 30 }}
-                        className=" text-xs hover:bg-[#ff8735] bg-[#262626] rounded-circle flex items-center justify-center "
-                      >
-                        {linkedIn}
-                      </Link>
-                    </li>
-                    <li className="py-1">
-                      <Link
-                        target="_blank"
-                        href={"https://x.com/rogeroger120 "}
-                        style={{ height: 30, width: 30 }}
-                        className=" text-xs hover:bg-[#ff8735] bg-[#262626] rounded-circle flex items-center justify-center "
-                      >
-                        {twitter}
-                      </Link>
-                    </li>
-                    <li className="py-1">
-                      <Link
-                        href={"https://discord.gg/SUWXaqP5yq"}
-                        target="_blank"
-                        style={{ height: 30, width: 30 }}
-                        className=" text-xs hover:bg-[#ff8735] bg-[#262626] rounded-circle flex items-center justify-center "
-                      >
-                        {discord}
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-span-12">
-                  <div className="border-t border-secondary pt-3 mt-3">
-                    <p className="m-0 text-gray-500 text-xs">
-                      Copyright @MadHouse
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div className="col-span-12">
               <div className="flex items-center justify-center justify-between gap-2 flex-wrap">
-                <p className="m-0 text-gray-500 text-xs">Copyright @MadHouse</p>
+                <p className="m-0 text-xs font-medium">Copyright @MadHouse</p>
                 <ul className="list-none pl-0 mb-0 flex items-center gap-2">
                   <li className="py-1">
                     <Link
@@ -201,7 +56,7 @@ const Footer = () => {
                   <li className="">
                     <Link
                       href={""}
-                      className="text-gray-500 text-xs hover:text-[#ff8029]"
+                      className="font-medium text-xs hover:text-[#ff8029]"
                     >
                       Privacy Policy
                     </Link>
@@ -209,7 +64,7 @@ const Footer = () => {
                   <li className="">
                     <Link
                       href={""}
-                      className="text-gray-500 text-xs hover:text-[#ff8029]"
+                      className="font-medium text-xs hover:text-[#ff8029]"
                     >
                       Terms & Condition{" "}
                     </Link>
@@ -225,6 +80,7 @@ const Footer = () => {
 };
 const FooterDiv = styled.footer`
   font-family: "Funnel Display", serif;
+  color: #8e8d92;
 `;
 export default Footer;
 

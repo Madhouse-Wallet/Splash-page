@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import styled from "styled-components";
-import bg from "@/Assets/Images/bg1.png";
+import bg from "@/Assets/Images/bg2.png";
 import img from "@/Assets/Images/solution.png";
 import { AccordionItem } from "@/components/common/index";
 
@@ -23,57 +23,111 @@ const SolutionSec: React.FC = () => {
         "Madhouse Wallet does not offer traditional loan services. Instead, it provides a platform for securely managing bitcoin through a smart wallet, bridging bitcoin to the Ethereum network, and generating returns via yield farming. If you’re interested in earning through the wallet, you can provide liquidity within the platform and generate profits from activities like yield farming, where users earn bitcoin fees through liquidity pools. For traditional loan businesses, you may need to explore other platforms that specifically cater to lending and borrowing.",
     },
   ];
+  const [tab, setTab] = useState(1);
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  const handleTab = (key: number) => {
+    setTab(key);
+  };
 
   const handleAccordionClick = (index: number) => {
     setOpenIndex(index === openIndex ? null : index);
   };
+  const activeTab = data.filter((item, index) => index === tab);
+
+  // console.log(activeTab, "activeTab");
   return (
     <>
-      <SolutionSection className=" relative pb-5 pt-14 z-10 bg-[#fff]">
-        <div className="container">
-          <div className="grid gap-3 grid-cols-12 itmes-center">
-            <div className="lg:col-span-5 col-span-12 imgWrpper">
-              <div className="p-lg-3">
-                <Image
-                  src={img}
-                  alt="graphic"
-                  height={1000}
-                  width={1000}
-                  className="max-w-full w-100 h-full"
-                />
-              </div>
-            </div>
-            <div className="lg:col-span-7 col-span-12">
-              <div className="p-lg-3">
-                <h2 className="m-0 font-medium text-5xl text-dark py-2">
-                  <span className="text-gradient block">Key solutions </span>
-                  we provide The{" "}
-                </h2>
-                <p className="m-0 py-2">
-                  We offer innovative solutions to enhance security, streamline
-                  user experience, and ensure comprehensive risk management for
-                  all users.
-                </p>
-                <div className="mt-3">
-                  {data &&
-                    data.length > 0 &&
-                    data.map((item, key) => (
-                      <AccordionItem
-                        key={key}
-                        wrpperClass={
-                          "border-b border-dashed border-gray-500 py-3 my-2"
-                        }
-                        onClick={() => handleAccordionClick(key)}
-                        isOpen={openIndex === key}
-                        btnClass={`  font-semibold flex items-center justify-start gap-2 text-xl text-dark px-0 py-2 relative`}
-                        btnIcnClass={` icn`}
-                        svg={""}
-                        title={item.title}
-                      >
-                        <p className="m-0 py-2 text-gray-500">{item.descp}</p>
-                      </AccordionItem>
-                    ))}
+      <SolutionSection className=" relative pt-5 z-10 ">
+        <div className="container-fluid">
+          <div className=" relative z-[99] p-3 px-lg-4 py-5">
+            <Image
+              src={bg}
+              alt=""
+              height={10000}
+              width={10000}
+              style={{ borderRadius: 40 }}
+              className="max-w-full h-full w-full object-cover absolute top-0 left-0 z-[-9]"
+            />
+            <div className="container">
+              <div
+                className="grid gap-3 grid-cols-12 itmes-center mx-auto"
+                style={{ maxWidth: 900 }}
+              >
+                <div className="col-span-12">
+                  <div
+                    className="sectionHeader text-center mx-auto"
+                    style={{ maxWidth: 450 }}
+                  >
+                    <h2 className="m-0 font-medium text-3xl text-white py-2">
+                      Have Any Questions?
+                    </h2>
+                    <p className="m-0 text-gray-500 text-xs">
+                      Lorem ipsum dolor sit amet consectetur. Diam in odio in a
+                      nibh dolor pellentesque dapibus. Feugiat egestas vel
+                      ultrices ut.
+                    </p>
+                  </div>
+                </div>
+                <div className=" col-span-12">
+                  <div className="p-lg-3 grid gap-3 grid-cols-12">
+                    <div className="my-5 col-span-6 lg:block hidden">
+                      <div className="my-2">
+                        {data.map((item, key) => (
+                          <div key={key} className="py-2">
+                            <button
+                              onClick={() => setTab(key)}
+                              className={`${
+                                tab == key ? "text-white" : "text-gray-500"
+                              } border-0 p-0 flex items-center justify-between gap-2 w-full`}
+                            >
+                              <div className="flex items-center gap-2">
+                                <span className="icn rounded-circle h-4 w-4 bg-[#E2682B]"></span>
+                                <p className="m-0 font-normal text-base">
+                                  {item.title}
+                                </p>
+                              </div>
+                              <span className="arrow">{right}</span>
+                            </button>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="my-5 col-span-6 my-2 lg:block hidden">
+                      {activeTab.map((item, key) => (
+                        <div key={key} className="py-2 ps-lg-3">
+                          <h4 className="m-0 text-base font-medium text-white">
+                            {item.title}
+                          </h4>
+                          <p className="m-0 text-xs text-gray-500 py-2">
+                            {item.descp}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                    <div className="my-5 col-span-12 lg:hidden">
+                      {data &&
+                        data.length > 0 &&
+                        data.map((item, key) => (
+                          <AccordionItem
+                            key={key}
+                            wrpperClass={
+                              "border-b border-dashed border-gray-500 py-3 my-2"
+                            }
+                            onClick={() => handleAccordionClick(key)}
+                            isOpen={openIndex === key}
+                            btnClass={` text-left text-white font-semibold flex items-center justify-start gap-2 text-base px-0 py-2 relative`}
+                            btnIcnClass={` icn`}
+                            svg={""}
+                            title={item.title}
+                          >
+                            <p className="m-0 py-2 text-gray-500">
+                              {item.descp}
+                            </p>
+                          </AccordionItem>
+                        ))}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -108,7 +162,7 @@ const right = (
   >
     <path
       d="M11.793 7.49999H2.5C2.36739 7.49999 2.24021 7.55267 2.14645 7.64644C2.05268 7.74021 2 7.86738 2 7.99999C2 8.1326 2.05268 8.25978 2.14645 8.35354C2.24021 8.44731 2.36739 8.49999 2.5 8.49999H11.793L8.146 12.146C8.05211 12.2399 7.99937 12.3672 7.99937 12.5C7.99937 12.6328 8.05211 12.7601 8.146 12.854C8.23989 12.9479 8.36722 13.0006 8.5 13.0006C8.63278 13.0006 8.76011 12.9479 8.854 12.854L13.354 8.35399C13.4006 8.30754 13.4375 8.25237 13.4627 8.19162C13.4879 8.13088 13.5009 8.06576 13.5009 7.99999C13.5009 7.93422 13.4879 7.8691 13.4627 7.80836C13.4375 7.74761 13.4006 7.69244 13.354 7.64599L8.854 3.14599C8.76011 3.0521 8.63278 2.99936 8.5 2.99936C8.36722 2.99936 8.23989 3.0521 8.146 3.14599C8.05211 3.23988 7.99937 3.36721 7.99937 3.49999C7.99937 3.63277 8.05211 3.7601 8.146 3.85399L11.793 7.49999Z"
-      fill="black"
+      fill="currentColor"
     />
   </svg>
 );

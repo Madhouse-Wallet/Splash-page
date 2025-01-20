@@ -28,7 +28,7 @@ a {
   text-decoration: none !important;
 }
 .themeClr {
-  color: #ff8735 !important;
+  color: #e2682b !important;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -64,17 +64,16 @@ input.file {
 }
 
 .commonBtn {
-  background-color: #ff8735 !important;
-  border: 2px solid #ff8735 !important;
+  background-color: #e2682b !important;
+  border: 2px solid #e2682b !important;
   height: 40px !important;
-  font-weight: 600;
   font-size: 13px !important;
   min-width: 130px;
-  color: #0d1017 !important;
+  color: #fff !important;
 }
 .commonBtn.borderedBtn {
   background-color: transparent !important;
-  color: #ff8735 !important;
+  color: #e2682b !important;
 }
 .commonBtn:hover,
 .commonBtn.GreyBtn:hover {
