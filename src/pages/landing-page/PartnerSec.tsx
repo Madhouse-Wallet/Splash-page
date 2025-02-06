@@ -8,9 +8,27 @@ import img2 from "@/Assets/Images/p2.png";
 import img3 from "@/Assets/Images/p3.png";
 import img4 from "@/Assets/Images/p4.png";
 import img5 from "@/Assets/Images/p5.png";
+import img6 from "@/Assets/Images/p6.png";
+import img7 from "@/Assets/Images/p7.png";
+import img8 from "@/Assets/Images/p8.png";
+import img9 from "@/Assets/Images/p9.png";
+import img10 from "@/Assets/Images/p10.png";
+import img11 from "@/Assets/Images/p11.png";
 
 const PartnerSEcSection: React.FC = () => {
-  const data = [img1, img2, img3, img4, img5];
+  const data = [
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
+  ];
   var settings = {
     speed: 5000,
     autoplay: true,
@@ -40,9 +58,10 @@ const PartnerSEcSection: React.FC = () => {
                           <Image
                             alt=""
                             src={item}
-                            className="max-w-full h-auto w-auto object-contain"
+                            className="max-w-full w-auto object-contain"
                             height={10000}
                             width={10000}
+                            style={{ height: 25 }}
                           />
                         </Card>
                       </div>
@@ -65,7 +84,15 @@ const CardSec = styled.section`
   }
 `;
 
-const Card = styled.div``;
+const Card = styled.div`
+  img {
+    transition: 0.4s;
+    filter: grayscale(1);
+    &:hover {
+      filter: unset !important;
+    }
+  }
+`;
 
 export default PartnerSEcSection;
 

@@ -19,7 +19,9 @@ const Footer = () => {
           <div className="grid gap-3 grid-cols-12">
             <div className="col-span-12">
               <div className="flex items-center justify-center justify-between gap-2 flex-wrap">
-                <p className="m-0 text-xs font-medium">Copyright @MadHouse</p>
+                <p className="m-0 text-xs font-medium">
+                  Copyright @MadHouse Wallet
+                </p>
                 <ul className="list-none pl-0 mb-0 flex items-center gap-2">
                   <li className="py-1">
                     <Link

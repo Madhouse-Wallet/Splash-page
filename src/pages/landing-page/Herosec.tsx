@@ -4,6 +4,7 @@ import styled from "styled-components";
 import wave from "@/Assets/Images/waveline.png";
 import bg from "@/Assets/Images/landingBg.png";
 import hero from "@/Assets/Images/hero.png";
+import logo from "@/Assets/Images/logow.png";
 
 const Herosec: React.FC = () => {
   return (
@@ -58,8 +59,17 @@ const Herosec: React.FC = () => {
           <div className="flex items-center justify-end">
             <CardCstm className="p-3 rounded-xl ">
               <p className="m-0 py-2 text-gray-400">
-                <b className="text-white">Madhouse Wallet</b> is a
-                self-custodial bitcoin smart wallet that enables lending,
+                <b className="text-white float-left mr-2">
+                  <Image
+                    src={logo}
+                    alt="logo"
+                    height={10000}
+                    width={100000}
+                    className="max-w-full w-auto"
+                    style={{ height: 15 }}
+                  />
+                </b>{" "}
+                is a self-custodial bitcoin smart wallet that enables lending,
                 borrowing, buying and withdraws. We have over the counter desk
                 for large orders with minimal KYC onboarding as well as long
                 term savers vaults for earning interest

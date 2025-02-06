@@ -77,6 +77,9 @@ const Header: React.FC = () => {
                 className="max-w-full logo object-contain w-auto"
               />
             </a>
+            <span className="themeClr font-bold sm:text-xl">
+              Madhouse Wallet
+            </span>
             <Link
               target="_blank"
               href={"https://staging.madhousewallet.com/"}
@@ -103,15 +106,20 @@ const Nav = styled.nav`
   background: rgba(255, 255, 255, 0.09);
   backdrop-filter: blur(12.8px);
   .logo {
-    height: 35px;
+    height: 25px;
   }
   @media (max-width: 1024px) {
     flex-wrap: wrap;
     .menu {
       padding-top: 20px;
     }
+  }
+  @media (max-width: 575px) {
+    span {
+      display: none;
+    }
     .logo {
-      height: 25px;
+      height: 15px;
     }
   }
 `;
