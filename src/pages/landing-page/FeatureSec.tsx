@@ -34,9 +34,9 @@ const FeatureSection: React.FC = () => {
   return (
     <>
       <FeatureSec className=" relative py-14 z-10 ">
-        <span className="absolute top-0 z-[-9]" style={{ left: "30%" }}>
+        {/* <span className="absolute top-0 z-[-9]" style={{ left: "30%" }}>
           {mw}
-        </span>
+        </span> */}
         <div
           className="col-md-6 imgWrpper absolute right-0"
           style={{ top: "50%" }}
@@ -52,9 +52,9 @@ const FeatureSection: React.FC = () => {
         <div className="container">
           <div className="grid gap-3 grid-cols-12 itmes-center">
             <div className="md:col-span-6 col-span-12">
-              <h2 className="m-0 font-medium text-3xl text-white py-2">
+              {/* <h2 className="m-0 font-medium text-3xl text-white py-2">
                 Comprehensive <br /> Dashboard
-              </h2>
+              </h2> */}
               <div className="grid cardWrpper gap-3 grid gap-3 grid-cols-12 pt-4">
                 {data.map((item, key) => (
                   <div className="col-span-6 my-3" key={key}>
