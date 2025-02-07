@@ -7,6 +7,7 @@ import { useTheme } from "../../ContextApi/ThemeContext";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import logo from "@/Assets/Images/logow.png";
+import logo2 from "@/Assets/Images/logow2.png";
 import Image from "next/image";
 import user from "@/Assets/Images/user.png";
 import { createPortal } from "react-dom";
@@ -70,16 +71,20 @@ const Header: React.FC = () => {
               className="text-[var(--textColor)] font-bold text-lg whitespace-nowrap"
             >
               <Image
-                src={logo}
+                src={logo2}
                 alt="logo"
                 height={10000}
                 width={10000}
-                className="max-w-full logo object-contain w-auto"
+                className="max-w-full object-contain w-auto smLogo"
               />
             </a>
-            <span className="themeClr font-bold sm:text-xl">
-              Madhouse Wallet
-            </span>
+            <Image
+              src={logo}
+              alt="logo"
+              height={10000}
+              width={10000}
+              className="max-w-full logo object-contain w-auto"
+            />
             <Link
               target="_blank"
               href={"https://staging.madhousewallet.com/"}
@@ -108,6 +113,9 @@ const Nav = styled.nav`
   .logo {
     height: 25px;
   }
+  .smLogo {
+    height: 35px;
+  }
   @media (max-width: 1024px) {
     flex-wrap: wrap;
     .menu {
@@ -115,11 +123,25 @@ const Nav = styled.nav`
     }
   }
   @media (max-width: 575px) {
-    span {
-      display: none;
+    a.btn {
+      height: 31px !important;
+      padding: 0 10px;
+    }
+    .smLogo {
+      height: 25px;
     }
     .logo {
       height: 15px;
+    }
+  }
+  @media (max-width: 380px) {
+    .smLogo {
+      height: 20px;
+    }
+    .logo {
+      height: 10px;
+    }
+    button {
     }
   }
 `;

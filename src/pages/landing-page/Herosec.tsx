@@ -5,6 +5,7 @@ import wave from "@/Assets/Images/waveline.png";
 import bg from "@/Assets/Images/landingBg.png";
 import hero from "@/Assets/Images/hero.png";
 import logo from "@/Assets/Images/logow.png";
+import mobile from "@/Assets/Images/mobile.png";
 
 const Herosec: React.FC = () => {
   return (
@@ -30,11 +31,11 @@ const Herosec: React.FC = () => {
               </h2>
             </div>
           </div> */}
-          <div className="grid pt-5 gap-3 grid-cols-12 items-center">
-            <div className=" col-span-12">
+          <div className="grid gap-3 grid-cols-12 items-center">
+            <div className="md:col-span-7 col-span-12">
               <BannerContent
-                className="text-center mx-auto pb-24"
-                style={{ maxWidth: 645 }}
+                className=" pb-24"
+                // style={{ maxWidth: 645 }}
               >
                 <h2
                   className="m-0 font-medium text-3xl text-white"
@@ -44,7 +45,7 @@ const Herosec: React.FC = () => {
                   <span className="themeClr">Bitcoin at 0%</span> interest. Pay
                   back when you want{" "}
                 </h2>
-                <div className="btnWrpper mt-3 flex items-center justify-center gap-2 flex-wrap">
+                <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">
                   <button className="flex font-normal items-center justify-between commonBtn btn rounded-pill">
                     Explore Our Solutions
                     <span className="icn ms-1">{right}</span>
@@ -54,27 +55,35 @@ const Herosec: React.FC = () => {
                   </button>
                 </div>
               </BannerContent>
+              <CardCstm className="p-3 rounded-xl ">
+                <p className="m-0 py-2 text-gray-400">
+                  <b className="text-white float-left mr-2">
+                    <Image
+                      src={logo}
+                      alt="logo"
+                      height={10000}
+                      width={100000}
+                      className="max-w-full w-auto"
+                      style={{ height: 15 }}
+                    />
+                  </b>{" "}
+                  is a self-custodial bitcoin smart wallet that enables lending,
+                  borrowing, buying and withdraws. We have over the counter desk
+                  for large orders with minimal KYC onboarding as well as long
+                  term savers vaults for earning interest
+                </p>
+              </CardCstm>
             </div>
-          </div>
-          <div className="flex items-center justify-end">
-            <CardCstm className="p-3 rounded-xl ">
-              <p className="m-0 py-2 text-gray-400">
-                <b className="text-white float-left mr-2">
-                  <Image
-                    src={logo}
-                    alt="logo"
-                    height={10000}
-                    width={100000}
-                    className="max-w-full w-auto"
-                    style={{ height: 15 }}
-                  />
-                </b>{" "}
-                is a self-custodial bitcoin smart wallet that enables lending,
-                borrowing, buying and withdraws. We have over the counter desk
-                for large orders with minimal KYC onboarding as well as long
-                term savers vaults for earning interest
-              </p>
-            </CardCstm>
+            <div className="md:col-span-5 col-span-12 text-center">
+              <Image
+                alt=""
+                src={mobile}
+                height={10000}
+                width={10000}
+                style={{ maxWidth: 300 }}
+                className="max-w-full mx-auto h-auto w-auto"
+              />
+            </div>
           </div>
         </div>
       </Herosection>

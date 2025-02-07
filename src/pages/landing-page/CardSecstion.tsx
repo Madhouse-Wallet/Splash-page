@@ -64,7 +64,7 @@ const CardSection: React.FC = () => {
         },
       },
       {
-        breakpoint: 420,
+        breakpoint: 480,
         settings: {
           slidesToShow: 1.5,
         },

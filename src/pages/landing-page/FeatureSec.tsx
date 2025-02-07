@@ -8,7 +8,7 @@ const FeatureSection: React.FC = () => {
   const data = [
     {
       icn: icn1,
-      title: "Threshold Wallet",
+      title: "Multifactor Wallet",
       descrp:
         "Lorem ipsum dolor sit amet consectetur. Aliquam habitant ipsum lectus sed dui dignissim leo sem. ",
     },
@@ -20,7 +20,7 @@ const FeatureSection: React.FC = () => {
     },
     {
       icn: icn3,
-      title: "Buy Smart Contract Coverage",
+      title: "Bitcoin Debit Card",
       descrp:
         "Lorem ipsum dolor sit amet consectetur. Aliquam habitant ipsum lectus sed dui dignissim leo sem. ",
     },
