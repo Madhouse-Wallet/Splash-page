@@ -11,7 +11,7 @@ const themeVariables = {
     lightBtn: "#b8b8b8",
   },
   dark: {
-    backgroundColor: "#0d1017",
+    backgroundColor: "#0A0915",
     textColor: "#fff",
     textColor2: "#fff",
     cardBg: "#1e1e1e",

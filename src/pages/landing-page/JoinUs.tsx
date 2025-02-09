@@ -1,52 +1,41 @@
 import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
-import bg from "@/Assets/Images/bg1.png";
-import g1 from "@/Assets/Images/joing1.png";
-import g2 from "@/Assets/Images/joing2.png";
+import JoinImg from "@/Assets/Images/joinus.png";
 
 const JoinUsSec: React.FC = () => {
   return (
     <>
-      <JoinUs className=" relative  py-14 z-10 bg-[#090400]">
-        <Image
-          src={g1}
-          alt="graphic"
-          height={1000}
-          width={1000}
-          className="max-w-full absolute w-auto  bottom-5 left-0 opacity-70  right-0 z-[-1]"
-          style={{ height: 200 }}
-        />
-        <Image
-          src={g2}
-          alt="graphic"
-          style={{ height: 200 }}
-          height={1000}
-          width={1000}
-          className="max-w-full absolute w-auto  top-5 right-0 opacity-70 right-0 z-[-1]"
-        />
+      <JoinUs className=" relative  py-14 z-10">
         <div className="container py-5">
           <div className="grid gap-3 grid-cols-12 itmes-center">
             <div className="col-span-12">
               <Card
-                className="relative p-4 p-lg-5 text-center border border-secondary rounded-3 mx-auto backdrop-blur-lg"
-                style={{ maxWidth: 700 }}
+                className="relative  text-center mx-auto "
+                style={{ maxWidth: 680 }}
               >
+                <Image
+                  alt="Join"
+                  src={JoinImg}
+                  height={1000}
+                  width={10000}
+                  className="max-w-full mx-auto h-auto w-auto"
+                />
                 <div className="top">
-                  <h2 className="m-0 font-medium text-4xl text-white py-2">
-                    Madhouse For Bitcoin
-                    <span className="text-gradient"> Loan Businesses</span>
+                  <h2 className="m-0 font-medium md:text-4xl text-2xl text-white py-2">
+                    Madhouse <span className="themeClr"> Wallet</span> For
+                    Bitcoin Loan Businesses
                   </h2>
                   <p className="m-0 py-2 text-gray-400">
                     Create a lending business using Madhouse Wallet service for
-                    your clients.
+                    your clients
                   </p>
-                  <div className="mt-4 flex itmes-center justify-center gap-3">
-                    <button className="flex items-center justify-center commonBtn btn rounded-pill">
+                  <div className="mt-4 flex itmes-center justify-center gap-3 flex-wrap">
+                    <button className="flex font-normal items-center justify-between commonBtn btn rounded-pill">
                       Interested? Talk to us{" "}
                       <span className="icn ms-1">{right}</span>
                     </button>
-                    <button className="flex items-center justify-center btn border-0 bg-transparent text-white">
+                    <button className="flex items-center justify-between btn border-0 font-normal rounded-pill text-white">
                       Learn More <span className="icn ms-1">{right}</span>
                     </button>
                   </div>
@@ -66,6 +55,18 @@ const JoinUs = styled.section`
 
 const Card = styled.section`
   font-family: "Funnel Display", serif;
+  button {
+    background: #252038;
+    height: 40px !important;
+    min-height: unset !important;
+    min-width: 196px;
+    font-size: 12px !important;
+  }
+  @media (max-width: 480px) {
+    button {
+      min-width: unset !important;
+    }
+  }
 `;
 
 export default JoinUsSec;
