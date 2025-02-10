@@ -16,7 +16,7 @@ const Herosec: React.FC = () => {
           alt="graphic"
           height={10000}
           width={10000}
-          className="max-w-full opacity-40 absolute w-full top-0 left-0 h-full object-cover ml-auto right-0 z-[-1]"
+          className="max-w-full object-left opacity-40 absolute w-full top-0 left-0 h-full object-cover ml-auto right-0 z-[-1]"
         />
         <div className="container py-10">
           {/* <div className="grid gap-3 grid-cols-12">
