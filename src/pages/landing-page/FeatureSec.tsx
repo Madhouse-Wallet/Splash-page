@@ -38,7 +38,7 @@ const FeatureSection: React.FC = () => {
           {mw}
         </span> */}
         <div
-          className="col-md-6 imgWrpper absolute right-0"
+          className="col-lg-6 imgWrpper absolute right-0"
           style={{ top: "50%" }}
         >
           <Image
@@ -51,7 +51,7 @@ const FeatureSection: React.FC = () => {
         </div>
         <div className="container">
           <div className="grid gap-3 grid-cols-12 itmes-center">
-            <div className="md:col-span-6 col-span-12">
+            <div className="lg:col-span-6 col-span-12">
               {/* <h2 className="m-0 font-medium text-3xl text-white py-2">
                 Comprehensive <br /> Dashboard
               </h2> */}

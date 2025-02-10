@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
 import wave from "@/Assets/Images/waveline.png";
-import bg from "@/Assets/Images/landingBg.png";
+import bg from "@/Assets/Images/landingBg2.png";
 import hero from "@/Assets/Images/hero.png";
 import logo from "@/Assets/Images/logow.png";
 import mobile from "@/Assets/Images/mobile.png";
@@ -10,13 +10,13 @@ import mobile from "@/Assets/Images/mobile.png";
 const Herosec: React.FC = () => {
   return (
     <>
-      <Herosection className="heroSec relative pt-24 z-10 bg-[#090400]">
+      <Herosection className="heroSec relative pt-24 z-10 bg-[#0a0915]">
         <Image
           src={bg}
           alt="graphic"
-          height={1000}
-          width={1000}
-          className="max-w-full absolute w-full top-0 left-0 h-full object-cover ml-auto right-0 z-[-1]"
+          height={10000}
+          width={10000}
+          className="max-w-full opacity-40 absolute w-full top-0 left-0 h-full object-cover ml-auto right-0 z-[-1]"
         />
         <div className="container py-10">
           {/* <div className="grid gap-3 grid-cols-12">

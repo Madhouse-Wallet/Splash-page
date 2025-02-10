@@ -61,7 +61,7 @@ const PartnerSEcSection: React.FC = () => {
                             className="max-w-full w-auto object-contain"
                             height={10000}
                             width={10000}
-                            style={{ height: 25 }}
+                            style={{ height: 23 }}
                           />
                         </Card>
                       </div>
