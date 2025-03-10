@@ -14,6 +14,7 @@ import img8 from "@/Assets/Images/p8.png";
 import img9 from "@/Assets/Images/p9.png";
 import img10 from "@/Assets/Images/p10.png";
 import img11 from "@/Assets/Images/p11.png";
+import img12 from "@/Assets/Images/p12.png";
 
 const PartnerSEcSection: React.FC = () => {
   const data = [
@@ -27,7 +28,7 @@ const PartnerSEcSection: React.FC = () => {
     img8,
     img9,
     img10,
-    img11,
+    img12,
   ];
   var settings = {
     speed: 5000,
