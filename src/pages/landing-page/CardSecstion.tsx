@@ -9,39 +9,62 @@ const CardSection: React.FC = () => {
   const data = [
     {
       icon: icn1,
-      title: "Military-grade encryption",
+      title: "Secure Transactions",
       descp:
-        "Lorem ipsum dolor sit amet consectetur. Aliquam habitant ipsum lectus sed dui dignissim leo sem. Dui amet fames porta enim.",
+        "The system uses passkey authentication to securely store your wallet keys on your device behind the authentication mechanism of your choice",
     },
     {
       icon: icn2,
-      title: "Decentralized network",
+      title: "Free to use",
       descp:
-        "Lorem ipsum dolor sit amet consectetur. Aliquam habitant ipsum lectus sed dui dignissim leo sem. Dui amet fames porta enim.",
+        "Get started by signing up for an account for free today. We only collect transaction fees as the wallet is used.",
     },
     {
       icon: icn3,
-      title: "Bulletproof cybersecurity",
+      title: "Easy to use",
       descp:
-        "Lorem ipsum dolor sit amet consectetur. Aliquam habitant ipsum lectus sed dui dignissim leo sem. Dui amet fames porta enim.",
+        "The point of sale system is easy to set up. Simply select where you want to accept bank account/card. Bitcoin or cashapp/lightning payment. Enter the amount, generate a QR code, and collect the payment",
     },
     {
       icon: icn4,
-      title: "Real-time threat monitoring",
+      title: "Privacy",
       descp:
-        "Lorem ipsum dolor sit amet consectetur. Aliquam habitant ipsum lectus sed dui dignissim leo sem. Dui amet fames porta enim.",
+        "Transactions are stored on the blockchain and only accessible to those that know the wallet address of the merchant. Transactions are accessible forever ",
     },
     {
-      icon: icn4,
-      title: "Real-time threat monitoring",
-      descp:
-        "Lorem ipsum dolor sit amet consectetur. Aliquam habitant ipsum lectus sed dui dignissim leo sem. Dui amet fames porta enim.",
+      icon: icn5,
+      title: "Top Tier Support",
+      descp: "Sign up for a subscription and receive top tier support from us.",
     },
     {
-      icon: icn3,
-      title: "Bulletproof cybersecurity",
+      icon: icn10,
+      title: "Backup and Recovery Support",
       descp:
-        "Lorem ipsum dolor sit amet consectetur. Aliquam habitant ipsum lectus sed dui dignissim leo sem. Dui amet fames porta enim.",
+        "Always have access to your funds by saving your seed phrase to recover in case of an emergency",
+    },
+    {
+      icon: icn6,
+      title: "Point of Sale System",
+      descp:
+        "Accept payment via card, bank account, bitcoin, lightning and cashapp",
+    },
+    {
+      icon: icn7,
+      title: "Multifactor Security",
+      descp:
+        "Ensure that multiple levels of authentication are needed to approve any transaction in the wallet",
+    },
+    {
+      icon: icn8,
+      title: "Virtual Card",
+      descp:
+        "Spend dollars in wallet using a card that can be used with apple pay and google pay",
+    },
+    {
+      icon: icn9,
+      title: "Earn",
+      descp:
+        "Lend dollars and earn interest while your money is idle in the wallet. Cash out payments in over 100 different countries which include the USA, Kenya, Nigeria and South Africa",
     },
   ];
   var settings = {
@@ -94,9 +117,9 @@ const CardSection: React.FC = () => {
                   >
                     <span className="icn flex justify-center">{dot}</span>
                     <h4 className="m-0 font-normal text-white py-2 text-xl">
-                      Secury leverages powerful encryption and blockchain
-                      technology to provide industry-leading protection for your
-                      sensitive data
+                      Leverage the bitcoin network to securely and privately
+                      accept payments without being exposed to bitcoin price
+                      volatility
                     </h4>
                   </div>
                 </div>
@@ -105,7 +128,7 @@ const CardSection: React.FC = () => {
                     {data.map((item, key) => (
                       <div className="px-3" key={key}>
                         <Card className=" rounded rounded">
-                          <div className="inner bg-[#0A0915] rounded p-3">
+                          <div className="inner bg-[#0A0915] rounded p-3 min-h-[190px]">
                             <span className="icn block mb-3">{item.icon}</span>{" "}
                             <div className="content relative pt-4">
                               <h4 className="m-0 text-base">{item.title}</h4>
@@ -246,38 +269,14 @@ const icn4 = (
   <svg
     width="24"
     height="24"
-    viewBox="0 0 36 36"
+    viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_0_74)">
-      <mask
-        id="mask0_0_74"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x="0"
-        y="0"
-        width="36"
-        height="36"
-      >
-        <path d="M0 0H36V36H0V0Z" fill="white" />
-      </mask>
-      <g mask="url(#mask0_0_74)">
-        <path
-          d="M25.5 27C25.5 26.4091 25.3836 25.8239 25.1575 25.2779C24.9313 24.732 24.5998 24.2359 24.182 23.818C23.7641 23.4002 23.268 23.0687 22.7221 22.8425C22.1761 22.6164 21.5909 22.5 21 22.5C20.4091 22.5 19.8239 22.6164 19.2779 22.8425C18.732 23.0687 18.2359 23.4002 17.818 23.818C17.4002 24.2359 17.0687 24.732 16.8425 25.2779C16.6164 25.8239 16.5 26.4091 16.5 27H19.5C19.5 26.6022 19.658 26.2206 19.9393 25.9393C20.2206 25.658 20.6022 25.5 21 25.5C21.3978 25.5 21.7794 25.658 22.0607 25.9393C22.342 26.2206 22.5 26.6022 22.5 27C22.5 27.75 21.225 28.707 20.1 29.55C18.412 30.816 16.5 32.25 16.5 34.5V36H25.5V33H20.565C20.971 32.646 21.448 32.289 21.9 31.95C23.588 30.684 25.5 29.25 25.5 27ZM33 28.5H30V22.5H27V28.5C27 29.2956 27.3161 30.0587 27.8787 30.6213C28.4413 31.1839 29.2044 31.5 30 31.5H33V36H36V22.5H33V28.5ZM19.5 9H16.5V16.5H10.5V19.5H19.5V9Z"
-          fill="currentColor"
-        />
-        <path
-          d="M33.0001 3.00005V8.06105C31.3896 5.62553 29.2106 3.61856 26.6511 2.2134C24.0916 0.808237 21.2286 0.0471043 18.3092 -0.00429201C15.3898 -0.0556883 12.5018 0.604197 9.89441 1.9184C7.28705 3.2326 5.03871 5.16162 3.34348 7.53894C1.64825 9.91626 0.557072 12.6704 0.164147 15.5637C-0.228778 18.457 0.0883563 21.4024 1.08817 24.1458C2.08799 26.8891 3.74044 29.3479 5.90288 31.3098C8.06532 33.2718 10.6728 34.678 13.5001 35.4071V32.3101C11.1683 31.5845 9.04881 30.3007 7.32587 28.5699C5.60294 26.8392 4.32863 24.714 3.61364 22.3789C2.89866 20.0438 2.76462 17.5694 3.22318 15.1707C3.68174 12.772 4.71902 10.5216 6.24491 8.61489C7.77081 6.70817 9.73917 5.20285 11.979 4.22969C14.2189 3.25653 16.6624 2.84497 19.0975 3.03075C21.5325 3.21652 23.8854 3.99403 25.9516 5.29572C28.0179 6.59741 29.7351 8.38392 30.9541 10.5001H25.5001V13.5001H33.0001C33.7958 13.5001 34.5588 13.184 35.1214 12.6214C35.684 12.0588 36.0001 11.2957 36.0001 10.5001V3.00005H33.0001Z"
-          fill="currentColor"
-        />
-      </g>
-    </g>
-    <defs>
-      <clipPath id="clip0_0_74">
-        <rect width="36" height="36" fill="white" />
-      </clipPath>
-    </defs>
+    <path
+      d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1ZM11 7H13V9H11V7ZM11 11H13V17H11V11Z"
+      fill="currentColor"
+    />
   </svg>
 );
 
@@ -318,5 +317,105 @@ const dot = (
         />
       </clipPath>
     </defs>
+  </svg>
+);
+
+const icn5 = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 2C6.486 2 2 6.486 2 12V16.143C2 17.167 2.897 18 4 18H5C5.26522 18 5.51957 17.8946 5.70711 17.7071C5.89464 17.5196 6 17.2652 6 17V11.857C6 11.5918 5.89464 11.3374 5.70711 11.1499C5.51957 10.9624 5.26522 10.857 5 10.857H4.092C4.648 6.987 7.978 4 12 4C16.022 4 19.352 6.987 19.908 10.857H19C18.7348 10.857 18.4804 10.9624 18.2929 11.1499C18.1054 11.3374 18 11.5918 18 11.857V18C18 19.103 17.103 20 16 20H14V19H10V22H16C18.206 22 20 20.206 20 18C21.103 18 22 17.167 22 16.143V12C22 6.486 17.514 2 12 2Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+
+const icn6 = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M1 8C1 6.14348 1.7375 4.36301 3.05025 3.05025C4.36301 1.7375 6.14348 1 8 1C9.85652 1 11.637 1.7375 12.9497 3.05025C14.2625 4.36301 15 6.14348 15 8C15 9.85652 14.2625 11.637 12.9497 12.9497C11.637 14.2625 9.85652 15 8 15C6.14348 15 4.36301 14.2625 3.05025 12.9497C1.7375 11.637 1 9.85652 1 8ZM9.864 4.144C9.76784 4.05136 9.63952 3.99961 9.506 3.99961C9.37248 3.99961 9.24416 4.05136 9.148 4.144C9.10112 4.18924 9.06384 4.24345 9.03837 4.30342C9.01291 4.36338 8.99978 4.42785 8.99978 4.493C8.99978 4.55815 9.01291 4.62262 9.03837 4.68258C9.06384 4.74255 9.10112 4.79676 9.148 4.842C9.57251 5.25114 9.91018 5.74168 10.1408 6.28428C10.3714 6.82688 10.4903 7.41042 10.4903 8C10.4903 8.58958 10.3714 9.17312 10.1408 9.71572C9.91018 10.2583 9.57251 10.7489 9.148 11.158C9.10112 11.2032 9.06384 11.2575 9.03837 11.3174C9.01291 11.3774 8.99978 11.4419 8.99978 11.507C8.99978 11.5721 9.01291 11.6366 9.03837 11.6966C9.06384 11.7565 9.10112 11.8108 9.148 11.856C9.24416 11.9486 9.37248 12.0004 9.506 12.0004C9.63952 12.0004 9.76784 11.9486 9.864 11.856C10.3824 11.3565 10.7947 10.7575 11.0764 10.095C11.358 9.43244 11.5032 8.71991 11.5032 8C11.5032 7.28009 11.358 6.56756 11.0764 5.90503C10.7947 5.24249 10.3824 4.64355 9.864 4.144ZM7.844 5.148C7.79866 5.10094 7.7443 5.0635 7.68416 5.03794C7.62402 5.01237 7.55935 4.99919 7.494 4.99919C7.42865 4.99919 7.36398 5.01237 7.30384 5.03794C7.2437 5.0635 7.18934 5.10094 7.144 5.148C7.05113 5.24404 6.99922 5.3724 6.99922 5.506C6.99922 5.6396 7.05113 5.76796 7.144 5.864C7.69814 6.43658 8.00795 7.20218 8.00795 7.999C8.00795 8.79582 7.69814 9.56142 7.144 10.134C7.05113 10.23 6.99922 10.3584 6.99922 10.492C6.99922 10.6256 7.05113 10.754 7.144 10.85C7.18934 10.8971 7.2437 10.9345 7.30384 10.9601C7.36398 10.9856 7.42865 10.9988 7.494 10.9988C7.55935 10.9988 7.62402 10.9856 7.68416 10.9601C7.7443 10.9345 7.79866 10.8971 7.844 10.85C9.38 9.275 9.38 6.723 7.844 5.148ZM5.138 6.153C5.04773 6.25531 4.99792 6.38706 4.99792 6.5235C4.99792 6.65994 5.04773 6.79169 5.138 6.894C5.691 7.504 5.691 8.495 5.138 9.106C5.048 9.20825 4.99836 9.33979 4.99836 9.476C4.99836 9.61221 5.048 9.74375 5.138 9.846C5.17968 9.89408 5.23121 9.93265 5.28909 9.95907C5.34698 9.9855 5.40987 9.99918 5.4735 9.99918C5.53713 9.99918 5.60002 9.9855 5.65791 9.95907C5.71579 9.93265 5.76732 9.89408 5.809 9.846C6.734 8.826 6.734 7.173 5.809 6.153C5.76732 6.10509 5.71585 6.06667 5.65806 6.04034C5.60027 6.01402 5.5375 6.00039 5.474 6.00039C5.4105 6.00039 5.34773 6.01402 5.28994 6.04034C5.23215 6.06667 5.17968 6.10509 5.138 6.153Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+
+const icn7 = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1ZM12 7C13.4 7 14.8 8.1 14.8 9.5V11C15.4 11 16 11.6 16 12.3V15.8C16 16.4 15.4 17 14.7 17H9.2C8.6 17 8 16.4 8 15.7V12.2C8 11.6 8.6 11 9.2 11V9.5C9.2 8.1 10.6 7 12 7ZM12 8.2C11.2 8.2 10.5 8.7 10.5 9.5V11H13.5V9.5C13.5 8.7 12.8 8.2 12 8.2Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+
+const icn8 = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M9 5H15L12 8L9 5ZM10.5 14.66C10.2 15 10 15.5 10 16C10 16.5304 10.2107 17.0391 10.5858 17.4142C10.9609 17.7893 11.4696 18 12 18C12.5304 18 13.0391 17.7893 13.4142 17.4142C13.7893 17.0391 14 16.5304 14 16C14 15.45 13.78 14.95 13.41 14.59L14.83 13.17C15.55 13.9 16 14.9 16 16C16 17.0609 15.5786 18.0783 14.8284 18.8284C14.0783 19.5786 13.0609 20 12 20C10.9391 20 9.92172 19.5786 9.17157 18.8284C8.42143 18.0783 8 17.0609 8 16C8 14.93 8.42 13.96 9.1 13.25L9.09 13.24L16.17 6.17C16.5418 5.79866 16.983 5.50421 17.4686 5.30346C17.9542 5.1027 18.4746 4.99959 19 5C20.0609 5 21.0783 5.42143 21.8284 6.17157C22.5786 6.92172 23 7.93914 23 9C23 10.0609 22.5786 11.0783 21.8284 11.8284C21.0783 12.5786 20.0609 13 19 13C17.9 13 16.9 12.55 16.17 11.83L17.59 10.41C17.95 10.78 18.45 11 19 11C19.5304 11 20.0391 10.7893 20.4142 10.4142C20.7893 10.0391 21 9.53043 21 9C21 8.46957 20.7893 7.96086 20.4142 7.58579C20.0391 7.21071 19.5304 7 19 7C18.45 7 17.95 7.22 17.59 7.59L10.5 14.66ZM6.41 7.59C6.05 7.22 5.55 7 5 7C4.46957 7 3.96086 7.21071 3.58579 7.58579C3.21071 7.96086 3 8.46957 3 9C3 9.53043 3.21071 10.0391 3.58579 10.4142C3.96086 10.7893 4.46957 11 5 11C5.55 11 6.05 10.78 6.41 10.41L7.83 11.83C7.1 12.55 6.1 13 5 13C3.93913 13 2.92172 12.5786 2.17157 11.8284C1.42143 11.0783 1 10.0609 1 9C1 7.93914 1.42143 6.92172 2.17157 6.17157C2.92172 5.42143 3.93913 5 5 5C6.11 5 7.11 5.45 7.83 6.17L10.59 8.93L9.17 10.35L6.41 7.59Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+
+const icn9 = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M9 16C12.866 16 16 12.866 16 9C16 5.13401 12.866 2 9 2C5.13401 2 2 5.13401 2 9C2 12.866 5.13401 16 9 16Z"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M15 22C18.866 22 22 18.866 22 15C22 11.134 18.866 8 15 8C11.134 8 8 11.134 8 15C8 18.866 11.134 22 15 22Z"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+const icn10 = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M6.07999 8.02C6.31271 6.61797 7.03547 5.34404 8.11958 4.42505C9.20369 3.50605 10.5788 3.00165 12 3.00165C13.4212 3.00165 14.7963 3.50605 15.8804 4.42505C16.9645 5.34404 17.6873 6.61797 17.92 8.02C18.5145 8.07572 19.0919 8.2492 19.6187 8.53032C20.1455 8.81144 20.6111 9.19459 20.9883 9.65744C21.3655 10.1203 21.6468 10.6536 21.8159 11.2262C21.985 11.7989 22.0384 12.3995 21.973 12.993C21.1921 11.7731 20.0261 10.8489 18.66 10.3672C17.294 9.88556 15.8062 9.87396 14.4328 10.3343C13.0595 10.7946 11.8792 11.7005 11.0794 12.9081C10.2795 14.1157 9.90597 15.5559 10.018 17H6.49999C5.33975 17.0047 4.22252 16.5611 3.38152 15.7618C2.54053 14.9625 2.04077 13.8692 1.98657 12.7102C1.93238 11.5512 2.32794 10.4161 3.09067 9.5418C3.85341 8.66748 4.92437 8.12156 6.07999 8.018M22 16.5C22 17.9587 21.4205 19.3576 20.3891 20.3891C19.3576 21.4205 17.9587 22 16.5 22C15.0413 22 13.6424 21.4205 12.6109 20.3891C11.5795 19.3576 11 17.9587 11 16.5C11 15.0413 11.5795 13.6424 12.6109 12.6109C13.6424 11.5795 15.0413 11 16.5 11C17.9587 11 19.3576 11.5795 20.3891 12.6109C21.4205 13.6424 22 15.0413 22 16.5ZM16 19.5C16 19.6326 16.0527 19.7598 16.1464 19.8536C16.2402 19.9473 16.3674 20 16.5 20C16.6326 20 16.7598 19.9473 16.8535 19.8536C16.9473 19.7598 17 19.6326 17 19.5V14.707L18.646 16.354C18.7399 16.4479 18.8672 16.5006 19 16.5006C19.1328 16.5006 19.2601 16.4479 19.354 16.354C19.4479 16.2601 19.5006 16.1328 19.5006 16C19.5006 15.8672 19.4479 15.7399 19.354 15.646L16.854 13.146C16.8075 13.0994 16.7524 13.0625 16.6916 13.0373C16.6309 13.0121 16.5658 12.9991 16.5 12.9991C16.4342 12.9991 16.3691 13.0121 16.3084 13.0373C16.2476 13.0625 16.1924 13.0994 16.146 13.146L13.646 15.646C13.5521 15.7399 13.4994 15.8672 13.4994 16C13.4994 16.1328 13.5521 16.2601 13.646 16.354C13.7399 16.4479 13.8672 16.5006 14 16.5006C14.1328 16.5006 14.2601 16.4479 14.354 16.354L16 14.707V19.5Z"
+      fill="currentColor"
+    />
   </svg>
 );

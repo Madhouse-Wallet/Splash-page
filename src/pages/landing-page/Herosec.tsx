@@ -41,9 +41,11 @@ const Herosec: React.FC = () => {
                   className="m-0 font-medium text-3xl text-white"
                   style={{ lineHeight: "40px" }}
                 >
-                  Borrow Dollars Using Your{" "}
-                  <span className="themeClr">Bitcoin at 0%</span> interest. Pay
-                  back when you want{" "}
+                  <span className="themeClr">
+                    Accept Bitcoin payments as dollars
+                  </span>
+                  . Withdraw dollars when and how you want. Easy, private and
+                  secure point of sale system
                 </h2>
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">
                   <button className="flex font-normal items-center justify-between commonBtn btn rounded-pill">
@@ -67,10 +69,10 @@ const Herosec: React.FC = () => {
                       style={{ height: 15 }}
                     />
                   </b>{" "}
-                  is a self-custodial bitcoin smart wallet that enables lending,
-                  borrowing, buying and withdraws. We have over the counter desk
-                  for large orders with minimal KYC onboarding as well as long
-                  term savers vaults for earning interest
+                  is a self-custodial point of sale system. Simply sign up for
+                  an account and start accepting bitcoin and lightning payments
+                  which automatically covert to dollars. Access a new market of
+                  customers without being exposed to bitcoin price volatility.
                 </p>
               </CardCstm>
             </div>
