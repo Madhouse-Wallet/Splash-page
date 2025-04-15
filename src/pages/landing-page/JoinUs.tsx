@@ -23,8 +23,8 @@ const JoinUsSec: React.FC = () => {
                 />
                 <div className="top">
                   <h2 className="m-0 font-medium md:text-4xl text-2xl text-white py-2">
-                    Madhouse <span className="themeClr"> Wallet</span> For
-                    Bitcoin Loan Businesses
+                    Madhouse <span className="themeClr"> Wallet</span> For Point
+                    of Sale
                   </h2>
                   <p className="m-0 py-2 text-gray-400">
                     Create a lending business using Madhouse Wallet service for

@@ -41,11 +41,9 @@ const Herosec: React.FC = () => {
                   className="m-0 font-medium text-3xl text-white"
                   style={{ lineHeight: "40px" }}
                 >
-                  <span className="themeClr">
-                    Accept Bitcoin payments as dollars
-                  </span>
-                  . Withdraw dollars when and how you want. Easy, private and
-                  secure point of sale system
+                  Accept
+                  <span className="themeClr"> Bitcoin Payments </span>
+                  in your business. Worldwide. On your phone.
                 </h2>
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">
                   <button className="flex font-normal items-center justify-between commonBtn btn rounded-pill">
