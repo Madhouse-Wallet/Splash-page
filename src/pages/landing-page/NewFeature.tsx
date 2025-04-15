@@ -39,13 +39,15 @@ const NewFearureSection: React.FC = () => {
                     />
                     <div className="md:col-span-6 col-span-12 p-lg-5 self-center relative">
                       <h2 className="m-0 font-medium text-3xl text-white py-2">
-                        Borrow with confidence and control over your crypto
-                        collateral
+                        Bitcoin Merchant Kit
                       </h2>
                       <p className="m-0 text-gray-500">
-                        Lorem ipsum dolor sit amet consectetur. Aliquam habitant
-                        ipsum lectus sed dui dignissim leo sem. Dui amet fames
-                        porta enim.
+                        Earn passive sats by onboarding merchants to receive
+                        Bitcoin payments through Madhouse Wallet for life!
+                        <br /> <br />
+                        We are offer a full onboarding merchant kit and
+                        comission program for those who want to refer businesses
+                        to Madhouse Wallet
                       </p>
                     </div>
                     <div className="md:col-span-5 col-span-12 pt-lg-5 px-lg-5 relative">
@@ -70,14 +72,12 @@ const NewFearureSection: React.FC = () => {
                         width={10000}
                       />
                       <h2 className="m-0 font-medium text-3xl text-white py-2">
-                        Your keys, your crypto
+                        Enable the future of payments worldwide
                       </h2>
                       <p className="m-0 text-gray-500">
-                        Lorem ipsum dolor sit amet consectetur. Aliquam habitant
-                        ipsum lectus sed dui dignissim leo sem. Dui amet fames
-                        porta enim. Lorem ipsum dolor sit amet consectetur.
-                        Aliquam habitant ipsum lectus sed dui dignissim leo sem.
-                        Dui amet fames porta
+                        Your keys, your crypto Cash out payments in over 100
+                        different countries which include the USA, Kenya,
+                        Nigeria and South Africa
                       </p>
                     </div>
                     <div className="md:col-span-6 col-span-12 relative self-end">

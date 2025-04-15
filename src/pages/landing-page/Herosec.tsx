@@ -6,6 +6,7 @@ import bg from "@/Assets/Images/landingBg2.png";
 import hero from "@/Assets/Images/hero.png";
 import logo from "@/Assets/Images/logow.png";
 import mobile from "@/Assets/Images/mobile.png";
+import Link from "next/link";
 
 const Herosec: React.FC = () => {
   return (
@@ -46,13 +47,20 @@ const Herosec: React.FC = () => {
                   in your business. Worldwide. On your phone.
                 </h2>
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">
-                  <button className="flex font-normal items-center justify-between commonBtn btn rounded-pill">
-                    Explore Our Solutions
+                  <Link
+                    href="mailto:info@madhousewallet.com"
+                    className="flex font-normal items-center justify-between commonBtn btn rounded-pill"
+                  >
+                    Contact Us
                     <span className="icn ms-1">{right}</span>
-                  </button>
-                  <button className="flex items-center justify-between btn border-0 font-normal rounded-pill text-white">
+                  </Link>
+                  <Link
+                    href={"https://madhouse-wallet.gitbook.io/docs"}
+                    target="_blank"
+                    className="flex btn items-center justify-between btn border-0 font-normal rounded-pill text-white"
+                  >
                     Learn More <span className="icn ms-1">{right}</span>
-                  </button>
+                  </Link>
                 </div>
               </BannerContent>
               <CardCstm className="p-3 rounded-xl ">
@@ -96,7 +104,7 @@ const Herosection = styled.section`
 `;
 
 const BannerContent = styled.div`
-  button {
+  .btn {
     background: #252038;
     height: 40px !important;
     min-height: unset !important;
@@ -104,7 +112,7 @@ const BannerContent = styled.div`
     font-size: 12px !important;
   }
   @media (max-width: 480px) {
-    button {
+    .btn {
       min-width: unset !important;
     }
   }

@@ -10,7 +10,7 @@ const FeatureSection: React.FC = () => {
       icn: icn1,
       title: "Multifactor Wallet",
       descrp:
-        "Lorem ipsum dolor sit amet consectetur. Aliquam habitant ipsum lectus sed dui dignissim leo sem. ",
+        "The wallet provides a seamless experience for managing assets with enhanced security features like passkey technology, multi-signature authentication",
     },
     // {
     //   icn: icn2,
@@ -22,19 +22,19 @@ const FeatureSection: React.FC = () => {
       icn: icn5,
       title: "Point of Sale",
       descrp:
-        "Lorem ipsum dolor sit amet consectetur. Aliquam habitant ipsum lectus sed dui dignissim leo sem. ",
+        "Expand your customer base by accepting payments in various cryptocurrencies.",
     },
     {
       icn: icn3,
       title: "Bitcoin Debit Card",
       descrp:
-        "Lorem ipsum dolor sit amet consectetur. Aliquam habitant ipsum lectus sed dui dignissim leo sem. ",
+        "Bitcoin Lightning-native card, secured by Secure Unique NFC technology.",
     },
     {
       icn: icn4,
       title: "Withdraw/Deposit Dollars",
       descrp:
-        "Lorem ipsum dolor sit amet consectetur. Aliquam habitant ipsum lectus sed dui dignissim leo sem. ",
+        "Your funds are securely transferred directly to your bank account or crypto wallet.",
     },
   ];
   return (

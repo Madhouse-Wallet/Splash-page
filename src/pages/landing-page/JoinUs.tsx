@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
 import JoinImg from "@/Assets/Images/joinus.png";
+import Link from "next/link";
 
 const JoinUsSec: React.FC = () => {
   return (
@@ -31,13 +32,20 @@ const JoinUsSec: React.FC = () => {
                     your clients
                   </p>
                   <div className="mt-4 flex itmes-center justify-center gap-3 flex-wrap">
-                    <button className="flex font-normal items-center justify-between commonBtn btn rounded-pill">
-                      Interested? Talk to us{" "}
+                    <Link
+                      href="mailto:info@madhousewallet.com"
+                      className="flex font-normal items-center justify-between commonBtn btn rounded-pill"
+                    >
+                      Intrested? Talk to us
                       <span className="icn ms-1">{right}</span>
-                    </button>
-                    <button className="flex items-center justify-between btn border-0 font-normal rounded-pill text-white">
+                    </Link>
+                    <Link
+                      href={"https://madhouse-wallet.gitbook.io/docs"}
+                      target="_blank"
+                      className="flex btn items-center justify-between btn border-0 font-normal rounded-pill text-white"
+                    >
                       Learn More <span className="icn ms-1">{right}</span>
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </Card>
@@ -55,7 +63,7 @@ const JoinUs = styled.section`
 
 const Card = styled.section`
   font-family: "Funnel Display", serif;
-  button {
+  .btn {
     background: #252038;
     height: 40px !important;
     min-height: unset !important;
@@ -63,7 +71,7 @@ const Card = styled.section`
     font-size: 12px !important;
   }
   @media (max-width: 480px) {
-    button {
+    .btn {
       min-width: unset !important;
     }
   }
