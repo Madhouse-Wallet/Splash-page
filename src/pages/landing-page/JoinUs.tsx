@@ -28,8 +28,7 @@ const JoinUsSec: React.FC = () => {
                     of Sale
                   </h2>
                   <p className="m-0 py-2 text-gray-400">
-                    Create a lending business using Madhouse Wallet service for
-                    your clients
+                    Get started accepting bitcoin payments today!
                   </p>
                   <div className="mt-4 flex itmes-center justify-center gap-3 flex-wrap">
                     <Link
