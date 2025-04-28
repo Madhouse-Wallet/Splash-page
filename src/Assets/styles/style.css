@@ -6,6 +6,8 @@ body {
   line-height: 26px;
   font-weight: 400;
   background-color: #0a0915 !important;
+  /* background-image: url("/bg.jpg");
+  background-attachment: fixed; */
   color: #fff !important;
   min-height: 100vh !important;
   z-index: 99;
