@@ -38,7 +38,7 @@ const SolutionSec: React.FC = () => {
   // console.log(activeTab, "activeTab");
   return (
     <>
-      <SolutionSection className=" relative pt-5 z-10 ">
+      <SolutionSection className=" relative pt-5 z-[9999] ">
         <div className="container-fluid">
           <div className=" relative z-[99] p-3 px-lg-4 py-5">
             <Image
