@@ -15,9 +15,9 @@ const CardSection: React.FC = () => {
     },
     {
       icon: icn2,
-      title: "Free to use",
+      title: "Cheap Transactions",
       descp:
-        "Get started by signing up for an account for free today. We only collect transaction fees as the wallet is used.",
+        "Say goodbye to high transaction fees. Enjoy secure, reliable transactions at a fraction of the usual cost—built for modern businesses that value efficiency and control.",
     },
     {
       icon: icn3,
@@ -27,9 +27,9 @@ const CardSection: React.FC = () => {
     },
     {
       icon: icn4,
-      title: "Privacy",
+      title: "A Ledger You Can Trust",
       descp:
-        "Transactions are stored on the blockchain and only accessible to those that know the wallet address of the merchant. Transactions are accessible forever ",
+        "Every transaction is recorded on the blockchain—transparent, permanent, and accessible. No disputes, no missing records—just clarity and trust.",
     },
     {
       icon: icn5,
@@ -52,7 +52,7 @@ const CardSection: React.FC = () => {
       icon: icn7,
       title: "Multifactor Security",
       descp:
-        "Ensure that multiple levels of authentication are needed to approve any transaction in the wallet",
+        "Multiple layers of authentication ensure only you can approve transactions—enterprise-grade protection, made simple.",
     },
     {
       icon: icn8,
@@ -62,9 +62,15 @@ const CardSection: React.FC = () => {
     },
     {
       icon: icn9,
-      title: "Earn",
+      title: "Put Your Dollars to Work",
       descp:
-        "Lend dollars and earn interest while your money is idle in the wallet. Cash out payments in over 100 different countries which include the USA, Kenya, Nigeria and South Africa",
+        "Stake your funds directly from the wallet and earn interest—secure, simple, and smart.",
+    },
+    {
+      icon: icn9,
+      title: "Global Access, Local Payouts",
+      descp:
+        "Cash out in over 100 countries—including the USA, Kenya, Nigeria, and South Africa.",
     },
   ];
   var settings = {

@@ -15,13 +15,15 @@ const JoinUsSec: React.FC = () => {
                 className="relative  text-center mx-auto "
                 style={{ maxWidth: 680 }}
               >
-                <Image
-                  alt="Join"
-                  src={JoinImg}
-                  height={1000}
-                  width={10000}
-                  className="max-w-full mx-auto h-auto w-auto"
-                />
+                <div className="rounded-4 p-4 bg-[#0b0914] mx-auto max-w-[max-content]">
+                  <Image
+                    alt="Join"
+                    src={JoinImg}
+                    height={1000}
+                    width={10000}
+                    className="max-w-full mx-auto h-auto w-auto"
+                  />
+                </div>
                 <div className="top">
                   <h2 className="m-0 font-medium md:text-4xl text-2xl text-white py-2">
                     Madhouse <span className="themeClr"> Wallet</span> For Point

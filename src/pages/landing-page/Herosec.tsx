@@ -44,7 +44,7 @@ const Herosec: React.FC = () => {
                 >
                   Accept
                   <span className="themeClr"> Bitcoin Payments </span>
-                  in your business. Worldwide. On your phone.
+                  in your business, worldwide, on your phone.
                 </h2>
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">
                   <Link

@@ -22,7 +22,7 @@ const LandingPage: React.FC = () => {
           height={10000}
           width={10000}
           className="max-w-full h-full w-full object-cover fixed top-0 left-0 z-[0]"
-          style={{ opacity: 0.09 }}
+          style={{ opacity: 0.1 }}
         />
         <Herosec />
         <PartnerSEcSection />
