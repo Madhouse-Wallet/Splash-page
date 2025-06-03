@@ -34,18 +34,19 @@ const JoinUsSec: React.FC = () => {
                   </p>
                   <div className="mt-4 flex itmes-center justify-center gap-3 flex-wrap">
                     <Link
-                      href="mailto:info@madhousewallet.com"
+                      target="_blank"
+                      href="https://app.madhousewallet.com/welcome"
                       className="flex font-normal items-center justify-between commonBtn btn rounded-pill"
                     >
-                      Intrested? Talk to us
+                      Create Wallet
                       <span className="icn ms-1">{right}</span>
                     </Link>
                     <Link
-                      href={"https://madhouse-wallet.gitbook.io/docs"}
+                      href={"mailto:info@madhousewallet.com"}
                       target="_blank"
                       className="flex btn items-center justify-between btn border-0 font-normal rounded-pill text-white"
                     >
-                      Learn More <span className="icn ms-1">{right}</span>
+                      Email Us <span className="icn ms-1">{right}</span>
                     </Link>
                   </div>
                 </div>

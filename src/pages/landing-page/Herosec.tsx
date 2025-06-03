@@ -48,10 +48,11 @@ const Herosec: React.FC = () => {
                 </h2>
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">
                   <Link
-                    href="mailto:info@madhousewallet.com"
+                    target="_blank"
+                    href="https://app.madhousewallet.com/welcome"
                     className="flex font-normal items-center justify-between commonBtn btn rounded-pill"
                   >
-                    Contact Us
+                    Create Wallet
                     <span className="icn ms-1">{right}</span>
                   </Link>
                   <Link
