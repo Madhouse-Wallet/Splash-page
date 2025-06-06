@@ -8,17 +8,17 @@ import img7 from "@/Assets/Images/p7.png";
 import img2 from "@/Assets/Images/p2.png";
 import img10 from "@/Assets/Images/p10.png";
 import img13 from "@/Assets/Images/tethergold.png";
-import img14 from "@/Assets/Images/coinos.png";
 import img15 from "@/Assets/Images/lnbit.png";
 import img16 from "@/Assets/Images/albyhub.png";
 import img17 from "@/Assets/Images/passninja.png";
 import img18 from "@/Assets/Images/bitika.jpg";
+import img8 from "@/Assets/Images/p8.png";
 
+import img14 from "@/Assets/Images/coinos.png";
 import img1 from "@/Assets/Images/p1.png";
 import img4 from "@/Assets/Images/p4.png";
 import img5 from "@/Assets/Images/p5.png";
 import img6 from "@/Assets/Images/p6.png";
-import img8 from "@/Assets/Images/p8.png";
 import img9 from "@/Assets/Images/p9.png";
 import img11 from "@/Assets/Images/p11.png";
 import img12 from "@/Assets/Images/p12.png";
@@ -30,7 +30,7 @@ const PartnerSEcSection: React.FC = () => {
     img2,
     img10,
     img13,
-    img14,
+    img8,
     img15,
     img16,
     img17,
