@@ -85,7 +85,7 @@ const FeatureSec = styled.section`
   .imgWrpper {
     transform: translateY(-50%);
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     .imgWrpper {
       transform: unset;
       position: unset !important;

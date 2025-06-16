@@ -9,7 +9,7 @@ const VideoSec1 = () => {
             className="grid gap-3 max-w-[800px] mx-auto grid-cols-12 items-center p-5 rounded-4 bg-[#0b0914] "
             style={{ border: "1px solid #303030" }}
           >
-            <div className="col-span-6 my-2">
+            <div className="sm:col-span-6 col-span-12 my-2">
               <div className="sectionHeader">
                 <h2 className="m-0 font-bold text-3xl uppercase text-white py-2">
                   Checkout our{" "}
@@ -21,7 +21,7 @@ const VideoSec1 = () => {
                 </p>
               </div>
             </div>
-            <div className="col-span-6 my-2 imgWrpper">
+            <div className="sm:col-span-6 col-span-12 my-2 imgWrpper">
               <video
                 className="max-w-full mx-auto max-h-[500px] object-contain rounded"
                 autoPlay
