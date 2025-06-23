@@ -77,7 +77,7 @@ const NewFearureSection: React.FC = () => {
                       <p className="m-0 text-gray-500">
                         Your keys, your crypto Cash out payments in over 100
                         different countries which include the USA, Kenya,
-                        Nigeria and South Africa
+                        Nigeria and Ghana
                       </p>
                     </div>
                     <div className="md:col-span-6 col-span-12 relative self-end">
