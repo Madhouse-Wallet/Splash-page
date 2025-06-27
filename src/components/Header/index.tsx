@@ -63,7 +63,7 @@ const Header: React.FC = () => {
           <LoginPop login={login} setLogin={setLogin} />,
           document.body
         )}
-      <header className="siteHeader fixed top-3 w-full  z-[999] ">
+      <header className="siteHeader absolute top-3 w-full  z-[999] ">
         <div className="container mx-auto py-1">
           <Nav className="flex items-center justify-between py-lg-3 py-2 px-lg-4 px-3 shadow rounded-full">
             <a

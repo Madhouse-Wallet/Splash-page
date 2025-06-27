@@ -43,7 +43,7 @@ const FeatureSection: React.FC = () => {
         {/* <span className="absolute top-0 z-[-9]" style={{ left: "30%" }}>
           {mw}
         </span> */}
-        <div
+        {/* <div
           className="col-lg-6 imgWrpper absolute right-0"
           style={{ top: "50%" }}
         >
@@ -54,7 +54,7 @@ const FeatureSection: React.FC = () => {
             height={10000}
             width={10000}
           />
-        </div>
+        </div> */}
         <div className="container">
           <div className="grid gap-3 grid-cols-12 itmes-center">
             <div className="lg:col-span-6 col-span-12">
@@ -73,6 +73,15 @@ const FeatureSection: React.FC = () => {
                 ))}
               </div>
             </div>
+            <div className="lg:col-span-6 col-span-12 imgWrpper">
+              <Image
+                src={img}
+                alt=""
+                className="max-w-full w-auto h-auto"
+                height={10000}
+                width={10000}
+              />
+            </div>
           </div>
         </div>
       </FeatureSec>
@@ -83,10 +92,11 @@ const FeatureSection: React.FC = () => {
 const FeatureSec = styled.section`
   font-family: "Funnel Display", serif;
   .imgWrpper {
-    transform: translateY(-50%);
+    // transform: translateY(-50%);
   }
   @media (max-width: 1024px) {
     .imgWrpper {
+      order: -1;
       transform: unset;
       position: unset !important;
       // padding: 0 15px;
