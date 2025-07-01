@@ -123,9 +123,8 @@ const CardSection: React.FC = () => {
                   >
                     <span className="icn flex justify-center">{dot}</span>
                     <h4 className="m-0 font-normal text-white py-2 text-xl">
-                      Leverage the bitcoin network to securely and privately
-                      accept payments without being exposed to bitcoin price
-                      volatility
+                      Be in complete control of your money.
+                      You control the only keys to your wallet.
                     </h4>
                   </div>
                 </div>
