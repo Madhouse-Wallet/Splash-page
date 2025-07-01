@@ -78,9 +78,11 @@ const Herosec: React.FC = () => {
                   </b>{" "}
                   is a financial platform for small and medium sized businesses.
                   It is a money wallet and point of sale system that is secure by design.
-                  It is similar to Cash App and Square except 
-                  you are in complete control of your money,
-                  with high transaction limits, low fees and no account freezes.
+                  It is similar to Cash App and Square except: 
+                  - you are in complete control of your money
+                  - you will have high business grade transaction limits
+                  - you will pay lower fees 
+                  - you will experience no account freezes.
                 </p>
               </CardCstm>
             </div>
