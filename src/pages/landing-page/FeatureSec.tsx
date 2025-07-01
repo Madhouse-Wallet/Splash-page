@@ -32,7 +32,7 @@ const FeatureSection: React.FC = () => {
     },
     {
       icn: icn4,
-      title: "Transfer to Bank Account",
+      title: "Transfer to Bank Accounts",
       descrp:
         "Your funds are securely transferred directly to your bank account or crypto wallet.",
     },
