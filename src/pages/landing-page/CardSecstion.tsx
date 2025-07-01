@@ -23,7 +23,7 @@ const CardSection: React.FC = () => {
       icon: icn3,
       title: "Easy to use",
       descp:
-        "The point of sale system is easy to set up. Simply select where you want to accept bank account/card. Bitcoin or cashapp/lightning payment. Enter the amount, generate a QR code, and collect the payment",
+        "The point of sale system is easy to set up. Simply select the bank account you want to use.",
     },
     {
       icon: icn4,
@@ -46,7 +46,7 @@ const CardSection: React.FC = () => {
       icon: icn6,
       title: "Point of Sale System",
       descp:
-        "Accept payment via card, bank account, bitcoin, lightning and cashapp",
+        "Accept payment via USDC, bitcoin, lightning and Cash App",
     },
     {
       icon: icn7,
@@ -56,21 +56,21 @@ const CardSection: React.FC = () => {
     },
     {
       icon: icn8,
-      title: "Virtual Card",
+      title: "Virtual Pass",
       descp:
-        "Spend dollars in wallet using a card that can be used with apple pay and google pay",
+        "Spend lighting using a pass that can be used with apple pay and google pay wallets",
     },
     {
       icon: icn9,
       title: "Put Your Dollars to Work",
       descp:
-        "Stake your funds directly from the wallet and earn interest—secure, simple, and smart.",
+        "Invest your funds directly from the wallet and earn interest.",
     },
     {
       icon: icn9,
-      title: "Global Access, Local Payouts",
+      title: "Global Access and Payouts",
       descp:
-        "Cash out in over 100 countries—including the USA, Kenya, Nigeria, and Ghana.",
+        "Make payments to over 100 countries—including the USA, Kenya, Nigeria, and Ghana.",
     },
   ];
   var settings = {

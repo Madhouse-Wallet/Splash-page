@@ -8,9 +8,9 @@ import { AccordionItem } from "@/components/common/index";
 const SolutionSec: React.FC = () => {
   const data = [
     {
-      title: "What is Madhouse Wallet",
+      title: "What is Madhouse Wallet?",
       descp:
-        "Madhouse Wallet is realizing the future of bitcoin by opening the world of self-custodial Lightning payments to apps and services. The wallet provides a seamless experience for managing assets with enhanced security features like passkey technology, multi-signature authentication",
+        "Madhouse Wallet is a financial solution to enable businesses to accept Cash App and bitcoin payments securely with privacy and peace of mind.",
     },
     {
       title: "Why accept Bitcoin payments?",
@@ -18,9 +18,9 @@ const SolutionSec: React.FC = () => {
         "💪 Stay ahead of your competitors, 🌎 Get extra visibility, 🔒 You control 100% of your funds, 🚀 Make a step into the future,  Protect from inflation ",
     },
     {
-      title: "How can i get paid to start a franchise ?",
+      title: "How can I get paid recommending Madhouse Wallet?",
       descp:
-        "Find merchants in your local area or online. Onboard them to receive Bitcoin payments with Madhouse Wallet . Earn Passive sats income from their fees, lifetime. ",
+        "Contact us to get started. Find merchants in your local area or online. Earn passive income from their fees for life. ",
     },
   ];
   const [tab, setTab] = useState(1);

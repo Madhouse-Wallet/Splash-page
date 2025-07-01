@@ -22,13 +22,13 @@ const FeatureSection: React.FC = () => {
       icn: icn5,
       title: "Point of Sale",
       descrp:
-        "Expand your customer base by accepting payments in various cryptocurrencies.",
+        "Expand your customer base by accepting payments with Cash App.",
     },
     {
       icn: icn3,
-      title: "Bitcoin Debit Card",
+      title: "Invest in what Matters",
       descrp:
-        "Bitcoin Lightning-native card, secured by Secure Unique NFC technology.",
+        "Invest in gold, bitcoin, or earn interest lending in secure money markets.",
     },
     {
       icn: icn4,
