@@ -63,7 +63,7 @@ const SolutionSec: React.FC = () => {
                       Have Any Questions?
                     </h2>
                     <p className="m-0 text-gray-500 text-xs">
-                      Get started today.
+                      Email us for more information.
                     </p>
                   </div>
                 </div>
