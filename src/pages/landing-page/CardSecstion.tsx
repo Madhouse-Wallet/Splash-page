@@ -70,7 +70,7 @@ const CardSection: React.FC = () => {
       icon: icn9,
       title: "Global Access and Payouts",
       descp:
-        "Make payments to over 100 countries—including the USA, Kenya, Nigeria, and Ghana.",
+        "Make payments to over 100 countries—including the USA, Kenya, Hong Kong, and Ghana.",
     },
   ];
   var settings = {
