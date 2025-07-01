@@ -26,7 +26,7 @@ const FeatureSection: React.FC = () => {
     },
     {
       icn: icn3,
-      title: "Invest in what Matters",
+      title: "Easily Invest",
       descrp:
         "Invest in gold, bitcoin, or earn interest lending in secure money markets.",
     },
