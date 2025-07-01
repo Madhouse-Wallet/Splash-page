@@ -8,7 +8,7 @@ const FeatureSection: React.FC = () => {
   const data = [
     {
       icn: icn1,
-      title: "Multifactor Wallet",
+      title: "Secure by Design",
       descrp:
         "The wallet provides a seamless experience for managing assets with enhanced security features like passkey technology, multi-signature authentication",
     },
