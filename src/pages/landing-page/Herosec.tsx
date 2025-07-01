@@ -82,7 +82,7 @@ const Herosec: React.FC = () => {
                   - you are in complete control of your money
                   - you will have high business grade transaction limits
                   - you will pay lower fees 
-                  - you will experience no account freezes.
+                  - you will experience no account freezes
                 </p>
               </CardCstm>
             </div>
