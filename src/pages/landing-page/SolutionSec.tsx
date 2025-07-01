@@ -13,14 +13,14 @@ const SolutionSec: React.FC = () => {
         "Madhouse Wallet is a financial solution to enable businesses to accept Cash App and bitcoin payments securely with privacy and peace of mind.",
     },
     {
-      title: "Why accept Bitcoin payments?",
+      title: "Why use Madhouse Wallet?",
       descp:
-        "💪 Stay ahead of your competitors, 🌎 Get extra visibility, 🔒 You control 100% of your funds, 🚀 Make a step into the future,  Protect from inflation ",
+        "Your business transactions should be private, secure and completely in your control. Madhouse Wallet is the only financial platform that promises this.",
     },
     {
       title: "How can I get paid recommending Madhouse Wallet?",
       descp:
-        "Contact us to get started. Find merchants in your local area or online. Earn passive income from their fees for life. ",
+        "Contact us to get started. Find merchants in your local area or online. Earn passive income on each transaction for life. ",
     },
   ];
   const [tab, setTab] = useState(1);
