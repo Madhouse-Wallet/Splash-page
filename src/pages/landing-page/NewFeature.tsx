@@ -72,7 +72,7 @@ const NewFearureSection: React.FC = () => {
                         width={10000}
                       />
                       <h2 className="m-0 font-medium text-3xl text-white py-2">
-                        Enable the future of payments worldwide
+                        Make business payments worldwide
                       </h2>
                       <p className="m-0 text-gray-500">
                         Send payments to over 100
