@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
 import wave from "@/Assets/Images/waveline.png";
-import bg from "@/Assets/Images/landingBg2.png";
+import bg from "@/Assets/Images/landingBg2.webp";
 import hero from "@/Assets/Images/hero.png";
 import logo from "@/Assets/Images/logow.png";
 import mobile from "@/Assets/Images/mobile.png";
@@ -15,8 +15,8 @@ const Herosec: React.FC = () => {
         <Image
           src={bg}
           alt="graphic"
-          height={10000}
-          width={10000}
+          height={2000}
+          width={2000}
           className="max-w-full object-left opacity-40 absolute w-full top-0 left-0 h-full object-cover ml-auto right-0 z-[-1]"
         />
         <div className="container py-10">
