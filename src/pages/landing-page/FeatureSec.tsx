@@ -8,7 +8,7 @@ const FeatureSection: React.FC = () => {
   const data = [
     {
       icn: icn1,
-      title: "Multifactor Wallet",
+      title: "Secure by Design",
       descrp:
         "The wallet provides a seamless experience for managing assets with enhanced security features like passkey technology, multi-signature authentication",
     },
@@ -22,17 +22,17 @@ const FeatureSection: React.FC = () => {
       icn: icn5,
       title: "Point of Sale",
       descrp:
-        "Expand your customer base by accepting payments in various cryptocurrencies.",
+        "Expand your customer base by accepting payments with Cash App.",
     },
     {
       icn: icn3,
-      title: "Bitcoin Debit Card",
+      title: "Easily Invest",
       descrp:
-        "Bitcoin Lightning-native card, secured by Secure Unique NFC technology.",
+        "Invest in gold, bitcoin, or earn interest lending in secure money markets.",
     },
     {
       icn: icn4,
-      title: "Withdraw/Deposit Dollars",
+      title: "Transfer to Bank Accounts",
       descrp:
         "Your funds are securely transferred directly to your bank account or crypto wallet.",
     },

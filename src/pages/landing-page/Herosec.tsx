@@ -43,8 +43,8 @@ const Herosec: React.FC = () => {
                   style={{ lineHeight: "40px" }}
                 >
                   Accept
-                  <span className="themeClr"> Bitcoin Payments </span>
-                  in your business, worldwide, on your phone.
+                  <span className="themeClr"> Cash App Payments </span>
+                  at your business with assurance and privacy.
                 </h2>
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">
                   <Link
@@ -76,10 +76,13 @@ const Herosec: React.FC = () => {
                       style={{ height: 15 }}
                     />
                   </b>{" "}
-                  is a self-custodial point of sale system. Simply sign up for
-                  an account and start accepting bitcoin and lightning payments
-                  which automatically covert to dollars. Access a new market of
-                  customers without being exposed to bitcoin price volatility.
+                  is a financial platform for small and medium sized businesses.
+                  It is a money wallet and point of sale system that is secure by design.
+                  Send, receive, invest & manage your money with privacy and ease.
+                  It is similar to Cash App and Square except
+                  you are in complete control of your money, with high
+                  business grade transaction limits, 
+                  lower fees and no account freezes.
                 </p>
               </CardCstm>
             </div>

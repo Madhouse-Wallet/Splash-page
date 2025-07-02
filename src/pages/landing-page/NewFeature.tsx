@@ -22,7 +22,7 @@ const NewFearureSection: React.FC = () => {
                 </h2>
                 <p className="m-0 text-gray-500">
                   Secury leverages powerful encryption and blockchain technology
-                  to provide industry-leading protection for your sensitive data
+                  to provide industry-leading protection for your money
                 </p>
               </div>
             </div>
@@ -39,15 +39,15 @@ const NewFearureSection: React.FC = () => {
                     />
                     <div className="md:col-span-6 col-span-12 p-lg-5 self-center relative">
                       <h2 className="m-0 font-medium text-3xl text-white py-2">
-                        Bitcoin Merchant Kit
+                        Onboarded Businesses and Get Paid!
                       </h2>
                       <p className="m-0 text-gray-500">
-                        Earn passive sats by onboarding merchants to receive
-                        Bitcoin payments through Madhouse Wallet for life!
+                        Earn money by onboarding business to receive
+                        transaction fees through Madhouse Wallet for life!
                         <br /> <br />
-                        We are offer a full onboarding merchant kit and
-                        comission program for those who want to refer businesses
-                        to Madhouse Wallet
+                        We are offer a commission program for those 
+                        who want to refer businesses to Madhouse Wallet.
+                        Start earning today!
                       </p>
                     </div>
                     <div className="md:col-span-5 col-span-12 pt-lg-5 px-lg-5 relative">
@@ -72,12 +72,12 @@ const NewFearureSection: React.FC = () => {
                         width={10000}
                       />
                       <h2 className="m-0 font-medium text-3xl text-white py-2">
-                        Enable the future of payments worldwide
+                        Make business payments worldwide
                       </h2>
                       <p className="m-0 text-gray-500">
-                        Your keys, your crypto Cash out payments in over 100
+                        Send payments to over 100
                         different countries which include the USA, Kenya,
-                        Nigeria and Ghana
+                        Hong Kong and Ghana
                       </p>
                     </div>
                     <div className="md:col-span-6 col-span-12 relative self-end">

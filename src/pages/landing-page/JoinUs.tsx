@@ -30,7 +30,7 @@ const JoinUsSec: React.FC = () => {
                     of Sale
                   </h2>
                   <p className="m-0 py-2 text-gray-400">
-                    Get started accepting bitcoin payments today!
+                    Get started accepting Cash App payments today!
                   </p>
                   <div className="mt-4 flex itmes-center justify-center gap-3 flex-wrap">
                     <Link
