@@ -77,7 +77,7 @@ const Herosec: React.FC = () => {
                     />
                   </b>{" "}
                   is a financial platform for small, medium and large businesses.
-                  It is a digital money wallet and point of sale system that is secure by design.
+                  Madhouse Wallet is a mobile money service and a point of sale system that is secure by design.
                   Send, receive, invest & manage your money with privacy and ease.
                   It is similar to Cash App and Square except
                   you are in complete control of your money, with high
