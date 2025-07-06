@@ -60,7 +60,7 @@ const Herosec: React.FC = () => {
                     target="_blank"
                     className="flex btn items-center justify-between btn border-0 font-normal rounded-pill text-white"
                   >
-                    Documentation <span className="icn ms-1">{right}</span>
+                    Get Started <span className="icn ms-1">{right}</span>
                   </Link>
                 </div>
               </BannerContent>
