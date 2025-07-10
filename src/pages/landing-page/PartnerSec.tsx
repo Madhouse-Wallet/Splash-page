@@ -12,8 +12,10 @@ import img15 from "@/Assets/Images/lnbit.png";
 import img16 from "@/Assets/Images/albyhub.png";
 import img17 from "@/Assets/Images/passninja.png";
 import img18 from "@/Assets/Images/bitika.jpg";
-import img8 from "@/Assets/Images/p8.png";
+import img19 from "@/Assets/Images/kotanipay.png";
+import img20 from "@/Assets/Images/leadbank.png";
 
+import img8 from "@/Assets/Images/p8.png";
 import img14 from "@/Assets/Images/coinos.png";
 import img1 from "@/Assets/Images/p1.png";
 import img4 from "@/Assets/Images/p4.png";
@@ -30,11 +32,12 @@ const PartnerSEcSection: React.FC = () => {
     img2,
     img10,
     img13,
-    img8,
     img15,
     img16,
     img17,
     img18,
+    img19,
+    img20,
   ];
   var settings = {
     speed: 5000,
