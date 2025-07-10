@@ -60,7 +60,7 @@ const Herosec: React.FC = () => {
                     target="_blank"
                     className="flex btn items-center justify-between btn border-0 font-normal rounded-pill text-white"
                   >
-                    Learn More <span className="icn ms-1">{right}</span>
+                    Get Started <span className="icn ms-1">{right}</span>
                   </Link>
                 </div>
               </BannerContent>
@@ -76,8 +76,7 @@ const Herosec: React.FC = () => {
                       style={{ height: 15 }}
                     />
                   </b>{" "}
-                  is a financial platform for small and medium sized businesses.
-                  It is a money wallet and point of sale system that is secure by design.
+                  is a financial platform for small, medium and large businesses.
                   Send, receive, invest & manage your money with privacy and ease.
                   It is similar to Cash App and Square except
                   you are in complete control of your money, with high
