@@ -13,7 +13,7 @@ import img16 from "@/Assets/Images/albyhub.png";
 import img17 from "@/Assets/Images/passninja.png";
 import img18 from "@/Assets/Images/bitika.jpg";
 import img19 from "@/Assets/Images/kotanipay.png";
-import img20 from "@/Assets/Images/leadbank.png";
+import img20 from "@/Assets/Images/safe.png";
 
 import img8 from "@/Assets/Images/p8.png";
 import img14 from "@/Assets/Images/coinos.png";
