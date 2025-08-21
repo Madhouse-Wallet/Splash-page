@@ -76,7 +76,7 @@ const Herosec: React.FC = () => {
                       style={{ height: 15 }}
                     />
                   </b>{" "}
-                  The financial platform for small, medium and large size businesses.
+                  The financial platform for small and medium size businesses.
                   Send, receive, invest & manage your money with privacy and ease.
                   It is similar to Cash App and Square except
                   you are in complete control of your money, with high

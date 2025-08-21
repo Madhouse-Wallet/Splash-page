@@ -24,7 +24,7 @@ const VideoSec2 = () => {
             <div className="sm:col-span-6 col-span-12 my-2">
               <div className="sectionHeader">
                 <h2 className="m-0 font-bold text-3xl text-white py-2 uppercase ">
-                  Pay with bitcoin on{" "}
+                  Pay with {" "}
                   <span className="text-green-500">cash app</span>
                 </h2>
                 <p className="m-0 text-gray-500">

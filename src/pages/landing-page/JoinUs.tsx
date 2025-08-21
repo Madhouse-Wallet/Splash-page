@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
-import JoinImg from "@/Assets/Images/joinus.png";
+import JoinImg from "@/Assets/Images/hero.png";
 import Link from "next/link";
 
 const JoinUsSec: React.FC = () => {
