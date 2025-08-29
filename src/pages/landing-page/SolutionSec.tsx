@@ -10,7 +10,7 @@ const SolutionSec: React.FC = () => {
     {
       title: "What is Madhouse Wallet?",
       descp:
-        "Madhouse Wallet is a financial solution to enable businesses to accept Cash App and bitcoin payments securely with privacy and peace of mind.",
+        "Madhouse Wallet is a financial solution to enable gig workers to accept payments securely with privacy and peace of mind.",
     },
     {
       title: "Why use Madhouse Wallet?",
