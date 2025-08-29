@@ -78,9 +78,9 @@ const Herosec: React.FC = () => {
                   </b>{" "}
                   The financial platform for small and medium size gig workers.
                   Get paid fast with privacy and ease.
-                  It is similar to Paypal except
-                  you are in complete control of your money, 
-                  without worrying about account closures.
+                  Receive payments from over 100 different countries.
+                  You are in complete control of your money. 
+                  Never worry about account closures again.
                 </p>
               </CardCstm>
             </div>

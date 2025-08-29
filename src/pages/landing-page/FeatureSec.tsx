@@ -20,9 +20,9 @@ const FeatureSection: React.FC = () => {
     // },
     {
       icn: icn5,
-      title: "Point of Sale",
+      title: "Accept Payments",
       descrp:
-        "Expand your customer base by accepting payments with Cash App.",
+        "Expand your customer base by accepting payments from different countries.",
     },
     {
       icn: icn3,

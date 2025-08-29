@@ -36,7 +36,7 @@ const Footer = () => {
                   <li className="py-1">
                     <Link
                       target="_blank"
-                      href={"https://x.com/rogeroger120 "}
+                      href={"https://x.com/madhousewallet"}
                       style={{ height: 30, width: 30 }}
                       className=" text-xs hover:bg-[#ff8735] bg-[#262626] rounded-circle flex items-center justify-center "
                     >
