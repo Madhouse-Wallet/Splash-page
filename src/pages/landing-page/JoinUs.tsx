@@ -26,11 +26,10 @@ const JoinUsSec: React.FC = () => {
                 </div>
                 <div className="top">
                   <h2 className="m-0 font-medium md:text-4xl text-2xl text-white py-2">
-                    Madhouse <span className="themeClr"> Wallet</span> For Point
-                    of Sale
+                    Madhouse <span className="themeClr"> Wallet</span> For Gig workers
                   </h2>
                   <p className="m-0 py-2 text-gray-400">
-                    Get started accepting Cash App payments today!
+                    Get started accepting payments today!
                   </p>
                   <div className="mt-4 flex itmes-center justify-center gap-3 flex-wrap">
                     <Link

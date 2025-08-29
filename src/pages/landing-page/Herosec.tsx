@@ -42,9 +42,9 @@ const Herosec: React.FC = () => {
                   className="m-0 font-medium text-3xl text-white"
                   style={{ lineHeight: "40px" }}
                 >
-                  Accept
-                  <span className="themeClr"> Cash App Payments </span>
-                  at your business with assurance and privacy.
+                  Gig workers
+                  <span className="themeClr"> Get Paid </span>
+                  globally with assurance and privacy.
                 </h2>
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">
                   <Link
@@ -76,12 +76,11 @@ const Herosec: React.FC = () => {
                       style={{ height: 15 }}
                     />
                   </b>{" "}
-                  The financial platform for small and medium size businesses.
-                  Send, receive, invest & manage your money with privacy and ease.
-                  It is similar to Cash App and Square except
-                  you are in complete control of your money, with high
-                  business grade transaction limits, 
-                  lower fees and no account freezes.
+                  The financial platform for small and medium size gig workers.
+                  Get paid fast with privacy and ease.
+                  It is similar to Paypal except
+                  you are in complete control of your money, 
+                  without worrying about account closures.
                 </p>
               </CardCstm>
             </div>

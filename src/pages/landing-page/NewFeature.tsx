@@ -21,7 +21,7 @@ const NewFearureSection: React.FC = () => {
                   Powerful new features for solving challenges
                 </h2>
                 <p className="m-0 text-gray-500">
-                  Secury leverages powerful encryption and blockchain technology
+                  Securely leverages powerful encryption and blockchain technology
                   to provide industry-leading protection for your money
                 </p>
               </div>
@@ -39,14 +39,14 @@ const NewFearureSection: React.FC = () => {
                     />
                     <div className="md:col-span-6 col-span-12 p-lg-5 self-center relative">
                       <h2 className="m-0 font-medium text-3xl text-white py-2">
-                        Onboarded Businesses and Get Paid!
+                        Onboarded gig workers and Get Paid!
                       </h2>
                       <p className="m-0 text-gray-500">
-                        Earn money by onboarding business to receive
+                        Earn money by onboarding gig workers to receive
                         transaction fees through Madhouse Wallet for life!
                         <br /> <br />
                         We are offer a commission program for those 
-                        who want to refer businesses to Madhouse Wallet.
+                        who want to refer gig workers to Madhouse Wallet.
                         Start earning today!
                       </p>
                     </div>
@@ -72,12 +72,12 @@ const NewFearureSection: React.FC = () => {
                         width={10000}
                       />
                       <h2 className="m-0 font-medium text-3xl text-white py-2">
-                        Make business payments worldwide
+                        Receive business payments worldwide
                       </h2>
                       <p className="m-0 text-gray-500">
-                        Send payments to over 100
-                        different countries which include the USA, Kenya,
-                        Hong Kong and Ghana
+                        Receive payments from over 100
+                        different countries which include the USA, European Union,
+                        Kenya, and Ghana
                       </p>
                     </div>
                     <div className="md:col-span-6 col-span-12 relative self-end">

@@ -28,8 +28,9 @@ const VideoSec2 = () => {
                   <span className="text-green-500">cash app</span>
                 </h2>
                 <p className="m-0 text-gray-500">
-                  Customers can now pay with Bitcoin via Cash App—no Cash App
-                  account required on your end
+                  Customers can now pay with apple pay, google pay and credit card
+                  directly to your account. Cash out to m-pesa or your bank account
+                  instantly.
                 </p>
               </div>
             </div>

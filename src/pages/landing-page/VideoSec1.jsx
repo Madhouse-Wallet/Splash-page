@@ -13,11 +13,11 @@ const VideoSec1 = () => {
               <div className="sectionHeader">
                 <h2 className="m-0 font-bold text-3xl uppercase text-white py-2">
                   Check out our{" "}
-                  <span className="themeClr block">POS system</span>
+                  <span className="themeClr block">Secure Pay Links</span>
                 </h2>
                 <p className="m-0 text-gray-500">
-                  Streamline your billing with our POS system—easily generate
-                  invoices and let customers pay with Bitcoin
+                  Streamline your billing with our system—easily generate
+                  invoices and let customers pay with card, apple pay and google pay
                 </p>
               </div>
             </div>
