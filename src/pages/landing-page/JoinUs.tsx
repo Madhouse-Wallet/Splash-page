@@ -29,7 +29,14 @@ const JoinUsSec: React.FC = () => {
                     Madhouse <span className="themeClr"> Wallet</span> For Gig workers
                   </h2>
                   <p className="m-0 py-2 text-gray-400">
-                    Get started accepting payments today!
+                    MSB Registration Number: 31000303426052
+                    Registration Type: Money Service Business
+                    Legal Name: The Walker Ledger LLC
+                    DBA Name: Madhouse Wallet
+                    Street Address: 1001 S. Main St. STE 500
+                    City: Kalispell
+                    State: MONTANA
+                    Zip: 59901
                   </p>
                   <div className="mt-4 flex itmes-center justify-center gap-3 flex-wrap">
                     <Link
