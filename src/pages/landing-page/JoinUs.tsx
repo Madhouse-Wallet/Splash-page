@@ -28,18 +28,23 @@ const JoinUsSec: React.FC = () => {
                   <h2 className="m-0 font-medium md:text-4xl text-2xl text-white py-2">
                     Madhouse <span className="themeClr"> Wallet</span> For Gig workers
                   </h2>
-                  <p className="m-0 py-2 text-gray-400">
+                     <p className="m-0 py-2 text-gray-400">
+                      The Walker Ledger LLC (DBA: Madhouse Wallet)
+                  
+                    </p>
+                    <p className="m-0 py-2 text-gray-400">
+                        FinCEN Registration Number: 31000303426052
+                   </p>
+                    <p className="m-0 py-2 text-gray-400">
+                      1001 S. Main St. STE 500, Kalispell, MONTANA 59901
+                    </p>  
+                   <p className="m-0 py-2 text-gray-400">
                     <a href="https://madhouse-wallet.gitbook.io/docs/legal-policies/privacy">Privacy Policy</a>
-                    <a href="https://github.com/Madhouse-Wallet/wallet-frontend/blob/main/LICENSE">Terms of Service</a>
-                    MSB Registration Number: 31000303426052
-                    Registration Type: Money Service Business
-                    Legal Name: The Walker Ledger LLC
-                    DBA Name: Madhouse Wallet
-                    Street Address: 1001 S. Main St. STE 500
-                    City: Kalispell
-                    State: MONTANA
-                    Zip: 59901
-                  </p>
+                    </p>
+                     <p className="m-0 py-2 text-gray-400">
+                  <a href="https://github.com/Madhouse-Wallet/wallet-frontend/blob/main/LICENSE">Terms of Service</a>
+                     </p>
+
                   <div className="mt-4 flex itmes-center justify-center gap-3 flex-wrap">
                     <Link
                       target="_blank"
