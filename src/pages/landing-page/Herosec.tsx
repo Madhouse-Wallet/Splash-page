@@ -79,7 +79,7 @@ const Herosec: React.FC = () => {
                   Accepting remittances should be easy.
                   Get paid fast with our international money transfer service.
                   Receive payments from over 45 different countries.
-                  Cash out to a bank or mobile money. 
+                  Cash out to a bank account or mobile money. 
                 </p>
               </CardCstm>
             </div>
