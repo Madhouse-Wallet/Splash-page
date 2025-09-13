@@ -42,9 +42,9 @@ const Herosec: React.FC = () => {
                   className="m-0 font-medium text-3xl text-white"
                   style={{ lineHeight: "40px" }}
                 >
-                  The only 
-                  <span className="themeClr"> cash application </span>
-                  you need to accept international payments 
+                  
+                  <span className="themeClr"> Effortlessly </span>
+                  accept international payments 
                 </h2>
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">
                   <Link

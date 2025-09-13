@@ -13,7 +13,7 @@ const VideoSec1 = () => {
               <div className="sectionHeader">
                 <h2 className="m-0 font-bold text-3xl uppercase text-white py-2">
                   Accept Payments{" "}
-                  <span className="themeClr block">effortlessly</span>
+                  <span className="themeClr block">with ease</span>
                 </h2>
                 <p className="m-0 text-gray-500">
                   Send and accept invoices.
