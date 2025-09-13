@@ -17,7 +17,7 @@ const VideoSec1 = () => {
                 </h2>
                 <p className="m-0 text-gray-500">
                   Send and accept invoices.
-                  Pay with card, apple pay and google pay
+                  Provide an intuitive checkout experience for your customers. 
                 </p>
               </div>
             </div>
