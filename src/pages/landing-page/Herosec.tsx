@@ -76,7 +76,7 @@ const Herosec: React.FC = () => {
                       style={{ height: 15 }}
                     />
                   </b>{" "}
-                  Accepting remittance payments should be easy.
+                  Accepting remittances should be easy.
                   Get paid fast with our international money transfer service.
                   Receive payments from over 45 different countries.
                   Cash out your online payments to a bank or mobile money. 
