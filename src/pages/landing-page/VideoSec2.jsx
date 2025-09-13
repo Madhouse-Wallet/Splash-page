@@ -28,9 +28,8 @@ const VideoSec2 = () => {
                   <span className="text-green-500">Apple Pay</span>
                 </h2>
                 <p className="m-0 text-gray-500">
-                  Customers can now pay with apple pay, google pay and debit card
-                  directly to your account. Cash out to m-pesa or your bank account
-                  instantly.
+                  Customers use apple pay, google pay and debit card. 
+                  Cash out to your bank account or mobile money.
                 </p>
               </div>
             </div>
