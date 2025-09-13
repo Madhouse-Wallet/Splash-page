@@ -111,7 +111,7 @@ const CardSection: React.FC = () => {
                   >
                     <span className="icn flex justify-center">{dot}</span>
                     <h4 className="m-0 font-normal text-white py-2 text-xl">
-                       Receiving money internationally should be simple.
+                       Receiving money internationally can be simple.
                     </h4>
                   </div>
                 </div>
