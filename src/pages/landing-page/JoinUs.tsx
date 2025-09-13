@@ -26,7 +26,7 @@ const JoinUsSec: React.FC = () => {
                 </div>
                 <div className="top">
                   <h2 className="m-0 font-medium md:text-4xl text-2xl text-white py-2">
-                    Madhouse <span className="themeClr"> Wallet</span> For Gig workers
+                    Madhouse <span className="themeClr"> Wallet</span>
                   </h2>
                      <p className="m-0 py-2 text-gray-400">
                       The Walker Ledger LLC (DBA: Madhouse Wallet)
