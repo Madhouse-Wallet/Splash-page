@@ -12,11 +12,11 @@ const VideoSec1 = () => {
             <div className="sm:col-span-6 col-span-12 my-2">
               <div className="sectionHeader">
                 <h2 className="m-0 font-bold text-3xl uppercase text-white py-2">
-                  Buy Bitcoin{" "}
+                  Accept Cash{" "}
                   <span className="themeClr block">with ease</span>
                 </h2>
                 <p className="m-0 text-gray-500">
-                  Streamline your ability to buy and sell Bitcoin.
+                  Send and accept invoices.
                   Pay with card, apple pay and google pay
                 </p>
               </div>

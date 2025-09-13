@@ -18,11 +18,10 @@ const NewFearureSection: React.FC = () => {
                 style={{ maxWidth: 400 }}
               >
                 <h2 className="m-0 font-medium text-3xl text-white py-2">
-                  Powerful new features for solving challenges
+                  Do I accept payments and want to get money in my bank account? 
                 </h2>
                 <p className="m-0 text-gray-500">
-                  Securely leverages powerful encryption and blockchain technology
-                  to provide industry-leading protection for your money
+                  Then this application is for you!
                 </p>
               </div>
             </div>
@@ -39,15 +38,17 @@ const NewFearureSection: React.FC = () => {
                     />
                     <div className="md:col-span-6 col-span-12 p-lg-5 self-center relative">
                       <h2 className="m-0 font-medium text-3xl text-white py-2">
-                        Onboarded gig workers and Get Paid!
+                        
+                        Receive payments fast
                       </h2>
                       <p className="m-0 text-gray-500">
-                        Earn money by onboarding gig workers to receive
-                        transaction fees through Madhouse Wallet for life!
+                        Get paid with our international money transfer service.
                         <br /> <br />
-                        We are offer a commission program for those 
-                        who want to refer gig workers to Madhouse Wallet.
-                        Start earning today!
+                        
+
+                        Receive payments worldwide from over 45
+                        different countries like the USA, Europe,
+                        Kenya, and Ghana
                       </p>
                     </div>
                     <div className="md:col-span-5 col-span-12 pt-lg-5 px-lg-5 relative">
@@ -72,12 +73,12 @@ const NewFearureSection: React.FC = () => {
                         width={10000}
                       />
                       <h2 className="m-0 font-medium text-3xl text-white py-2">
-                        Receive business payments worldwide
+                        Refer and Get Paid!
                       </h2>
                       <p className="m-0 text-gray-500">
-                        Receive payments from over 100
-                        different countries which include the USA, European Union,
-                        Kenya, and Ghana
+                        We offer a commission program for those 
+                        who want to refer gig workers to Madhouse Wallet.
+                        Start earning now!
                       </p>
                     </div>
                     <div className="md:col-span-6 col-span-12 relative self-end">

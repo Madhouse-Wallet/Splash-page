@@ -3,8 +3,8 @@ import React from "react";
 import styled from "styled-components";
 import bg from "@/Assets/Images/bg1.png";
 import Slider from "react-slick";
-import img3 from "@/Assets/Images/p3.png";
-import img7 from "@/Assets/Images/p7.png";
+import img3 from "@/Assets/Images/government.png";
+import img7 from "@/Assets/Images/wise.png";
 import img2 from "@/Assets/Images/p2.png";
 import img10 from "@/Assets/Images/p10.png";
 import img13 from "@/Assets/Images/tethergold.png";
@@ -28,16 +28,13 @@ import img12 from "@/Assets/Images/p12.png";
 const PartnerSEcSection: React.FC = () => {
   const data = [
     img3,
-    img7,
-    img2,
     img10,
-    img13,
-    img15,
-    img16,
-    img17,
-    img18,
-    img19,
     img20,
+    
+    img2,
+    img7,
+    img19,
+    
   ];
   var settings = {
     speed: 5000,

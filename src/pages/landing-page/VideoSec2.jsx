@@ -24,11 +24,11 @@ const VideoSec2 = () => {
             <div className="sm:col-span-6 col-span-12 my-2">
               <div className="sectionHeader">
                 <h2 className="m-0 font-bold text-3xl text-white py-2 uppercase ">
-                  Pay with {" "}
-                  <span className="text-green-500">cash app</span>
+                  Accept {" "}
+                  <span className="text-green-500">Apple Pay</span>
                 </h2>
                 <p className="m-0 text-gray-500">
-                  Customers can now pay with apple pay, google pay and credit card
+                  Customers can now pay with apple pay, google pay and debit card
                   directly to your account. Cash out to m-pesa or your bank account
                   instantly.
                 </p>

@@ -10,17 +10,17 @@ const SolutionSec: React.FC = () => {
     {
       title: "What is Madhouse Wallet?",
       descp:
-        "Madhouse Wallet is a financial solution to enable gig workers to accept payments securely with privacy and peace of mind.",
+        "Madhouse Wallet is a financial solution to enable people to accept international payments with privacy and peace of mind.",
     },
     {
       title: "Why use Madhouse Wallet?",
       descp:
-        "Your business transactions should be private, secure and completely in your control. Madhouse Wallet is the only financial platform that promises this.",
+        "Signing up is quick and easy. No credit checks, no paperwork, and no minimum balance required.",
     },
     {
-      title: "How can I get paid recommending Madhouse Wallet?",
+      title: "How can I get paid referring Madhouse Wallet?",
       descp:
-        "Contact us to get started. Find merchants in your local area or online. Earn passive income on each transaction for life. ",
+        "Contact us to get started. Find merchants in your local area or online. Earn passive income on each transaction for life.",
     },
   ];
   const [tab, setTab] = useState(1);

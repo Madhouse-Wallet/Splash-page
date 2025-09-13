@@ -10,7 +10,7 @@ const FeatureSection: React.FC = () => {
       icn: icn1,
       title: "Secure by Design",
       descrp:
-        "The wallet provides a seamless experience for managing assets with enhanced security features like passkey technology, multi-signature authentication",
+        " Seamless customer experience with enhanced security features like passkey authentication",
     },
     // {
     //   icn: icn2,
@@ -28,13 +28,13 @@ const FeatureSection: React.FC = () => {
       icn: icn3,
       title: "Easily Invest",
       descrp:
-        "Invest in gold, bitcoin, or earn interest lending in secure money markets.",
+        "Invest in bitcoin or earn interest on your savings.",
     },
     {
       icn: icn4,
-      title: "Transfer to Bank Accounts",
+      title: "Cash out Anytime",
       descrp:
-        "Your funds are securely transferred directly to your bank account or crypto wallet.",
+        "Transfer funds to bank accounts or mobile money.",
     },
   ];
   return (

@@ -11,54 +11,42 @@ const CardSection: React.FC = () => {
       icon: icn1,
       title: "Secure Transactions",
       descp:
-        "The system uses passkey authentication to securely store your wallet keys on your device behind the authentication mechanism of your choice",
+        "Passkey authentication for security",
     },
     {
       icon: icn2,
-      title: "Cheap Transactions",
+      title: "Predictable Fees",
       descp:
-        "Say goodbye to high transaction fees. Enjoy secure, reliable transactions at a fraction of the usual cost—built for modern businesses that value efficiency and control.",
+        "No hideen costs for you or your customers",
     },
     {
       icon: icn3,
       title: "Easy to use",
       descp:
-        "The point of sale system is easy to set up. Simply select the bank account you want to use.",
+        "Sign up in minutes and start sending and receiving payments immediately.",
     },
     {
       icon: icn4,
       title: "A Ledger You Can Trust",
       descp:
-        "Every transaction is recorded on the blockchain—transparent, permanent, and accessible. No disputes, no missing records—just clarity and trust.",
+        "No disputes, no missing records—just clarity and trust.",
     },
     {
       icon: icn5,
       title: "Top Tier Support",
-      descp: "Sign up for a subscription and receive top tier support from us.",
+      descp: "Get help when you need it with our dedicated support team",
     },
     {
       icon: icn10,
       title: "Backup and Recovery Support",
       descp:
-        "Always have access to your funds by saving your seed phrase to recover in case of an emergency",
+        "Easily back up and recover your wallet with our secure recovery options",
     },
     {
       icon: icn6,
-      title: "Point of Sale System",
+      title: "Multiple Payment Options",
       descp:
-        "Accept payment via USDC, bitcoin, lightning and Cash App",
-    },
-    {
-      icon: icn7,
-      title: "Multifactor Security",
-      descp:
-        "Multiple layers of authentication ensure only you can approve transactions—enterprise-grade protection, made simple.",
-    },
-    {
-      icon: icn8,
-      title: "Virtual Pass",
-      descp:
-        "Spend lighting using a pass that can be used with apple pay and google pay wallets",
+        "Accept payments via debit cards, bank transfers, and mobile money.",
     },
     {
       icon: icn9,
@@ -70,7 +58,7 @@ const CardSection: React.FC = () => {
       icon: icn9,
       title: "Global Access and Payouts",
       descp:
-        "Make payments to over 100 countries—including the USA, Kenya, Hong Kong, and Ghana.",
+        "Make payments to over 45 countries—including the USA, Kenya, Nigeria, and Ghana.",
     },
   ];
   var settings = {
@@ -123,8 +111,8 @@ const CardSection: React.FC = () => {
                   >
                     <span className="icn flex justify-center">{dot}</span>
                     <h4 className="m-0 font-normal text-white py-2 text-xl">
-                      Be in complete control of your money.
-                      You control the only keys to your wallet.
+                      This is the app to get money.
+                      Sending money internationally is simple.
                     </h4>
                   </div>
                 </div>
