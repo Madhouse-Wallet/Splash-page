@@ -18,10 +18,10 @@ const NewFearureSection: React.FC = () => {
                 style={{ maxWidth: 400 }}
               >
                 <h2 className="m-0 font-medium text-3xl text-white py-2">
-                   Freely accept invoices
+                  Intuitive invoicing for your customers
                 </h2>
                 <p className="m-0 text-gray-500">
-                  and focus on growing your business
+                  so you can focus on growing your business
                 </p>
               </div>
             </div>
