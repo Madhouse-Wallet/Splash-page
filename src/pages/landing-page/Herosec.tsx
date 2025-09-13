@@ -44,7 +44,7 @@ const Herosec: React.FC = () => {
                 >
                   
                   <span className="themeClr"> Effortlessly </span>
-                  accept international payments 
+                  receive international payments 
                 </h2>
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">
                   <Link
