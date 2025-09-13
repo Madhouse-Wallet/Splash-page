@@ -44,7 +44,7 @@ const Herosec: React.FC = () => {
                 >
                   The only 
                   <span className="themeClr"> cash application </span>
-                  you need to accept credit and online payments
+                  you need to accept international payments 
                 </h2>
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">
                   <Link
