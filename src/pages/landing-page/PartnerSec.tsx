@@ -4,7 +4,7 @@ import styled from "styled-components";
 import bg from "@/Assets/Images/bg1.png";
 import Slider from "react-slick";
 import img3 from "@/Assets/Images/government.png";
-import img7 from "@/Assets/Images/lead.png";
+import img7 from "@/Assets/Images/bridge.png";
 import img2 from "@/Assets/Images/p2.png";
 import img10 from "@/Assets/Images/p10.png";
 import img13 from "@/Assets/Images/tethergold.png";
@@ -15,7 +15,7 @@ import img18 from "@/Assets/Images/bitika.jpg";
 import img19 from "@/Assets/Images/kotanipay.png";
 import img20 from "@/Assets/Images/safe.png";
 
-import img8 from "@/Assets/Images/p8.png";
+import img8 from "@/Assets/Images/bridge.png";
 import img14 from "@/Assets/Images/coinos.png";
 import img1 from "@/Assets/Images/p1.png";
 import img4 from "@/Assets/Images/p4.png";
