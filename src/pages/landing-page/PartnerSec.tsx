@@ -4,7 +4,7 @@ import styled from "styled-components";
 import bg from "@/Assets/Images/bg1.png";
 import Slider from "react-slick";
 import img3 from "@/Assets/Images/government.png";
-import img7 from "@/Assets/Images/wise.png";
+import img7 from "@/Assets/Images/lead.png";
 import img2 from "@/Assets/Images/p2.png";
 import img10 from "@/Assets/Images/p10.png";
 import img13 from "@/Assets/Images/tethergold.png";
