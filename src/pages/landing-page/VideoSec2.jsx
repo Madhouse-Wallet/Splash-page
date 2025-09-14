@@ -18,7 +18,7 @@ const VideoSec2 = () => {
                 playsInline
                 preload="none"
               >
-                <source src="./appvid2.mp4" />
+                <source src="./coinbase.mp4" />
               </video>
             </div>
             <div className="sm:col-span-6 col-span-12 my-2">
