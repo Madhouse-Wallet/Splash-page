@@ -30,7 +30,7 @@ const VideoSec1 = () => {
                 playsInline
                 preload="none"
               >
-                <source src="./appvid.mp4" />
+                <source src="./tpos.mp4" />
               </video>
             </div>
           </div>
