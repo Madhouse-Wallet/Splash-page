@@ -15,7 +15,7 @@ import img18 from "@/Assets/Images/bitika.jpg";
 import img19 from "@/Assets/Images/kotanipay.png";
 import img20 from "@/Assets/Images/safe.png";
 
-import img8 from "@/Assets/Images/bridge.png";
+import img8 from "@/Assets/Images/lead.png";
 import img14 from "@/Assets/Images/coinos.png";
 import img1 from "@/Assets/Images/p1.png";
 import img4 from "@/Assets/Images/p4.png";
@@ -30,7 +30,7 @@ const PartnerSEcSection: React.FC = () => {
     img3,
     img10,
     img20,
-    
+    img8,
     img2,
     img7,
     img19,
