@@ -46,9 +46,9 @@ const NewFearureSection: React.FC = () => {
                         <br /> <br />
                         
 
-                        Receive payments worldwide from over 45
-                        different countries like the USA, Europe,
-                        Kenya, and Ghana
+                        Cash out to a bank account or mobile money.
+                        Withdraw remittances to countries like the USA, Nigeria,
+                        Kenya, and Ghana.
                       </p>
                     </div>
                     <div className="md:col-span-5 col-span-12 pt-lg-5 px-lg-5 relative">
