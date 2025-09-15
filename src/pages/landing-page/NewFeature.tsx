@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
 import graphic1 from "@/Assets/Images/graphic1.png";
-import img1 from "@/Assets/Images/feature.png";
+import img1 from "@/Assets/Images/sphere.png";
 import loc from "@/Assets/Images/loc.png";
 import img2 from "@/Assets/Images/nf2.png";
 

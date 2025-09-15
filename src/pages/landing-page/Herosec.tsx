@@ -5,7 +5,7 @@ import wave from "@/Assets/Images/waveline.png";
 import bg from "@/Assets/Images/landingBg2.webp";
 import hero from "@/Assets/Images/hero.png";
 import logo from "@/Assets/Images/logow.png";
-import mobile from "@/Assets/Images/mobile.png";
+import mobile from "@/Assets/Images/home.png";
 import Link from "next/link";
 
 const Herosec: React.FC = () => {
