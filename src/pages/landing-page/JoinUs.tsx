@@ -29,14 +29,13 @@ const JoinUsSec: React.FC = () => {
                     Madhouse <span className="themeClr"> Wallet</span>
                   </h2>
                      <p className="m-0 py-2 text-gray-400">
-                      The Walker Ledger LLC (DBA: Madhouse Wallet)
-                  
+                      The Walker Ledger LLC - DBA: Madhouse Wallet
                     </p>
                     <p className="m-0 py-2 text-gray-400">
-                        FinCEN Registration Number: 31000303426052
+                      1001 S. Main St. STE 500, Kalispell, MONTANA 59901
                    </p>
                     <p className="m-0 py-2 text-gray-400">
-                      1001 S. Main St. STE 500, Kalispell, MONTANA 59901
+                      FinCEN Registration Number: 31000303426052
                     </p>  
                    <p className="m-0 py-2 text-gray-400">
                     <a href="https://madhouse-wallet.gitbook.io/docs/legal-policies/privacy">Privacy Policy</a>
