@@ -41,7 +41,7 @@ const JoinUsSec: React.FC = () => {
                     <a href="https://madhouse-wallet.gitbook.io/docs/legal-policies/privacy">Privacy Policy</a>
                     </p>
                      <p className="m-0 py-2 text-gray-400">
-                  <a href="https://github.com/Madhouse-Wallet/wallet-frontend/blob/main/LICENSE">Terms of Service</a>
+                  <a href="https://madhouse-wallet.gitbook.io/docs/legal-policies/terms-and-conditions">Terms and Conditions</a>
                      </p>
 
                   <div className="mt-4 flex itmes-center justify-center gap-3 flex-wrap">
