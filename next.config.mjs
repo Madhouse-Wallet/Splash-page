@@ -1,7 +1,40 @@
 /** @type {import('next').NextConfig} */
 import webpack from "webpack";
 const nextConfig = {
-  reactStrictMode: true,
+    reactStrictMode: true,
+  devIndicators: {
+    buildActivity: false,
+  },
+  async headers() {
+
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'X-Frame-Options', value: 'DENY' },
+          { key: 'Content-Security-Policy', value: "frame-ancestors 'none'" },
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+          { key: 'Strict-Transport-Security', value: 'max-age=31536000; includeSubDomains; preload' },
+          { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' }
+        ]
+      }
+    ];
+  },
+  images: {
+    // For Next.js 12.3.0 and later
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "media.madhousewallet.com",
+        pathname: "/**",
+      },
+    ],
+    // Uncomment the following for Next.js versions prior to 12.3.0
+    // domains: ['media.madhousewallet.com'],
+  },
+
+
+
   webpack(config, { isServer }) {
     // Configures webpack to handle SVG files with SVGR. SVGR optimizes and transforms SVG files
     // into React components. See https://react-svgr.com/docs/next/
