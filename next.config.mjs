@@ -43,9 +43,7 @@ const nextConfig = {
     // Uncomment the following for Next.js versions prior to 12.3.0
     // domains: ['media.madhousewallet.com'],
   },
-
-
-
+  
   webpack(config, { isServer }) {
     // Configures webpack to handle SVG files with SVGR. SVGR optimizes and transforms SVG files
     // into React components. See https://react-svgr.com/docs/next/
@@ -84,13 +82,22 @@ const nextConfig = {
       net: false, // Node.js-only module
       tls: false, // Node.js-only module
       fs: false,  // Node.js-only module
+      process: false, // SECURITY FIXED - Disable process polyfill
+      buffer: false,  // SECURITY FIXED - Disable buffer polyfill
     };
+    config.plugins.push(
+      new webpack.DefinePlugin({
+        'process.env': '{}', // SECURITY FIXED - Empty process.env to prevent secret exposure
+        // Note: We can't disable 'process' or 'Buffer' completely as Next.js needs them
+        // But we've already disabled dangerous polyfills above
+      })
+    );
 
 
     return config;
   },
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: false,
   },
 };
 
