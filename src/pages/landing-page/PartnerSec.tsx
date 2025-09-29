@@ -29,6 +29,7 @@ const PartnerSEcSection: React.FC = () => {
   const data = [
     img3,
     img10,
+    img13,
     img20,
     img8,
     img2,
