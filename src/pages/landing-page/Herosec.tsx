@@ -39,13 +39,17 @@ const Herosec: React.FC = () => {
                 // style={{ maxWidth: 645 }}
               >
                 <h2
-                  className="m-0 font-medium text-3xl text-white"
-                  style={{ lineHeight: "40px" }}
+                  className="m-0 font-bold text-5xl md:text-6xl text-white"
+                  style={{ lineHeight: "1.1" }}
                 >
-                  
-                  <span className="themeClr"> Effortlessly </span>
-                  receive international payments 
+                  <span className="themeClr">Making Money Move</span>
+                  <br />
+                  Like You Do
                 </h2>
+                <p className="text-gray-300 text-lg mt-4 mb-6" style={{ maxWidth: "600px" }}>
+                  Fast, borderless payments for the modern hustle.
+                  Send and receive money across 45+ countries with zero friction.
+                </p>
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">
                   <Link
                     target="_blank"
@@ -64,24 +68,6 @@ const Herosec: React.FC = () => {
                   </Link>
                 </div>
               </BannerContent>
-              <CardCstm className="p-3 rounded-xl ">
-                <p className="m-0 py-2 text-gray-400">
-                  <b className="text-white float-left mr-2">
-                    <Image
-                      src={logo}
-                      alt="logo"
-                      height={10000}
-                      width={100000}
-                      className="max-w-full w-auto"
-                      style={{ height: 15 }}
-                    />
-                  </b>{" "}
-                  Accepting remittances should be easy.
-                  Get paid fast with our international money transfer service.
-                  Receive payments from over 45 different countries.
-                  Cash out to a bank account or mobile money. 
-                </p>
-              </CardCstm>
             </div>
             <div className="md:col-span-5 col-span-12 text-center">
               <Image
@@ -107,10 +93,28 @@ const Herosection = styled.section`
 const BannerContent = styled.div`
   .btn {
     background: #252038;
-    height: 40px !important;
+    height: 50px !important;
     min-height: unset !important;
     min-width: 196px;
-    font-size: 12px !important;
+    font-size: 14px !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-radius: 12px !important;
+  }
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(226, 104, 43, 0.3);
+  }
+  .commonBtn {
+    height: 50px !important;
+    border-radius: 12px !important;
+    font-weight: 600 !important;
+  }
+  .commonBtn:hover {
+    background-color: #ff7b3d !important;
+    border-color: #ff7b3d !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(226, 104, 43, 0.4);
   }
   @media (max-width: 480px) {
     .btn {
