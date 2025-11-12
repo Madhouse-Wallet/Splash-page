@@ -10,7 +10,7 @@ const FeatureSection: React.FC = () => {
       icn: icn1,
       title: "Secure by Design",
       descrp:
-        " Seamless customer experience with enhanced security features like passkey authentication",
+        "Your money is protected with modern passkey authentication. Security that works for you, not against you.",
     },
     // {
     //   icn: icn2,
@@ -20,21 +20,21 @@ const FeatureSection: React.FC = () => {
     // },
     {
       icn: icn5,
-      title: "Accept Payments",
+      title: "Accept Payments Globally",
       descrp:
-        "Expand your customer base by accepting payments from different countries.",
+        "Connect with customers and family across 45+ countries. No borders, no hassle.",
     },
     {
       icn: icn3,
-      title: "Easily Invest",
+      title: "Grow Your Money",
       descrp:
-        "Invest in bitcoin or earn interest on your savings.",
+        "Invest in bitcoin or earn interest on your savings. Make your money work as hard as you do.",
     },
     {
       icn: icn4,
-      title: "Cash out Anytime",
+      title: "Cash Out Instantly",
       descrp:
-        "Transfer funds to bank accounts or mobile money.",
+        "Move money to your bank account or mobile money in minutes. Your money, your timing.",
     },
   ];
   return (
@@ -91,6 +91,27 @@ const FeatureSection: React.FC = () => {
 
 const FeatureSec = styled.section`
   font-family: "Funnel Display", serif;
+  .cardWrpper > div {
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    transition: all 0.3s ease;
+  }
+  .cardWrpper > div:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(226, 104, 43, 0.3);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  .cardWrpper h4 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .cardWrpper p {
+    color: #9ca3af;
+    line-height: 1.6;
+  }
   .imgWrpper {
     // transform: translateY(-50%);
   }
@@ -103,6 +124,9 @@ const FeatureSec = styled.section`
     }
   }
   @media (max-width: 420px) {
+    .cardWrpper > div {
+      padding: 16px;
+    }
     .cardWrpper {
       svg {
         height: 32px;
@@ -112,8 +136,8 @@ const FeatureSec = styled.section`
         font-size: 16px;
       }
       p {
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 12px;
+        line-height: 16px;
       }
     }
   }
