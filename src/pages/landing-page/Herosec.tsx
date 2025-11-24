@@ -42,7 +42,7 @@ const Herosec: React.FC = () => {
                   className="m-0 font-bold text-5xl md:text-6xl text-white"
                   style={{ lineHeight: "1.1" }}
                 >
-                  <span className="themeClr">The Payment App for Small Business</span>
+                  <span className="themeClr">Payments for International Business</span>
                   <br />
                   Make money move like you do
                 </h1>
