@@ -14,7 +14,7 @@ const Herosec: React.FC = () => {
       <Herosection className="heroSec relative pt-24 z-10 bg-[#0a0915]">
         <Image
           src={bg}
-          alt="graphic"
+          alt="International payment app for small business - Madhouse Wallet digital platform"
           height={2000}
           width={2000}
           className="max-w-full object-left opacity-40 absolute w-full top-0 left-0 h-full object-cover ml-auto right-0 z-[-1]"
@@ -42,13 +42,14 @@ const Herosec: React.FC = () => {
                   className="m-0 font-bold text-5xl md:text-6xl text-white"
                   style={{ lineHeight: "1.1" }}
                 >
-                  <span className="themeClr">Making Money Move</span>
+                  <span className="themeClr">Payment App for Small Business</span>
                   <br />
-                  Like You Do
+                  in Kenya, Nigeria & India
                 </h1>
                 <p className="text-gray-300 text-lg mt-4 mb-6" style={{ maxWidth: "600px" }}>
-                  Fast, borderless payments for the modern hustle.
-                  Send and receive money across 45+ countries with zero friction.
+                  Accept international payments and receive remittances instantly.
+                  Cash out to mobile money or bank accounts in 45+ countries with low fees.
+                  Perfect for small businesses, freelancers, and entrepreneurs.
                 </p>
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">
                   <Link
@@ -71,7 +72,7 @@ const Herosec: React.FC = () => {
             </div>
             <div className="md:col-span-5 col-span-12 text-center">
               <Image
-                alt=""
+                alt="Madhouse Wallet mobile app interface - accept international payments on mobile"
                 src={mobile}
                 height={10000}
                 width={10000}
