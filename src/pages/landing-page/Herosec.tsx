@@ -42,9 +42,9 @@ const Herosec: React.FC = () => {
                   className="m-0 font-bold text-5xl md:text-6xl text-white"
                   style={{ lineHeight: "1.1" }}
                 >
-                  <span className="themeClr">Payment App for Small Business</span>
+                  <span className="themeClr">The Payment App for Small Business</span>
                   <br />
-                  in Kenya, Nigeria & India
+                  Make money move like you do
                 </h1>
                 <p className="text-gray-300 text-lg mt-4 mb-6" style={{ maxWidth: "600px" }}>
                   Accept international payments and receive remittances instantly.
