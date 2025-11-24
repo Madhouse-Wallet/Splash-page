@@ -38,14 +38,14 @@ const Herosec: React.FC = () => {
                 className=" pb-24"
                 // style={{ maxWidth: 645 }}
               >
-                <h2
+                <h1
                   className="m-0 font-bold text-5xl md:text-6xl text-white"
                   style={{ lineHeight: "1.1" }}
                 >
                   <span className="themeClr">Making Money Move</span>
                   <br />
                   Like You Do
-                </h2>
+                </h1>
                 <p className="text-gray-300 text-lg mt-4 mb-6" style={{ maxWidth: "600px" }}>
                   Fast, borderless payments for the modern hustle.
                   Send and receive money across 45+ countries with zero friction.

@@ -1,0 +1,30 @@
+# robots.txt for Madhouse Wallet
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Allow ChatGPT and OpenAI crawlers specifically
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Allow Google bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Allow Bing
+User-agent: Bingbot
+Allow: /
+
+# Disallow admin or private areas (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: https://madhousewallet.com/sitemap.xml
