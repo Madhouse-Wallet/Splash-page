@@ -65,10 +65,10 @@ const FeatureSection: React.FC = () => {
                 {data.map((item, key) => (
                   <div className="col-span-6 my-3" key={key}>
                     <span className="icn">{item.icn}</span>
-                    <h4 className="py-2 text-base font-semibold text-text-primary">
+                    <h4 className="py-2 text-base font-semibold" style={{ color: "var(--textPrimary)" }}>
                       {item.title}
                     </h4>
-                    <p className="m-0 text-text-secondary text-sm">{item.descrp}</p>
+                    <p className="m-0 text-sm" style={{ color: "var(--textSecondary)" }}>{item.descrp}</p>
                   </div>
                 ))}
               </div>
@@ -93,26 +93,26 @@ const FeatureSec = styled.section`
   font-family: "Funnel Display", serif;
   .cardWrpper > div {
     padding: 24px;
-    background: #FFFFFF;
-    border: 1px solid #E0E0E0;
+    background: var(--backgroundCard);
+    border: 1px solid var(--cardBorder);
     border-radius: 16px;
     transition: all 0.3s ease;
   }
   .cardWrpper > div:hover {
-    background: #FFFFFF;
-    border-color: #E2682B;
+    background: var(--backgroundCard);
+    border-color: var(--primaryColor);
     transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(226, 104, 43, 0.15);
+    box-shadow: 0 8px 20px var(--shadowHover);
   }
   .cardWrpper .icn {
-    color: #E2682B;
+    color: var(--primaryColor);
   }
   .cardWrpper h4 {
     font-weight: 600;
     font-size: 18px;
   }
   .cardWrpper p {
-    color: #6B6B6B;
+    color: var(--textSecondary);
     line-height: 1.6;
   }
   .imgWrpper {

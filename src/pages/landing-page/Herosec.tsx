@@ -11,7 +11,7 @@ import Link from "next/link";
 const Herosec: React.FC = () => {
   return (
     <>
-      <Herosection className="heroSec relative pt-24 z-10 bg-background">
+      <Herosection className="heroSec relative pt-24 z-10">
         <div className="container py-10">
           {/* <div className="grid gap-3 grid-cols-12">
             <div className="md:col-span-6 col-span-12">
@@ -32,14 +32,14 @@ const Herosec: React.FC = () => {
                 // style={{ maxWidth: 645 }}
               >
                 <h1
-                  className="m-0 font-bold text-5xl md:text-6xl text-text-primary"
-                  style={{ lineHeight: "1.1" }}
+                  className="m-0 font-bold text-5xl md:text-6xl"
+                  style={{ lineHeight: "1.1", color: "var(--textPrimary)" }}
                 >
-                  <span className="text-primary">Payments for International Business</span>
+                  <span className="themeClr">Payments for International Business</span>
                   <br />
                   Make money move like you do
                 </h1>
-                <p className="text-text-secondary text-lg mt-4 mb-6" style={{ maxWidth: "600px" }}>
+                <p className="text-lg mt-4 mb-6" style={{ maxWidth: "600px", color: "var(--textSecondary)" }}>
                   Accept international payments and receive remittances instantly.
                   Cash out to mobile money or bank accounts in 45+ countries with low fees.
                   Perfect for small businesses, freelancers, and entrepreneurs.
@@ -82,6 +82,8 @@ const Herosec: React.FC = () => {
 
 const Herosection = styled.section`
   font-family: "Funnel Display", serif;
+  background-color: var(--backgroundColor);
+  transition: background-color 0.3s ease;
 `;
 
 const BannerContent = styled.div`
@@ -107,8 +109,9 @@ const BannerContent = styled.div`
 `;
 const CardCstm = styled.div`
   max-width: 450px;
-  background: #FFFFFF;
-  border: 1px solid #E0E0E0;
+  background: var(--backgroundCard);
+  border: 1px solid var(--borderColor);
+  transition: all 0.3s ease;
 `;
 
 export default Herosec;

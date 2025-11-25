@@ -110,7 +110,7 @@ const CardSection: React.FC = () => {
                     style={{ maxWidth: 650 }}
                   >
                     <span className="icn flex justify-center">{dot}</span>
-                    <h4 className="m-0 font-normal text-text-primary py-2 text-xl">
+                    <h4 className="m-0 font-normal py-2 text-xl" style={{ color: "var(--textPrimary)" }}>
                        Receiving money internationally can be simple.
                     </h4>
                   </div>
@@ -120,11 +120,11 @@ const CardSection: React.FC = () => {
                     {data.map((item, key) => (
                       <div className="px-3" key={key}>
                         <Card className=" rounded rounded">
-                          <div className="inner bg-background-card rounded p-4 min-h-[190px]">
+                          <div className="inner rounded p-4 min-h-[190px]" style={{ backgroundColor: "var(--backgroundCard)" }}>
                             <span className="icn block mb-3">{item.icon}</span>{" "}
                             <div className="content relative pt-4">
-                              <h4 className="m-0 text-base text-text-primary font-semibold">{item.title}</h4>
-                              <p className="m-0 text-text-secondary text-sm">{item.descp}</p>
+                              <h4 className="m-0 text-base font-semibold" style={{ color: "var(--textPrimary)" }}>{item.title}</h4>
+                              <p className="m-0 text-sm" style={{ color: "var(--textSecondary)" }}>{item.descp}</p>
                             </div>
                           </div>
                         </Card>
@@ -150,19 +150,19 @@ const CardSec = styled.section`
 
 const Card = styled.div`
   padding: 0;
-  background: #FFFFFF;
-  border: 1px solid #E0E0E0;
+  background: var(--backgroundCard);
+  border: 1px solid var(--cardBorder);
   transition: all 0.3s ease;
   border-radius: 12px;
   overflow: hidden;
 
   .icn {
-    color: #E2682B;
+    color: var(--primaryColor);
   }
 
   &:hover {
-    border-color: #E2682B;
-    box-shadow: 0 4px 12px rgba(226, 104, 43, 0.15);
+    border-color: var(--primaryColor);
+    box-shadow: 0 4px 12px var(--shadowHover);
     transform: translateY(-4px);
   }
 `;

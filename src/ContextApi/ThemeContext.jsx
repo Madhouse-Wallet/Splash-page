@@ -3,20 +3,82 @@ import React, { createContext, useState, useEffect, useContext } from "react";
 // Default theme variables
 const themeVariables = {
   light: {
-    backgroundColor: "#fff",
-    textColor: "#000000",
-    textColor2: "#383838",
-    cardBg: "#fff5f1",
-    cardBg2: "#fff5f1",
-    lightBtn: "#b8b8b8",
+    // Backgrounds
+    backgroundColor: "#FAFAFA",
+    backgroundCard: "#FFFFFF",
+    backgroundSecondary: "#F5F5F5",
+
+    // Text colors
+    textColor: "#1F1F1F",
+    textPrimary: "#1F1F1F",
+    textSecondary: "#6B6B6B",
+    textTertiary: "#9E9E9E",
+
+    // Brand colors
+    primaryColor: "#E2682B",
+    primaryDark: "#D15722",
+    primaryLight: "#FF7B3D",
+
+    // UI elements
+    borderColor: "#E0E0E0",
+    borderLight: "#F0F0F0",
+    cardBg: "#FFFFFF",
+    cardBorder: "#E0E0E0",
+
+    // Buttons
+    buttonBg: "#E2682B",
+    buttonText: "#FFFFFF",
+    buttonSecondaryBg: "transparent",
+    buttonSecondaryText: "#E2682B",
+    buttonSecondaryBorder: "#E2682B",
+
+    // Header/Footer
+    headerBg: "rgba(255, 255, 255, 0.95)",
+    footerBg: "#FFFFFF",
+    footerText: "#6B6B6B",
+
+    // Shadows
+    shadowColor: "rgba(0, 0, 0, 0.06)",
+    shadowHover: "rgba(226, 104, 43, 0.15)",
   },
   dark: {
+    // Backgrounds
     backgroundColor: "#0A0915",
-    textColor: "#fff",
-    textColor2: "#fff",
-    cardBg: "#1e1e1e",
-    cardBg2: "#000",
-    lightBtn: "#424040",
+    backgroundCard: "#1D1C25",
+    backgroundSecondary: "#252038",
+
+    // Text colors
+    textColor: "#FFFFFF",
+    textPrimary: "#FFFFFF",
+    textSecondary: "#9CA3AF",
+    textTertiary: "#6B7280",
+
+    // Brand colors
+    primaryColor: "#E2682B",
+    primaryDark: "#D15722",
+    primaryLight: "#FF7B3D",
+
+    // UI elements
+    borderColor: "rgba(255, 255, 255, 0.08)",
+    borderLight: "rgba(255, 255, 255, 0.05)",
+    cardBg: "rgba(255, 255, 255, 0.03)",
+    cardBorder: "rgba(255, 255, 255, 0.08)",
+
+    // Buttons
+    buttonBg: "#E2682B",
+    buttonText: "#FFFFFF",
+    buttonSecondaryBg: "#252038",
+    buttonSecondaryText: "#FFFFFF",
+    buttonSecondaryBorder: "transparent",
+
+    // Header/Footer
+    headerBg: "rgba(255, 255, 255, 0.09)",
+    footerBg: "#1D1C25",
+    footerText: "#8E8D92",
+
+    // Shadows
+    shadowColor: "rgba(0, 0, 0, 0.2)",
+    shadowHover: "rgba(226, 104, 43, 0.3)",
   },
 };
 
@@ -25,12 +87,12 @@ const ThemeContext = createContext(undefined);
 
 // ThemeProvider Component
 export const ThemeProvider = ({ children }) => {
-  // Initialize theme (use 'dark' by default or localStorage value)
+  // Initialize theme (use 'light' by default or localStorage value)
   const [theme, setTheme] = useState(() => {
     if (typeof window !== "undefined" && localStorage.getItem("theme")) {
       return localStorage.getItem("theme");
     }
-    return "dark";
+    return "light";
   });
 
   // Toggle theme

@@ -7,7 +7,7 @@ import styled from "styled-components";
 const Footer = () => {
   return (
     <>
-      <FooterDiv className="siteFooter py-2 z-10 relative bg-background-card border-t border-border">
+      <FooterDiv className="siteFooter py-2 z-10 relative border-t">
         {/* <Image
           src={bg}
           alt="graphic"
@@ -82,14 +82,26 @@ const Footer = () => {
 };
 const FooterDiv = styled.footer`
   font-family: "Funnel Display", serif;
-  color: #6B6B6B;
+  background-color: var(--footerBg);
+  color: var(--footerText);
+  border-color: var(--borderColor);
+  transition: all 0.3s ease;
 
-  .social a svg {
-    fill: #1F1F1F;
+  .social a {
+    background-color: var(--backgroundSecondary);
+    transition: all 0.3s ease;
+
+    svg {
+      fill: var(--textPrimary);
+    }
   }
 
-  .social a:hover svg {
-    fill: #FFFFFF;
+  .social a:hover {
+    background-color: var(--primaryColor);
+
+    svg {
+      fill: #FFFFFF;
+    }
   }
 `;
 const Wrpper = styled.div`
