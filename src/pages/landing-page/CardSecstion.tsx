@@ -110,7 +110,7 @@ const CardSection: React.FC = () => {
                     style={{ maxWidth: 650 }}
                   >
                     <span className="icn flex justify-center">{dot}</span>
-                    <h4 className="m-0 font-normal text-white py-2 text-xl">
+                    <h4 className="m-0 font-normal py-2 text-xl" style={{ color: "var(--textPrimary)" }}>
                        Receiving money internationally can be simple.
                     </h4>
                   </div>
@@ -120,11 +120,11 @@ const CardSection: React.FC = () => {
                     {data.map((item, key) => (
                       <div className="px-3" key={key}>
                         <Card className=" rounded rounded">
-                          <div className="inner bg-[#0A0915] rounded p-3 min-h-[190px]">
+                          <div className="inner rounded p-4 min-h-[190px]" style={{ backgroundColor: "var(--backgroundCard)" }}>
                             <span className="icn block mb-3">{item.icon}</span>{" "}
                             <div className="content relative pt-4">
-                              <h4 className="m-0 text-base">{item.title}</h4>
-                              <p className="m-0 text-gray-500">{item.descp}</p>
+                              <h4 className="m-0 text-base font-semibold" style={{ color: "var(--textPrimary)" }}>{item.title}</h4>
+                              <p className="m-0 text-sm" style={{ color: "var(--textSecondary)" }}>{item.descp}</p>
                             </div>
                           </div>
                         </Card>
@@ -149,21 +149,21 @@ const CardSec = styled.section`
 `;
 
 const Card = styled.div`
-  padding: 1px;
-  background: #2a2a2a;
-  transition: 0.4s;
-  color: #858583;
-  p {
-    font-size: 10px;
-    line-height: 14px;
-    // opacity: 0;
+  padding: 0;
+  background: var(--backgroundCard);
+  border: 1px solid var(--cardBorder);
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+
+  .icn {
+    color: var(--primaryColor);
   }
+
   &:hover {
-    color: #fff;
-    background: linear-gradient(145deg, #ffffff, #090400 50%, #ffffff);
-    // p {
-    //   opacity: 1;
-    // }
+    border-color: var(--primaryColor);
+    box-shadow: 0 4px 12px var(--shadowHover);
+    transform: translateY(-4px);
   }
 `;
 

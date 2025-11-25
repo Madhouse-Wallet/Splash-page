@@ -5,18 +5,17 @@ body {
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
-  background-color: #0a0915 !important;
-  /* background-image: url("/bg.jpg");
-  background-attachment: fixed; */
-  color: #fff !important;
+  background-color: var(--backgroundColor) !important;
+  color: var(--textColor) !important;
   min-height: 100vh !important;
   z-index: 99;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 .text-gradient {
-  background-image: linear-gradient(171deg, #ff8029 50%, #2300ff);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  color: var(--primaryColor);
+}
+.themeClr {
+  color: var(--primaryColor) !important;
 }
 .container {
   max-width: 1140px !important;
@@ -29,9 +28,6 @@ body {
 }
 a {
   text-decoration: none !important;
-}
-.themeClr {
-  color: #e2682b !important;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -67,21 +63,29 @@ input.file {
 }
 
 .commonBtn {
-  background-color: #e2682b !important;
-  border: 2px solid #e2682b !important;
+  background-color: var(--buttonBg) !important;
+  border: 2px solid var(--buttonBg) !important;
   height: 40px !important;
   font-size: 13px !important;
   min-width: 130px;
-  color: #fff !important;
+  color: var(--buttonText) !important;
+  transition: all 0.3s ease;
 }
 .commonBtn.borderedBtn {
-  background-color: transparent !important;
-  color: #e2682b !important;
+  background-color: var(--buttonSecondaryBg) !important;
+  color: var(--buttonSecondaryText) !important;
+  border: 2px solid var(--buttonSecondaryBorder) !important;
 }
-.commonBtn:hover,
-.commonBtn.GreyBtn:hover {
-  background-color: #000 !important;
-  border-color: #000 !important;
+.commonBtn:hover {
+  background-color: var(--primaryDark) !important;
+  border-color: var(--primaryDark) !important;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px var(--shadowHover);
+}
+.commonBtn.borderedBtn:hover {
+  background-color: var(--primaryColor) !important;
+  border-color: var(--primaryColor) !important;
   color: #fff !important;
 }
 .greenStatus {
@@ -103,14 +107,6 @@ button.slick-arrow.slick-next {
 .slick-prev:before,
 .slick-next:before {
   color: var(--textColor);
-}
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  svg {
-    fill: white;
-  }
 }
 
 .modal-body {

@@ -7,7 +7,7 @@ import styled from "styled-components";
 const Footer = () => {
   return (
     <>
-      <FooterDiv className="siteFooter py-2 z-10 relative bg-[#1D1C25]">
+      <FooterDiv className="siteFooter py-2 z-10 relative border-t">
         {/* <Image
           src={bg}
           alt="graphic"
@@ -28,7 +28,7 @@ const Footer = () => {
                       href={"https://www.youtube.com/@madhousewallet"}
                       target="_blank"
                       style={{ height: 30, width: 30 }}
-                      className=" text-xs hover:bg-[#ff8735] bg-[#262626] rounded-circle flex items-center justify-center "
+                      className=" text-xs hover:bg-primary bg-background-secondary rounded-circle flex items-center justify-center transition-all "
                     >
                       {youtube}
                     </Link>
@@ -38,7 +38,7 @@ const Footer = () => {
                       target="_blank"
                       href={"https://x.com/madhousewallet"}
                       style={{ height: 30, width: 30 }}
-                      className=" text-xs hover:bg-[#ff8735] bg-[#262626] rounded-circle flex items-center justify-center "
+                      className=" text-xs hover:bg-primary bg-background-secondary rounded-circle flex items-center justify-center transition-all "
                     >
                       {twitter}
                     </Link>
@@ -48,7 +48,7 @@ const Footer = () => {
                       href={"https://github.com/Madhouse-Wallet"}
                       target="_blank"
                       style={{ height: 30, width: 30 }}
-                      className=" text-xs hover:bg-[#ff8735] bg-[#262626] rounded-circle flex items-center justify-center "
+                      className=" text-xs hover:bg-primary bg-background-secondary rounded-circle flex items-center justify-center transition-all "
                     >
                       {github}
                     </Link>
@@ -82,7 +82,27 @@ const Footer = () => {
 };
 const FooterDiv = styled.footer`
   font-family: "Funnel Display", serif;
-  color: #8e8d92;
+  background-color: var(--footerBg);
+  color: var(--footerText);
+  border-color: var(--borderColor);
+  transition: all 0.3s ease;
+
+  .social a {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+
+    svg {
+      fill: var(--footerText);
+    }
+  }
+
+  .social a:hover {
+    background-color: var(--primaryColor);
+
+    svg {
+      fill: #FFFFFF;
+    }
+  }
 `;
 const Wrpper = styled.div`
   @media (max-width: 575px) {
