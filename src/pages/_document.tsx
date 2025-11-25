@@ -10,9 +10,27 @@ export default function Document() {
         {/* Viewport for responsive design */}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
 
-        {/* Favicon */}
+        {/* Favicon & Icons */}
         <link rel="icon" href="/favicn.png" />
         <link rel="apple-touch-icon" href="/favicn.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicn.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicn.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicn.png" />
+
+        {/* Web App Manifest */}
+        <link rel="manifest" href="/manifest.json" />
+
+        {/* Theme Color for Mobile Browsers */}
+        <meta name="theme-color" content="#0a0915" />
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0a0915" />
+        <meta name="msapplication-TileColor" content="#0a0915" />
+
+        {/* Resource Hints for Performance */}
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://media.madhousewallet.com" />
+        <link rel="dns-prefetch" href="https://app.madhousewallet.com" />
+        <link rel="dns-prefetch" href="https://madhouse-wallet.gitbook.io" />
 
         {/* Primary Meta Tags - Optimized for Small Business & Target Markets */}
         <meta name="title" content="Payment App for Small Business | Accept International Payments in Kenya, Nigeria, India - Madhouse Wallet" />
@@ -65,6 +83,22 @@ export default function Document() {
         <meta name="twitter:description" content="Accept international payments, receive remittances, cash out to mobile money. Best payment app for small businesses in emerging markets." />
         <meta name="twitter:image" content="https://madhousewallet.com/twitter-image.png" />
         <meta name="twitter:image:alt" content="Madhouse Wallet Payment App Interface" />
+
+        {/* Enhanced Open Graph - Additional Properties */}
+        <meta property="og:updated_time" content="2025-11-24T12:00:00Z" />
+        <meta property="og:see_also" content="https://madhouse-wallet.gitbook.io/docs" />
+        <meta property="og:see_also" content="https://app.madhousewallet.com/welcome" />
+        <meta property="article:publisher" content="https://madhousewallet.com" />
+        <meta property="article:author" content="Madhouse Wallet Team" />
+
+        {/* App Links - Deep Linking for Mobile Apps */}
+        <meta property="al:web:url" content="https://app.madhousewallet.com/welcome" />
+        <meta property="al:web:should_fallback" content="true" />
+        <meta property="al:ios:app_name" content="Madhouse Wallet" />
+        <meta property="al:ios:url" content="madhousewallet://open" />
+        <meta property="al:android:app_name" content="Madhouse Wallet" />
+        <meta property="al:android:package" content="com.madhousewallet.app" />
+        <meta property="al:android:url" content="madhousewallet://open" />
 
         {/* Canonical URL */}
         <link rel="canonical" href="https://madhousewallet.com/" />
@@ -854,6 +888,168 @@ export default function Document() {
                 "name": "Home",
                 "item": "https://madhousewallet.com/"
               }]
+            })
+          }}
+        />
+
+        {/* Structured Data - WebPage with SpeakableSpecification (Voice Search) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "name": "Madhouse Wallet - Payment App for Small Business",
+              "description": "Best payment and remittance app for small businesses in Kenya, Nigeria, and India",
+              "url": "https://madhousewallet.com/",
+              "speakable": {
+                "@type": "SpeakableSpecification",
+                "cssSelector": [".hero-description", "h1", ".feature-list"],
+                "xpath": [
+                  "/html/body/main/section[1]/div/div/h1",
+                  "/html/body/main/section[1]/div/div/p"
+                ]
+              },
+              "inLanguage": "en",
+              "primaryImageOfPage": {
+                "@type": "ImageObject",
+                "url": "https://madhousewallet.com/og-image.png",
+                "width": 1200,
+                "height": 630
+              }
+            })
+          }}
+        />
+
+        {/* Structured Data - VideoObject (Future-Ready for Video Content) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "VideoObject",
+              "name": "How to Accept International Payments with Madhouse Wallet",
+              "description": "Learn how small businesses in Kenya, Nigeria, and India can accept international payments and cash out to M-Pesa or bank accounts",
+              "thumbnailUrl": "https://madhousewallet.com/video-thumbnail.jpg",
+              "uploadDate": "2024-06-15T08:00:00Z",
+              "duration": "PT4M30S",
+              "contentUrl": "https://madhousewallet.com/videos/accept-payments-tutorial.mp4",
+              "embedUrl": "https://madhousewallet.com/videos/embed/accept-payments",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Madhouse Wallet",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://madhousewallet.com/logo.png"
+                }
+              }
+            })
+          }}
+        />
+
+        {/* Structured Data - Article Schema for SEO Content */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Best Payment App for Small Business in Kenya, Nigeria, and India",
+              "description": "Comprehensive guide to accepting international payments and remittances for small businesses in emerging markets",
+              "image": "https://madhousewallet.com/og-image.png",
+              "author": {
+                "@type": "Organization",
+                "name": "Madhouse Wallet",
+                "url": "https://madhousewallet.com"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Madhouse Wallet",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://madhousewallet.com/logo.png"
+                }
+              },
+              "datePublished": "2023-06-15T08:00:00Z",
+              "dateModified": "2025-11-24T12:00:00Z",
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://madhousewallet.com/"
+              },
+              "keywords": "payment app, remittance app, M-Pesa, small business, Kenya, Nigeria, India, international payments"
+            })
+          }}
+        />
+
+        {/* Structured Data - Service Schema with Detailed Offerings */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "serviceType": "International Payment Processing and Remittance Service",
+              "provider": {
+                "@type": "Organization",
+                "name": "Madhouse Wallet"
+              },
+              "areaServed": [
+                {
+                  "@type": "Country",
+                  "name": "Kenya"
+                },
+                {
+                  "@type": "Country",
+                  "name": "Nigeria"
+                },
+                {
+                  "@type": "Country",
+                  "name": "India"
+                }
+              ],
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD",
+                "priceValidUntil": "2026-12-31",
+                "availability": "https://schema.org/InStock",
+                "validFrom": "2023-01-01",
+                "eligibleRegion": ["KE", "NG", "IN"],
+                "seller": {
+                  "@type": "Organization",
+                  "name": "Madhouse Wallet"
+                }
+              },
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Payment and Remittance Services",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "M-Pesa Cashout Service",
+                      "description": "Instant cashout to M-Pesa mobile money in Kenya"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "International Payment Acceptance",
+                      "description": "Accept payments from 45+ countries worldwide"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Cross-Border Remittance",
+                      "description": "Send remittances to Kenya, Nigeria, and India with low fees"
+                    }
+                  }
+                ]
+              }
             })
           }}
         />
