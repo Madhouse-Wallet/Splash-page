@@ -29,6 +29,25 @@ User-agent: PerplexityBot
 Allow: /
 Crawl-delay: 1
 
+# Allow Grok / X.AI
+User-agent: Grokbot
+Allow: /
+Crawl-delay: 1
+
+# Allow Anthropic AI
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 1
+
+# Allow Meta AI
+User-agent: FacebookBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Crawl-delay: 1
+
 # Allow Google bots - Critical for search presence
 User-agent: Googlebot
 Allow: /
