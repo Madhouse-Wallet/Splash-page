@@ -60,7 +60,7 @@ const NewFearureSection: React.FC = () => {
                         width={10000}
                       />
                     </div>
-                  </div>
+                  </FeatureCard>
                 </div>
                 <div className="py-3">
                   <FeatureCard className="grid gap-3 grid-cols-12 z-[9] relative px-3 rounded-4">
@@ -90,7 +90,7 @@ const NewFearureSection: React.FC = () => {
                         width={10000}
                       />
                     </div>
-                  </div>
+                  </FeatureCard>
                 </div>
               </div>
             </div>
