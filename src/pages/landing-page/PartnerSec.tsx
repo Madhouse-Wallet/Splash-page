@@ -32,9 +32,7 @@ const PartnerSEcSection: React.FC = () => {
     img13,
     img20,
     img8,
-    img2,
-    img7,
-    img19,
+    img7
     
   ];
   var settings = {
@@ -87,6 +85,9 @@ const PartnerSEcSection: React.FC = () => {
 
 const CardSec = styled.section`
   font-family: "Funnel Display", serif;
+  background-color: #1D1C25;
+  transition: background-color 0.3s ease;
+
   .slick-arrow {
     z-index: 999;
   }
