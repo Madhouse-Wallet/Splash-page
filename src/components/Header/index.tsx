@@ -73,8 +73,10 @@ const GradientHandleSwitch = styled(Switch)`
 `;
 
 const Nav = styled.nav`
-  background: rgba(255, 255, 255, 0.09);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(12.8px);
+  border: 1px solid #E0E0E0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   .logo {
     height: 25px;
   }

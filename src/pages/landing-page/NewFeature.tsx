@@ -17,10 +17,10 @@ const NewFearureSection: React.FC = () => {
                 className="sectionHeader text-center mx-auto"
                 style={{ maxWidth: 400 }}
               >
-                <h2 className="m-0 font-medium text-3xl text-white py-2">
+                <h2 className="m-0 font-medium text-3xl text-text-primary py-2">
                   Intuitive invoicing for your customers
                 </h2>
-                <p className="m-0 text-gray-500">
+                <p className="m-0 text-text-secondary">
                   so you can focus on growing your business
                 </p>
               </div>
@@ -28,7 +28,7 @@ const NewFearureSection: React.FC = () => {
             <div className="col-span-12">
               <div className="mx-auto" style={{ maxWidth: 1000 }}>
                 <div className="py-3">
-                  <div className="grid gap-3 grid-cols-12 z-[9] relative px-3 rounded-4 bg-[#050003]">
+                  <div className="grid gap-3 grid-cols-12 z-[9] relative px-3 rounded-4 bg-background-card border border-border">
                     <Image
                       src={graphic1}
                       alt=""
@@ -37,11 +37,11 @@ const NewFearureSection: React.FC = () => {
                       width={10000}
                     />
                     <div className="md:col-span-6 col-span-12 p-lg-5 self-center relative">
-                      <h2 className="m-0 font-medium text-3xl text-white py-2">
+                      <h2 className="m-0 font-medium text-3xl text-text-primary py-2">
                         
                         Receive payments fast
                       </h2>
-                      <p className="m-0 text-gray-500">
+                      <p className="m-0 text-text-secondary">
                         Get paid with our international money transfer service.
                         <br /> <br />
                         
@@ -63,7 +63,7 @@ const NewFearureSection: React.FC = () => {
                   </div>
                 </div>
                 <div className="py-3">
-                  <div className="grid gap-3 grid-cols-12 z-[9] relative px-3 rounded-4 bg-[#050003]">
+                  <div className="grid gap-3 grid-cols-12 z-[9] relative px-3 rounded-4 bg-background-card border border-border">
                     <div className="md:col-span-6 col-span-12 p-lg-5 self-center relative">
                       <Image
                         src={loc}
@@ -72,10 +72,10 @@ const NewFearureSection: React.FC = () => {
                         height={10000}
                         width={10000}
                       />
-                      <h2 className="m-0 font-medium text-3xl text-white py-2">
+                      <h2 className="m-0 font-medium text-3xl text-text-primary py-2">
                         Refer and Get Paid!
                       </h2>
-                      <p className="m-0 text-gray-500">
+                      <p className="m-0 text-text-secondary">
                         We offer a commission program for those 
                         who want to refer gig workers to Madhouse Wallet.
                         Start earning now!

@@ -110,7 +110,7 @@ const CardSection: React.FC = () => {
                     style={{ maxWidth: 650 }}
                   >
                     <span className="icn flex justify-center">{dot}</span>
-                    <h4 className="m-0 font-normal text-white py-2 text-xl">
+                    <h4 className="m-0 font-normal text-text-primary py-2 text-xl">
                        Receiving money internationally can be simple.
                     </h4>
                   </div>
@@ -120,11 +120,11 @@ const CardSection: React.FC = () => {
                     {data.map((item, key) => (
                       <div className="px-3" key={key}>
                         <Card className=" rounded rounded">
-                          <div className="inner bg-[#0A0915] rounded p-3 min-h-[190px]">
+                          <div className="inner bg-background-card rounded p-4 min-h-[190px]">
                             <span className="icn block mb-3">{item.icon}</span>{" "}
                             <div className="content relative pt-4">
-                              <h4 className="m-0 text-base">{item.title}</h4>
-                              <p className="m-0 text-gray-500">{item.descp}</p>
+                              <h4 className="m-0 text-base text-text-primary font-semibold">{item.title}</h4>
+                              <p className="m-0 text-text-secondary text-sm">{item.descp}</p>
                             </div>
                           </div>
                         </Card>
@@ -149,21 +149,21 @@ const CardSec = styled.section`
 `;
 
 const Card = styled.div`
-  padding: 1px;
-  background: #2a2a2a;
-  transition: 0.4s;
-  color: #858583;
-  p {
-    font-size: 10px;
-    line-height: 14px;
-    // opacity: 0;
+  padding: 0;
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+
+  .icn {
+    color: #E2682B;
   }
+
   &:hover {
-    color: #fff;
-    background: linear-gradient(145deg, #ffffff, #090400 50%, #ffffff);
-    // p {
-    //   opacity: 1;
-    // }
+    border-color: #E2682B;
+    box-shadow: 0 4px 12px rgba(226, 104, 43, 0.15);
+    transform: translateY(-4px);
   }
 `;
 

@@ -16,14 +16,6 @@ const LandingPage: React.FC = () => {
   return (
     <>
       <div className="relative z-[99]">
-        <Image
-          src={wm}
-          alt=""
-          height={10000}
-          width={10000}
-          className="max-w-full h-full w-full object-cover fixed top-0 left-0 z-[0]"
-          style={{ opacity: 0.1 }}
-        />
         <Herosec />
         <PartnerSEcSection />
         <CardSection />

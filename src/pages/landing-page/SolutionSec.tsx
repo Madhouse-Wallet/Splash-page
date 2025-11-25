@@ -41,14 +41,6 @@ const SolutionSec: React.FC = () => {
       <SolutionSection className=" relative pt-5 z-[9999] ">
         <div className="container-fluid">
           <div className=" relative z-[99] p-3 px-lg-4 py-5">
-            <Image
-              src={bg}
-              alt=""
-              height={10000}
-              width={10000}
-              style={{ borderRadius: 40 }}
-              className="max-w-full h-full w-full object-cover absolute top-0 left-0 z-[-9]"
-            />
             <div className="container">
               <div
                 className="grid gap-3 grid-cols-12 itmes-center mx-auto"
@@ -59,10 +51,10 @@ const SolutionSec: React.FC = () => {
                     className="sectionHeader text-center mx-auto"
                     style={{ maxWidth: 450 }}
                   >
-                    <h2 className="m-0 font-medium text-3xl text-white py-2">
+                    <h2 className="m-0 font-medium text-3xl text-text-primary py-2">
                       Have Any Questions?
                     </h2>
-                    <p className="m-0 text-gray-500 text-xs">
+                    <p className="m-0 text-text-secondary text-sm">
                       Email us for more information.
                     </p>
                   </div>
@@ -76,8 +68,8 @@ const SolutionSec: React.FC = () => {
                             <button
                               onClick={() => setTab(key)}
                               className={`${
-                                tab == key ? "text-white" : "text-gray-500"
-                              } border-0 p-0 flex items-center justify-between gap-2 w-full`}
+                                tab == key ? "text-text-primary font-semibold" : "text-text-secondary"
+                              } border-0 p-0 flex items-center justify-between gap-2 w-full transition-all`}
                             >
                               <div className="flex items-center gap-2">
                                 <span className="icn rounded-circle h-4 w-4 bg-[#E2682B]"></span>
@@ -94,10 +86,10 @@ const SolutionSec: React.FC = () => {
                     <div className="my-5 col-span-6 my-2 lg:block hidden">
                       {activeTab.map((item, key) => (
                         <div key={key} className="py-2 ps-lg-3">
-                          <h4 className="m-0 text-base font-medium text-white">
+                          <h4 className="m-0 text-base font-semibold text-text-primary">
                             {item.title}
                           </h4>
-                          <p className="m-0 text-xs text-gray-500 py-2">
+                          <p className="m-0 text-sm text-text-secondary py-2">
                             {item.descp}
                           </p>
                         </div>
@@ -110,16 +102,16 @@ const SolutionSec: React.FC = () => {
                           <AccordionItem
                             key={key}
                             wrpperClass={
-                              "border-b border-dashed border-gray-500 py-3 my-2"
+                              "border-b border-dashed border py-3 my-2"
                             }
                             onClick={() => handleAccordionClick(key)}
                             isOpen={openIndex === key}
-                            btnClass={` text-left text-white font-semibold flex items-center justify-start gap-2 text-base px-0 py-2 relative`}
+                            btnClass={` text-left text-text-primary font-semibold flex items-center justify-start gap-2 text-base px-0 py-2 relative`}
                             btnIcnClass={` icn`}
                             svg={""}
                             title={item.title}
                           >
-                            <p className="m-0 py-2 text-gray-500">
+                            <p className="m-0 py-2 text-text-secondary">
                               {item.descp}
                             </p>
                           </AccordionItem>
@@ -138,13 +130,20 @@ const SolutionSec: React.FC = () => {
 
 const SolutionSection = styled.section`
   font-family: "Funnel Display", serif;
+  .relative.z-\\[99\\] {
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  }
 `;
 
 const Card = styled.div`
   padding: 1px;
-  background: linear-gradient(145deg, #ffffff, #090400 50%, #ffffff);
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
   .badge {
-    background-image: linear-gradient(90deg, #ffdf56, #ff8735 50%, #ffa6c1);
+    background-color: #E2682B;
+    color: #FFFFFF;
   }
 `;
 

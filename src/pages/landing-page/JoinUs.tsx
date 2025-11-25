@@ -15,7 +15,7 @@ const JoinUsSec: React.FC = () => {
                 className="relative  text-center mx-auto "
                 style={{ maxWidth: 680 }}
               >
-                <div className="rounded-4 p-4 bg-[#0b0914] mx-auto max-w-[max-content]">
+                <div className="rounded-4 p-4 bg-background-secondary mx-auto max-w-[max-content]">
                   <Image
                     alt="Join"
                     src={JoinImg}
@@ -25,23 +25,23 @@ const JoinUsSec: React.FC = () => {
                   />
                 </div>
                 <div className="top">
-                  <h2 className="m-0 font-medium md:text-4xl text-2xl text-white py-2">
-                    Madhouse <span className="themeClr"> Wallet</span>
+                  <h2 className="m-0 font-medium md:text-4xl text-2xl text-text-primary py-2">
+                    Madhouse <span className="text-primary"> Wallet</span>
                   </h2>
-                     <p className="m-0 py-2 text-gray-400">
+                     <p className="m-0 py-2 text-text-secondary">
                       The Walker Ledger LLC - DBA: Madhouse Wallet
                     </p>
-                    <p className="m-0 py-2 text-gray-400">
+                    <p className="m-0 py-2 text-text-secondary">
                       1001 S. Main St. STE 500, Kalispell, MONTANA 59901
                    </p>
-                    <p className="m-0 py-2 text-gray-400">
+                    <p className="m-0 py-2 text-text-secondary">
                       FinCEN Registration Number: 31000303426052
-                    </p>  
-                   <p className="m-0 py-2 text-gray-400">
-                    <a href="https://madhouse-wallet.gitbook.io/docs/legal-policies/privacy">Privacy Policy</a>
                     </p>
-                     <p className="m-0 py-2 text-gray-400">
-                  <a href="https://madhouse-wallet.gitbook.io/docs/legal-policies/terms-and-conditions">Terms and Conditions</a>
+                   <p className="m-0 py-2 text-text-secondary">
+                    <a href="https://madhouse-wallet.gitbook.io/docs/legal-policies/privacy" className="text-primary hover:underline">Privacy Policy</a>
+                    </p>
+                     <p className="m-0 py-2 text-text-secondary">
+                  <a href="https://madhouse-wallet.gitbook.io/docs/legal-policies/terms-and-conditions" className="text-primary hover:underline">Terms and Conditions</a>
                      </p>
 
                   <div className="mt-4 flex itmes-center justify-center gap-3 flex-wrap">
@@ -56,7 +56,7 @@ const JoinUsSec: React.FC = () => {
                     <Link
                       href={"mailto:info@madhousewallet.com"}
                       target="_blank"
-                      className="flex btn items-center justify-between btn border-0 font-normal rounded-pill text-white"
+                      className="flex btn items-center justify-between commonBtn borderedBtn font-normal rounded-pill"
                     >
                       Email Us <span className="icn ms-1">{right}</span>
                     </Link>
@@ -78,7 +78,6 @@ const JoinUs = styled.section`
 const Card = styled.section`
   font-family: "Funnel Display", serif;
   .btn {
-    background: #252038;
     height: 40px !important;
     min-height: unset !important;
     min-width: 196px;
