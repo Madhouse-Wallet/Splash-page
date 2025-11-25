@@ -12,37 +12,15 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://madhousewallet.com/logo.png</image:loc>
+      <image:loc>https://media.madhousewallet.com/logo.png</image:loc>
       <image:title>Madhouse Wallet Logo - Payment App for Small Business</image:title>
       <image:caption>Digital payment and remittance app for Kenya, Nigeria, and India</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://madhousewallet.com/og-image.png</image:loc>
+      <image:loc>https://media.madhousewallet.com/og-image.png</image:loc>
       <image:title>Madhouse Wallet - Accept International Payments</image:title>
       <image:caption>Payment app interface showing M-Pesa cashout and international payments</image:caption>
     </image:image>
-  </url>
-
-  <!-- Regional Pages - High Priority -->
-  <url>
-    <loc>https://madhousewallet.com/ke</loc>
-    <lastmod>2025-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://madhousewallet.com/ng</loc>
-    <lastmod>2025-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://madhousewallet.com/in</loc>
-    <lastmod>2025-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <!-- App Signup Page - High Priority -->
