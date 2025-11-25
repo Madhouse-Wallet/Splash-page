@@ -23,7 +23,7 @@ const JoinUsSec: React.FC = () => {
                     width={10000}
                     className="max-w-full mx-auto h-auto w-auto"
                   />
-                </div>
+                </ImageWrapper>
                 <div className="top">
                   <h2 className="m-0 font-medium md:text-4xl text-2xl py-2" style={{ color: "var(--textPrimary)" }}>
                     Madhouse <span className="themeClr"> Wallet</span>
