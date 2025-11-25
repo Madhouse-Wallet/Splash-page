@@ -32,10 +32,11 @@ const themeVariables = {
     buttonSecondaryText: "#E2682B",
     buttonSecondaryBorder: "#E2682B",
 
-    // Header/Footer
-    headerBg: "rgba(255, 255, 255, 0.95)",
-    footerBg: "#FFFFFF",
-    footerText: "#6B6B6B",
+    // Header/Footer (dark in light theme for better button contrast)
+    headerBg: "rgba(29, 28, 37, 0.95)",
+    headerText: "#FFFFFF",
+    footerBg: "#1D1C25",
+    footerText: "#9CA3AF",
 
     // Shadows
     shadowColor: "rgba(0, 0, 0, 0.06)",
@@ -73,6 +74,7 @@ const themeVariables = {
 
     // Header/Footer
     headerBg: "rgba(255, 255, 255, 0.09)",
+    headerText: "#FFFFFF",
     footerBg: "#1D1C25",
     footerText: "#8E8D92",
 

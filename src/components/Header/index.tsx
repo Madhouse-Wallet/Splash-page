@@ -121,7 +121,7 @@ const Nav = styled.nav`
 
 const ThemeToggle = styled.button`
   background: transparent;
-  border: 2px solid var(--borderColor);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -130,7 +130,7 @@ const ThemeToggle = styled.button`
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  color: var(--textPrimary);
+  color: var(--headerText);
 
   svg {
     width: 20px;
