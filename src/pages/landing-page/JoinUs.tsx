@@ -15,7 +15,7 @@ const JoinUsSec: React.FC = () => {
                 className="relative  text-center mx-auto "
                 style={{ maxWidth: 680 }}
               >
-                <div className="rounded-4 p-4 bg-background-secondary mx-auto max-w-[max-content]">
+                <ImageWrapper className="rounded-4 p-4 mx-auto max-w-[max-content]">
                   <Image
                     alt="Join"
                     src={JoinImg}
@@ -25,23 +25,23 @@ const JoinUsSec: React.FC = () => {
                   />
                 </div>
                 <div className="top">
-                  <h2 className="m-0 font-medium md:text-4xl text-2xl text-text-primary py-2">
-                    Madhouse <span className="text-primary"> Wallet</span>
+                  <h2 className="m-0 font-medium md:text-4xl text-2xl py-2" style={{ color: "var(--textPrimary)" }}>
+                    Madhouse <span className="themeClr"> Wallet</span>
                   </h2>
-                     <p className="m-0 py-2 text-text-secondary">
+                     <p className="m-0 py-2" style={{ color: "var(--textSecondary)" }}>
                       The Walker Ledger LLC - DBA: Madhouse Wallet
                     </p>
-                    <p className="m-0 py-2 text-text-secondary">
+                    <p className="m-0 py-2" style={{ color: "var(--textSecondary)" }}>
                       1001 S. Main St. STE 500, Kalispell, MONTANA 59901
                    </p>
-                    <p className="m-0 py-2 text-text-secondary">
+                    <p className="m-0 py-2" style={{ color: "var(--textSecondary)" }}>
                       FinCEN Registration Number: 31000303426052
                     </p>
-                   <p className="m-0 py-2 text-text-secondary">
-                    <a href="https://madhouse-wallet.gitbook.io/docs/legal-policies/privacy" className="text-primary hover:underline">Privacy Policy</a>
+                   <p className="m-0 py-2" style={{ color: "var(--textSecondary)" }}>
+                    <a href="https://madhouse-wallet.gitbook.io/docs/legal-policies/privacy" className="hover:underline">Privacy Policy</a>
                     </p>
-                     <p className="m-0 py-2 text-text-secondary">
-                  <a href="https://madhouse-wallet.gitbook.io/docs/legal-policies/terms-and-conditions" className="text-primary hover:underline">Terms and Conditions</a>
+                     <p className="m-0 py-2" style={{ color: "var(--textSecondary)" }}>
+                  <a href="https://madhouse-wallet.gitbook.io/docs/legal-policies/terms-and-conditions" className="hover:underline">Terms and Conditions</a>
                      </p>
 
                   <div className="mt-4 flex itmes-center justify-center gap-3 flex-wrap">
@@ -73,10 +73,22 @@ const JoinUsSec: React.FC = () => {
 
 const JoinUs = styled.section`
   font-family: "Funnel Display", serif;
+  background-color: var(--backgroundColor);
+  transition: background-color 0.3s ease;
 `;
 
 const Card = styled.section`
   font-family: "Funnel Display", serif;
+
+  a {
+    color: var(--primaryColor);
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: var(--primaryDark);
+    }
+  }
+
   .btn {
     height: 40px !important;
     min-height: unset !important;
@@ -88,6 +100,11 @@ const Card = styled.section`
       min-width: unset !important;
     }
   }
+`;
+
+const ImageWrapper = styled.div`
+  background-color: var(--backgroundSecondary);
+  transition: background-color 0.3s ease;
 `;
 
 export default JoinUsSec;

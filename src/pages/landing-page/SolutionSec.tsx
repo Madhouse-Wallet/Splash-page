@@ -51,10 +51,10 @@ const SolutionSec: React.FC = () => {
                     className="sectionHeader text-center mx-auto"
                     style={{ maxWidth: 450 }}
                   >
-                    <h2 className="m-0 font-medium text-3xl text-text-primary py-2">
+                    <h2 className="m-0 font-medium text-3xl py-2" style={{ color: "var(--textPrimary)" }}>
                       Have Any Questions?
                     </h2>
-                    <p className="m-0 text-text-secondary text-sm">
+                    <p className="m-0 text-sm" style={{ color: "var(--textSecondary)" }}>
                       Email us for more information.
                     </p>
                   </div>
@@ -67,9 +67,11 @@ const SolutionSec: React.FC = () => {
                           <div key={key} className="py-2">
                             <button
                               onClick={() => setTab(key)}
-                              className={`${
-                                tab == key ? "text-text-primary font-semibold" : "text-text-secondary"
-                              } border-0 p-0 flex items-center justify-between gap-2 w-full transition-all`}
+                              className="border-0 p-0 flex items-center justify-between gap-2 w-full transition-all"
+                              style={{
+                                color: tab == key ? "var(--textPrimary)" : "var(--textSecondary)",
+                                fontWeight: tab == key ? 600 : 400
+                              }}
                             >
                               <div className="flex items-center gap-2">
                                 <span className="icn rounded-circle h-4 w-4 bg-[#E2682B]"></span>
@@ -86,10 +88,10 @@ const SolutionSec: React.FC = () => {
                     <div className="my-5 col-span-6 my-2 lg:block hidden">
                       {activeTab.map((item, key) => (
                         <div key={key} className="py-2 ps-lg-3">
-                          <h4 className="m-0 text-base font-semibold text-text-primary">
+                          <h4 className="m-0 text-base font-semibold" style={{ color: "var(--textPrimary)" }}>
                             {item.title}
                           </h4>
-                          <p className="m-0 text-sm text-text-secondary py-2">
+                          <p className="m-0 text-sm py-2" style={{ color: "var(--textSecondary)" }}>
                             {item.descp}
                           </p>
                         </div>
@@ -102,16 +104,16 @@ const SolutionSec: React.FC = () => {
                           <AccordionItem
                             key={key}
                             wrpperClass={
-                              "border-b border-dashed border py-3 my-2"
+                              "border-b border-dashed py-3 my-2"
                             }
                             onClick={() => handleAccordionClick(key)}
                             isOpen={openIndex === key}
-                            btnClass={` text-left text-text-primary font-semibold flex items-center justify-start gap-2 text-base px-0 py-2 relative`}
+                            btnClass={` text-left font-semibold flex items-center justify-start gap-2 text-base px-0 py-2 relative`}
                             btnIcnClass={` icn`}
                             svg={""}
                             title={item.title}
                           >
-                            <p className="m-0 py-2 text-text-secondary">
+                            <p className="m-0 py-2" style={{ color: "var(--textSecondary)" }}>
                               {item.descp}
                             </p>
                           </AccordionItem>
@@ -130,19 +132,37 @@ const SolutionSec: React.FC = () => {
 
 const SolutionSection = styled.section`
   font-family: "Funnel Display", serif;
+  background-color: var(--backgroundColor);
+  transition: background-color 0.3s ease;
+
   .relative.z-\\[99\\] {
-    background: #FFFFFF;
-    border: 1px solid #E0E0E0;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    background: var(--backgroundCard);
+    border: 1px solid var(--borderColor);
+    box-shadow: 0 4px 16px var(--shadowColor);
+    transition: all 0.3s ease;
+  }
+
+  .border-b {
+    border-color: var(--borderColor);
+  }
+
+  button {
+    color: var(--textPrimary);
+
+    .icn {
+      background-color: var(--primaryColor);
+    }
   }
 `;
 
 const Card = styled.div`
   padding: 1px;
-  background: #FFFFFF;
-  border: 1px solid #E0E0E0;
+  background: var(--backgroundCard);
+  border: 1px solid var(--borderColor);
+  transition: all 0.3s ease;
+
   .badge {
-    background-color: #E2682B;
+    background-color: var(--primaryColor);
     color: #FFFFFF;
   }
 `;
