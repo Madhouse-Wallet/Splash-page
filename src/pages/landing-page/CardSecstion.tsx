@@ -110,7 +110,7 @@ const CardSection: React.FC = () => {
                     style={{ maxWidth: 650 }}
                   >
                     <span className="icn flex justify-center">{dot}</span>
-                    <h4 className="m-0 font-normal py-2 text-xl" style={{ color: "var(--sectionDarkText)" }}>
+                    <h4 className="m-0 font-normal py-2 text-xl" style={{ color: "var(--textPrimary)" }}>
                        Receiving money internationally can be simple.
                     </h4>
                   </div>
@@ -143,9 +143,6 @@ const CardSection: React.FC = () => {
 
 const CardSec = styled.section`
   font-family: "Funnel Display", serif;
-  background-color: var(--sectionDarkBg);
-  transition: background-color 0.3s ease;
-
   .slick-arrow {
     z-index: 999;
   }

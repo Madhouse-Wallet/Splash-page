@@ -7,15 +7,12 @@ const themeVariables = {
     backgroundColor: "#FAFAFA",
     backgroundCard: "#FFFFFF",
     backgroundSecondary: "#F5F5F5",
-    sectionDarkBg: "#1D1C25",
 
     // Text colors
     textColor: "#1F1F1F",
     textPrimary: "#1F1F1F",
     textSecondary: "#6B6B6B",
     textTertiary: "#9E9E9E",
-    sectionDarkText: "#FFFFFF",
-    sectionDarkTextSecondary: "#9CA3AF",
 
     // Brand colors
     primaryColor: "#E2682B",
@@ -50,15 +47,12 @@ const themeVariables = {
     backgroundColor: "#0A0915",
     backgroundCard: "#1D1C25",
     backgroundSecondary: "#252038",
-    sectionDarkBg: "#0A0915",
 
     // Text colors
     textColor: "#FFFFFF",
     textPrimary: "#FFFFFF",
     textSecondary: "#9CA3AF",
     textTertiary: "#6B7280",
-    sectionDarkText: "#FFFFFF",
-    sectionDarkTextSecondary: "#9CA3AF",
 
     // Brand colors
     primaryColor: "#E2682B",
