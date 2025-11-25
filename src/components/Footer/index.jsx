@@ -88,11 +88,11 @@ const FooterDiv = styled.footer`
   transition: all 0.3s ease;
 
   .social a {
-    background-color: var(--backgroundSecondary);
+    background-color: rgba(255, 255, 255, 0.1);
     transition: all 0.3s ease;
 
     svg {
-      fill: var(--textPrimary);
+      fill: var(--footerText);
     }
   }
 
