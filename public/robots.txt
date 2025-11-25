@@ -15,6 +15,10 @@ User-agent: GPTBot
 Allow: /
 Crawl-delay: 1
 
+User-agent: OAI-SearchBot
+Allow: /
+Crawl-delay: 1
+
 # Allow Claude AI crawler
 User-agent: Claude-Web
 Allow: /
