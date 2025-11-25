@@ -42,6 +42,10 @@ User-agent: Googlebot-Mobile
 Allow: /
 Crawl-delay: 1
 
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 1
+
 # Allow Bing - Important for international markets
 User-agent: Bingbot
 Allow: /
