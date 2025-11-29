@@ -32,9 +32,9 @@ export default function Document() {
         <link rel="dns-prefetch" href="https://app.madhousewallet.com" />
         <link rel="dns-prefetch" href="https://madhouse-wallet.gitbook.io" />
 
-        {/* Primary Meta Tags - Optimized for Small Business & Target Markets */}
-        <meta name="title" content="Payment App for Small Business | Accept International Payments in Kenya, Nigeria, India - Madhouse Wallet (NOT Crypto)" />
-        <meta name="description" content="Madhouse Wallet is a payment and remittance service for small businesses in Kenya, Nigeria, and India. Accept international payments, receive remittances, and cash out to mobile money or bank accounts. Licensed payment processor (NOT a cryptocurrency wallet). Free fiat currency wallet with low fees for cross-border payments." />
+        {/* Primary Meta Tags - Clear, Simple, User-Friendly */}
+        <meta name="title" content="Madhouse Wallet - Send Money to Kenya, Nigeria & India | Accept International Payments" />
+        <meta name="description" content="Madhouse Wallet helps small businesses accept payments from customers worldwide. Send money to Kenya, Nigeria, and India. Cash out to M-Pesa or your bank account instantly. Lower fees than Western Union or PayPal. Not a crypto app." />
         <meta name="keywords" content="payment app for small business, remittance app Kenya, payment app Nigeria, remittance app India, send money to Kenya, send money to Nigeria, send money to India, accept international payments, business payment app, mobile money Kenya, mobile money Nigeria, international payment app, cross-border payments, receive money from abroad, merchant payment app, fiat currency wallet, small business payment solution, M-Pesa integration, best remittance app, payment app for freelancers, receive payments internationally, cash out mobile money, alternative to PayPal Kenya, alternative to Wise Nigeria, remittance app for small business, accept payments from multiple countries, low-cost international payments, payment gateway for small business, passkey authentication, money services business, NOT cryptocurrency wallet, NOT crypto storage, NOT memetoken wallet" />
         <meta name="author" content="Madhouse Wallet" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
@@ -51,23 +51,23 @@ export default function Document() {
         <meta name="audience" content="Small Business Owners, Freelancers, Merchants, Entrepreneurs" />
         <meta name="target" content="Kenya, Nigeria, India" />
 
-        {/* AI-Specific Meta Tags for Enhanced Understanding */}
-        <meta name="summary" content="Digital payment and remittance app for small businesses in Kenya, Nigeria, India. Accept international payments, cash out to M-Pesa and mobile money with low fees. NOT a cryptocurrency wallet." />
-        <meta name="category" content="Financial Technology, Payment Processing, Remittances, Fiat Currency Wallet, Mobile Money, Banking Services" />
-        <meta name="use-cases" content="small business international payments, freelancer payments from abroad, remittances to Kenya Nigeria India, M-Pesa cashout, mobile money transfers, cross-border payments, fiat currency transactions" />
-        <meta name="primary-features" content="M-Pesa integration, passkey authentication, 45+ countries support, instant mobile money cashout, low fees, bank transfers, UPI support, multi-currency fiat transactions" />
-        <meta name="target-problems" content="high payment fees, slow international transfers, no M-Pesa support, PayPal limitations in Africa, expensive remittances, difficult cross-border payments" />
-        <meta name="solutions" content="70% lower fees than Western Union, instant M-Pesa cashout, accept payments from 45+ countries, PayPal alternative for Kenya, small business payment solution" />
-        <meta name="comparison-advantages" content="Better than PayPal for Kenya Nigeria India, cheaper than Wise, faster than Western Union, M-Pesa integration unlike competitors, built for African businesses" />
-        <meta name="entity-type" content="Payment Service Provider, Remittance Service, Financial Technology Company, Business Banking Service, Money Services Business" />
-        <meta name="not-related-to" content="NOT a cryptocurrency wallet, NOT a crypto asset storage service, NOT related to Madhouse (MAD) memetoken, NOT a blockchain wallet, NOT for storing crypto tokens" />
-        <meta name="disambiguation" content="Madhouse Wallet is a payment and remittance service provider (FinCEN #31000303426052), NOT a cryptocurrency wallet. We process fiat currency transactions, mobile money, and bank transfers for small businesses." />
+        {/* AI-Specific Meta Tags - Clear and Simple */}
+        <meta name="summary" content="Madhouse Wallet helps you send money to Kenya, Nigeria, and India. Accept payments from customers worldwide. Cash out to M-Pesa or your bank account. Lower fees than Western Union. Not a crypto wallet." />
+        <meta name="category" content="Money Transfer, Payment App, Remittances, Mobile Money, International Payments, Small Business Banking" />
+        <meta name="use-cases" content="send money to Kenya, send money to Nigeria, send money to India, accept international payments, get paid by customers abroad, freelancer payments, M-Pesa cashout, mobile money transfers, family remittances" />
+        <meta name="primary-features" content="instant M-Pesa cashout, send money to 45+ countries, low transfer fees, bank transfers, mobile money, accept credit cards, multi-currency support" />
+        <meta name="target-problems" content="expensive Western Union fees, slow bank transfers, PayPal doesn't work in Kenya, can't cash out to M-Pesa, high remittance costs, difficult to receive international payments" />
+        <meta name="solutions" content="70% cheaper than Western Union, instant M-Pesa cashout, accept payments from anywhere, works great in Kenya Nigeria India, made for small businesses and families" />
+        <meta name="comparison-advantages" content="cheaper than Western Union, better than PayPal for Kenya Nigeria India, faster than Wise, only app with M-Pesa cashout, built specifically for Africa and India" />
+        <meta name="entity-type" content="Money Transfer Service, Payment App, Remittance Service, Mobile Money Platform, Business Banking for Small Companies" />
+        <meta name="not-related-to" content="NOT cryptocurrency, NOT crypto wallet like Tangem or Ledger, NOT Madhouse.ag DEX aggregator, NOT the MAD memetoken, NOT for trading Bitcoin or crypto" />
+        <meta name="disambiguation" content="Madhouse Wallet (madhousewallet.com) is a real money transfer app. We help you send money to Kenya, Nigeria, and India. We're NOT a crypto wallet, NOT Madhouse.ag, and NOT for storing cryptocurrency. Licensed money transfer service." />
 
-        {/* Open Graph / Facebook - Optimized for Target Markets */}
+        {/* Open Graph / Facebook - Clear and Simple */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://madhousewallet.com/" />
-        <meta property="og:title" content="Payment App for Small Business in Kenya, Nigeria, India | Madhouse Wallet" />
-        <meta property="og:description" content="Best payment and remittance app for small businesses. Accept international payments, receive remittances, cash out to mobile money. Free for businesses in Kenya, Nigeria, and India." />
+        <meta property="og:title" content="Madhouse Wallet - Send Money to Kenya, Nigeria & India" />
+        <meta property="og:description" content="Send money home or accept payments from customers worldwide. Cash out to M-Pesa instantly. 70% cheaper than Western Union. Made for small businesses and families in Kenya, Nigeria, and India." />
         <meta property="og:image" content="https://media.madhousewallet.com/og-image.png" />
         <meta property="og:image:alt" content="Madhouse Wallet - Payment App for Small Business" />
         <meta property="og:image:width" content="1200" />
@@ -78,11 +78,11 @@ export default function Document() {
         <meta property="og:locale:alternate" content="en_NG" />
         <meta property="og:locale:alternate" content="en_IN" />
 
-        {/* Twitter - Optimized */}
+        {/* Twitter - Clear and Simple */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://madhousewallet.com/" />
-        <meta name="twitter:title" content="Payment & Remittance App for Small Business | Kenya, Nigeria, India" />
-        <meta name="twitter:description" content="Accept international payments, receive remittances, cash out to mobile money. Best payment app for small businesses in emerging markets." />
+        <meta name="twitter:title" content="Madhouse Wallet - Send Money to Kenya, Nigeria & India" />
+        <meta name="twitter:description" content="Send money home to Kenya, Nigeria, or India. Accept payments from customers worldwide. Cash out to M-Pesa instantly. 70% cheaper than Western Union." />
         <meta name="twitter:image" content="https://media.madhousewallet.com/twitter-image.png" />
         <meta name="twitter:image:alt" content="Madhouse Wallet Payment App Interface" />
 
@@ -122,8 +122,8 @@ export default function Document() {
               "name": "Madhouse Wallet",
               "legalName": "The Walker Ledger LLC",
               "alternateName": ["Madhouse Payment App", "Madhouse Remittance App", "Madhouse Business Wallet"],
-              "description": "Payment and remittance service provider for small businesses in Kenya, Nigeria, and India. Accept international payments, send remittances, and cash out to M-Pesa and bank accounts. NOT a cryptocurrency wallet, NOT related to any memetoken.",
-              "disambiguatingDescription": "Madhouse Wallet is a financial technology company providing payment processing and remittance services for small businesses. This is NOT a cryptocurrency wallet for storing tokens, NOT related to the Madhouse (MAD) memetoken, and NOT a crypto asset storage service. We are a regulated payment service provider (FinCEN Registration Number: 31000303426052) offering fiat currency transactions, mobile money integration, and bank transfers.",
+              "description": "Madhouse Wallet helps small businesses in Kenya, Nigeria, and India accept payments from customers around the world. Send money to family back home or cash out your earnings to M-Pesa and bank accounts. We're a real money transfer service, not a crypto app.",
+              "disambiguatingDescription": "Madhouse Wallet (madhousewallet.com) is a payment app that helps small businesses accept international payments and send money to Kenya, Nigeria, and India. We are NOT: a cryptocurrency wallet (like Tangem or Ledger), NOT the Madhouse (MAD) memetoken, NOT Madhouse.ag (a crypto DEX aggregator), and NOT a blockchain/DeFi service. We are a regulated money transfer service (FinCEN #31000303426052) for sending and receiving real money through M-Pesa, bank accounts, and mobile money.",
               "url": "https://madhousewallet.com",
               "logo": "https://media.madhousewallet.com/logo.png",
               "contactPoint": [{
@@ -171,7 +171,7 @@ export default function Document() {
               "name": "Madhouse Wallet - Payment & Remittance App (NOT Cryptocurrency)",
               "applicationCategory": "FinanceApplication",
               "applicationSubCategory": "Payment Processing App",
-              "disambiguatingDescription": "Business payment and remittance application for fiat currency transactions. NOT a cryptocurrency wallet application. NOT related to Madhouse (MAD) memetoken.",
+              "disambiguatingDescription": "Madhouse Wallet is a real money transfer app for sending money to Kenya, Nigeria, and India. NOT a cryptocurrency wallet. NOT Madhouse.ag (crypto DEX). NOT for storing Bitcoin or crypto tokens. We help you send and receive real money.",
               "operatingSystem": "Web, iOS, Android",
               "offers": {
                 "@type": "Offer",
@@ -184,18 +184,18 @@ export default function Document() {
                   "name": "Kenya, Nigeria, India, and 45+ countries"
                 }
               },
-              "description": "Payment and remittance app for small businesses in Kenya, Nigeria, and India. Accept international fiat currency payments, receive remittances, and cash out to mobile money or bank accounts. Licensed payment processor, NOT a cryptocurrency wallet.",
+              "description": "Madhouse Wallet helps you send money to Kenya, Nigeria, and India. Accept payments from customers around the world. Cash out to M-Pesa or your bank account. Perfect for small businesses, freelancers, and families. Not a crypto app.",
               "featureList": [
-                "Accept International Fiat Currency Payments from 45+ Countries",
-                "Send & Receive Fiat Currency Remittances to Kenya, Nigeria, India",
-                "Cash out to Mobile Money (M-Pesa, Airtel Money)",
-                "Cash out to Bank Accounts",
-                "Secure Passkey Authentication (NOT crypto private keys)",
-                "Low-Cost Cross-Border Fiat Transfers",
-                "Business Payment Solutions for Small Businesses",
-                "Multi-Currency Fiat Support (USD, EUR, GBP, KES, NGN, INR)",
-                "NOT for cryptocurrency storage",
-                "NOT a blockchain wallet"
+                "Accept payments from 45+ countries worldwide",
+                "Send money to Kenya, Nigeria, and India",
+                "Instant cash out to M-Pesa mobile money",
+                "Cash out to your bank account",
+                "Secure login with passkeys (no passwords needed)",
+                "Lower fees than Western Union and PayPal",
+                "Made for small businesses and freelancers",
+                "Support for multiple currencies (dollars, euros, pounds, shillings)",
+                "Real money transfers - not cryptocurrency",
+                "Licensed and regulated money transfer service"
               ],
               "aggregateRating": {
                 "@type": "AggregateRating",
@@ -249,17 +249,17 @@ export default function Document() {
               "@type": "FinancialService",
               "name": "Madhouse Wallet Payment & Remittance Service",
               "legalName": "The Walker Ledger LLC",
-              "description": "Licensed payment and remittance service for small businesses in Kenya, Nigeria, and India. Accept international fiat currency payments, receive remittances, cash out to mobile money with low fees. NOT a cryptocurrency wallet service.",
-              "disambiguatingDescription": "Fiat currency payment processing and remittance service (FinCEN #31000303426052). NOT a cryptocurrency wallet, NOT related to Madhouse (MAD) memetoken, NOT a crypto asset storage service.",
+              "description": "Madhouse Wallet helps you send money internationally and accept payments from customers worldwide. Cash out to M-Pesa, bank accounts, and mobile money in Kenya, Nigeria, and India. Lower fees than Western Union. Not a cryptocurrency service.",
+              "disambiguatingDescription": "Licensed money transfer service (FinCEN #31000303426052) for sending real money to Kenya, Nigeria, and India. NOT a cryptocurrency wallet, NOT Madhouse.ag (crypto DEX aggregator), NOT the Madhouse (MAD) memetoken, NOT for trading or storing crypto.",
               "url": "https://madhousewallet.com",
               "serviceType": [
-                "Fiat Currency Payment Processing",
-                "Remittance Service",
-                "Business Payment Solution",
-                "International Money Transfer",
-                "Mobile Money Integration",
-                "Bank Transfer Service",
-                "Money Services Business"
+                "Money Transfer Service",
+                "International Remittance",
+                "Payment Processing for Small Business",
+                "Mobile Money Service",
+                "M-Pesa Transfer Service",
+                "Bank Transfer Platform",
+                "Cross-Border Payment Solution"
               ],
               "areaServed": [
                 {
@@ -1096,7 +1096,7 @@ export default function Document() {
           crossOrigin="anonymous"
         />
 
-        <title>Payment App for Small Business | Remittance App Kenya, Nigeria, India - Madhouse Wallet</title>
+        <title>Madhouse Wallet - Send Money to Kenya, Nigeria & India | Accept International Payments</title>
       </Head>
       <body>
         <Main />
