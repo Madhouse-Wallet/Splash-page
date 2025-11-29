@@ -875,19 +875,33 @@ export default function Document() {
           }}
         />
 
-        {/* Breadcrumb Structured Data */}
+        {/* Breadcrumb Structured Data - Enhanced for Deep Linking */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "BreadcrumbList",
-              "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://madhousewallet.com/"
-              }]
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://madhousewallet.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Features",
+                  "item": "https://madhousewallet.com/#features"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "FAQ",
+                  "item": "https://madhousewallet.com/#faq"
+                }
+              ]
             })
           }}
         />

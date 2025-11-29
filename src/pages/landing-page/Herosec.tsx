@@ -11,7 +11,7 @@ import Link from "next/link";
 const Herosec: React.FC = () => {
   return (
     <>
-      <Herosection className="heroSec relative pt-24 z-10">
+      <Herosection id="hero" className="heroSec relative pt-24 z-10">
         <div className="container py-10">
           {/* <div className="grid gap-3 grid-cols-12">
             <div className="md:col-span-6 col-span-12">
@@ -41,7 +41,7 @@ const Herosec: React.FC = () => {
                 </h1>
                 <p className="text-lg mt-4 mb-6" style={{ maxWidth: "600px", color: "var(--textSecondary)" }}>
                   Accept international payments and receive remittances instantly.
-                  Cash out to mobile money or bank accounts in 45+ countries with low fees.
+                  Cash out to <Link href="#features" className="hover:underline" style={{color: "var(--primaryColor)"}}>mobile money or bank accounts</Link> in 45+ countries with low fees.
                   Perfect for small businesses, freelancers, and entrepreneurs.
                 </p>
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">

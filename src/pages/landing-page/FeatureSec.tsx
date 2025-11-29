@@ -39,7 +39,7 @@ const FeatureSection: React.FC = () => {
   ];
   return (
     <>
-      <FeatureSec className=" relative py-14 z-10 ">
+      <FeatureSec id="features" className=" relative py-14 z-10 ">
         {/* <span className="absolute top-0 z-[-9]" style={{ left: "30%" }}>
           {mw}
         </span> */}

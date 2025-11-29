@@ -4,23 +4,24 @@ import styled from "styled-components";
 import bg from "@/Assets/Images/bg2.png";
 import img from "@/Assets/Images/solution.png";
 import { AccordionItem } from "@/components/common/index";
+import Link from "next/link";
 
 const SolutionSec: React.FC = () => {
   const data = [
     {
       title: "What is Madhouse Wallet?",
       descp:
-        "Madhouse Wallet is a financial solution to enable people to accept international payments with privacy and peace of mind.",
+        "Madhouse Wallet is a financial solution to enable people to accept international payments with privacy and peace of mind. Learn more about our secure payment features and passkey authentication.",
     },
     {
       title: "Why use Madhouse Wallet?",
       descp:
-        "Signing up is quick and easy. No credit checks, no paperwork, and no minimum balance required.",
+        "Signing up is quick and easy. No credit checks, no paperwork, and no minimum balance required. Get started with our simple wallet creation process and start accepting payments from 45+ countries.",
     },
     {
       title: "How can I get paid referring Madhouse Wallet?",
       descp:
-        "Contact us to get started. Find merchants in your local area or online. Earn passive income on each transaction for life.",
+        "Contact us to get started. Find merchants in your local area or online. Earn passive income on each transaction for life. Join our partner program today.",
     },
   ];
   const [tab, setTab] = useState(1);
@@ -38,7 +39,7 @@ const SolutionSec: React.FC = () => {
   // console.log(activeTab, "activeTab");
   return (
     <>
-      <SolutionSection className=" relative pt-5 z-[9999] ">
+      <SolutionSection id="faq" className=" relative pt-5 z-[9999] ">
         <div className="container-fluid">
           <div className=" relative z-[99] p-3 px-lg-4 py-5">
             <div className="container">
@@ -55,7 +56,9 @@ const SolutionSec: React.FC = () => {
                       Have Any Questions?
                     </h2>
                     <p className="m-0 text-sm" style={{ color: "var(--textSecondary)" }}>
-                      Email us for more information.
+                      <Link href="https://madhouse-wallet.gitbook.io/docs" target="_blank" className="hover:underline" style={{color: "var(--primaryColor)"}}>
+                        View our documentation
+                      </Link> or email us for more information.
                     </p>
                   </div>
                 </div>
