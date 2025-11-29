@@ -1,5 +1,7 @@
-# robots.txt for Madhouse Wallet
-# Payment and Remittance App for Small Business in Kenya, Nigeria, India
+# robots.txt for Madhouse Wallet (madhousewallet.com)
+# Payment and Remittance Service Provider - NOT a Cryptocurrency Wallet
+# IMPORTANT: Madhouse Wallet is a payment app for small businesses in Kenya, Nigeria, India
+# NOT related to Madhouse (MAD) memetoken or any cryptocurrency wallet service
 # Allow all search engines to crawl the site
 
 User-agent: *
