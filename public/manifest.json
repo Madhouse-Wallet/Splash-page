@@ -49,7 +49,7 @@
       "name": "Documentation",
       "short_name": "Docs",
       "description": "Read Madhouse Wallet documentation",
-      "url": "https://madhouse-wallet.gitbook.io/docs",
+      "url": "https://docs.madhousewallet.com",
       "icons": [
         {
           "src": "/favicn.png",

@@ -35,7 +35,7 @@ To be the preferred wallet for remittances and merchant payments across emerging
 ## Go-to-market CTAs
 
 - Primary CTA: "Create Wallet" — live app: [app.madhousewallet.com/welcome](https://app.madhousewallet.com/welcome)
-- Secondary CTA: "Get Started" — docs & developer guides: [madhouse-wallet.gitbook.io/docs](https://madhouse-wallet.gitbook.io/docs)
+- Secondary CTA: "Get Started" — docs & developer guides: [docs.madhousewallet.com](https://docs.madhousewallet.com)
 
 ## Partnerships
 

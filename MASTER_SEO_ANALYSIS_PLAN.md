@@ -245,7 +245,7 @@ Even for non-blog pages, sections can be marked as articles:
 #### **Add Additional Open Graph Tags**
 ```html
 <meta property="og:updated_time" content="2025-11-24T12:00:00Z">
-<meta property="og:see_also" content="https://madhouse-wallet.gitbook.io/docs">
+<meta property="og:see_also" content="https://docs.madhousewallet.com">
 <meta property="og:determiner" content="the">
 ```
 

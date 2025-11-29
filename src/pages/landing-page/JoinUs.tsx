@@ -38,10 +38,10 @@ const JoinUsSec: React.FC = () => {
                       FinCEN Registration Number: 31000303426052
                     </p>
                    <p className="m-0 py-2" style={{ color: "var(--textSecondary)" }}>
-                    <a href="https://madhouse-wallet.gitbook.io/docs/legal-policies/privacy" className="hover:underline">Privacy Policy</a>
+                    <a href="https://docs.madhousewallet.com/legal-policies/privacy" className="hover:underline">Privacy Policy</a>
                     </p>
                      <p className="m-0 py-2" style={{ color: "var(--textSecondary)" }}>
-                  <a href="https://madhouse-wallet.gitbook.io/docs/legal-policies/terms-and-conditions" className="hover:underline">Terms and Conditions</a>
+                  <a href="https://docs.madhousewallet.com/legal-policies/terms-and-conditions" className="hover:underline">Terms and Conditions</a>
                      </p>
 
                   <div className="mt-4 flex itmes-center justify-center gap-3 flex-wrap">

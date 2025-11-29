@@ -54,7 +54,7 @@ const Herosec: React.FC = () => {
                     <span className="icn ms-1">{right}</span>
                   </Link>
                   <Link
-                    href={"https://madhouse-wallet.gitbook.io/docs"}
+                    href={"https://docs.madhousewallet.com"}
                     target="_blank"
                     className="flex btn items-center justify-between commonBtn borderedBtn font-normal rounded-pill"
                   >

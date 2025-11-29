@@ -29,8 +29,8 @@ export default function Document() {
         {/* Resource Hints for Performance */}
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://media.madhousewallet.com" />
+        <link rel="dns-prefetch" href="https://docs.madhousewallet.com" />
         <link rel="dns-prefetch" href="https://app.madhousewallet.com" />
-        <link rel="dns-prefetch" href="https://madhouse-wallet.gitbook.io" />
 
         {/* Primary Meta Tags - Clear, Simple, User-Friendly */}
         <meta name="title" content="Madhouse Wallet - Send Money to Kenya, Nigeria & India | Accept International Payments" />
@@ -88,13 +88,12 @@ export default function Document() {
 
         {/* Enhanced Open Graph - Additional Properties */}
         <meta property="og:updated_time" content="2025-11-24T12:00:00Z" />
-        <meta property="og:see_also" content="https://madhouse-wallet.gitbook.io/docs" />
-        <meta property="og:see_also" content="https://app.madhousewallet.com/welcome" />
+        <meta property="og:see_also" content="https://docs.madhousewallet.com" />
         <meta property="article:publisher" content="https://madhousewallet.com" />
         <meta property="article:author" content="Madhouse Wallet Team" />
 
         {/* App Links - Deep Linking for Mobile Apps */}
-        <meta property="al:web:url" content="https://app.madhousewallet.com/welcome" />
+        <meta property="al:web:url" content="https://docs.madhousewallet.com" />
         <meta property="al:web:should_fallback" content="true" />
         <meta property="al:ios:app_name" content="Madhouse Wallet" />
         <meta property="al:ios:url" content="madhousewallet://open" />
@@ -142,7 +141,7 @@ export default function Document() {
                 "addressCountry": "US"
               },
               "sameAs": [
-                "https://madhouse-wallet.gitbook.io/docs"
+                "https://docs.madhousewallet.com"
               ],
               "founder": {
                 "@type": "Organization",
@@ -403,7 +402,7 @@ export default function Document() {
                   "name": "How do I receive international payments in Kenya?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "To receive international payments in Kenya with Madhouse Wallet: 1) Create a free account at app.madhousewallet.com/welcome, 2) Complete verification with your ID, 3) Get your unique payment link, 4) Share the link with clients abroad, 5) Receive payments in your wallet, 6) Cash out to M-Pesa or your Kenyan bank account. The entire process takes about 5 minutes to set up."
+                    "text": "To receive international payments in Kenya with Madhouse Wallet: 1) Create a free account (visit our Getting Started guide at docs.madhousewallet.com), 2) Complete verification with your ID, 3) Get your unique payment link, 4) Share the link with clients abroad, 5) Receive payments in your wallet, 6) Cash out to M-Pesa or your Kenyan bank account. Learn more about getting paid at docs.madhousewallet.com/get-paid"
                   }
                 },
                 {
@@ -411,7 +410,7 @@ export default function Document() {
                   "name": "How do I receive international payments in Nigeria?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "With Madhouse Wallet, you can easily receive international payments in Nigeria. Simply create a free wallet at app.madhousewallet.com/welcome, complete your business verification, share your payment link with clients abroad, and cash out to your Nigerian bank account or mobile money. We support payments from 45+ countries with competitive rates and faster processing than traditional banks."
+                    "text": "With Madhouse Wallet, you can easily receive international payments in Nigeria. Simply create a free wallet, complete your business verification, share your payment link with clients abroad, and cash out to your Nigerian bank account or mobile money. We support payments from 45+ countries with competitive rates and faster processing than traditional banks. Learn more at docs.madhousewallet.com/get-paid"
                   }
                 },
                 {
@@ -435,7 +434,7 @@ export default function Document() {
                   "name": "How do I set up Madhouse Wallet for my small business?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Setting up Madhouse Wallet for your small business takes 5 minutes: 1) Visit app.madhousewallet.com/welcome, 2) Sign up with your email or phone, 3) Complete business verification with your business name and owner ID, 4) Link your M-Pesa (Kenya), bank account (Nigeria/India), or preferred cashout method, 5) Get your payment link to share with international clients. No credit card or upfront payment required."
+                    "text": "Setting up Madhouse Wallet for your small business takes 5 minutes: 1) Create your free account, 2) Sign up with your email or phone, 3) Complete business verification with your business name and owner ID, 4) Link your M-Pesa (Kenya), bank account (Nigeria/India), or preferred cashout method, 5) Get your payment link to share with international clients. No credit card or upfront payment required. Full guide at docs.madhousewallet.com"
                   }
                 },
                 {
@@ -614,25 +613,29 @@ export default function Document() {
                   "@type": "HowToStep",
                   "position": 2,
                   "name": "Verify Your Business",
-                  "text": "Complete the simple verification process with your business details and ID. This ensures secure transactions."
+                  "text": "Complete the simple verification process with your business details and ID. This ensures secure transactions.",
+                  "url": "https://docs.madhousewallet.com"
                 },
                 {
                   "@type": "HowToStep",
                   "position": 3,
                   "name": "Share Your Payment Link",
-                  "text": "Get your unique payment link and share it with clients abroad. They can pay you from 45+ countries."
+                  "text": "Get your unique payment link and share it with clients abroad. They can pay you from 45+ countries.",
+                  "url": "https://docs.madhousewallet.com/get-paid"
                 },
                 {
                   "@type": "HowToStep",
                   "position": 4,
                   "name": "Receive Payments",
-                  "text": "Receive international payments directly into your Madhouse Wallet. Funds arrive within minutes to hours."
+                  "text": "Receive international payments directly into your Madhouse Wallet. Funds arrive within minutes to hours.",
+                  "url": "https://docs.madhousewallet.com/get-paid"
                 },
                 {
                   "@type": "HowToStep",
                   "position": 5,
                   "name": "Cash Out Locally",
-                  "text": "Cash out to your local bank account or mobile money (M-Pesa, Airtel Money) instantly. Keep it simple and fast."
+                  "text": "Cash out to your local bank account or mobile money (M-Pesa, Airtel Money) instantly. Keep it simple and fast.",
+                  "url": "https://docs.madhousewallet.com/cash-out"
                 }
               ]
             })
@@ -717,25 +720,29 @@ export default function Document() {
                   "@type": "HowToStep",
                   "position": 2,
                   "name": "Add Funds to Wallet",
-                  "text": "Add money to your wallet using your local payment method (credit card, bank transfer, or crypto)."
+                  "text": "Add money to your wallet using your local payment method (credit card, bank transfer, or crypto).",
+                  "url": "https://docs.madhousewallet.com"
                 },
                 {
                   "@type": "HowToStep",
                   "position": 3,
                   "name": "Enter Recipient Details",
-                  "text": "Enter your family member's bank details, M-Pesa number (Kenya), or UPI (India). Save for future use."
+                  "text": "Enter your family member's bank details, M-Pesa number (Kenya), or UPI (India). Save for future use.",
+                  "url": "https://docs.madhousewallet.com/transfer-funds"
                 },
                 {
                   "@type": "HowToStep",
                   "position": 4,
                   "name": "Enter Amount and Review",
-                  "text": "Enter the amount to send, review the exchange rate and fees (70% lower than Western Union), and confirm."
+                  "text": "Enter the amount to send, review the exchange rate and fees (70% lower than Western Union), and confirm.",
+                  "url": "https://docs.madhousewallet.com/fees"
                 },
                 {
                   "@type": "HowToStep",
                   "position": 5,
                   "name": "Track Transfer",
-                  "text": "Track your transfer in real-time. Recipient receives funds in 1-2 business days (M-Pesa is instant)."
+                  "text": "Track your transfer in real-time. Recipient receives funds in 1-2 business days (M-Pesa is instant).",
+                  "url": "https://docs.madhousewallet.com"
                 }
               ]
             })
@@ -1084,6 +1091,63 @@ export default function Document() {
                   }
                 ]
               }
+            })
+          }}
+        />
+
+        {/* Structured Data - SiteNavigationElement (Google Sitelinks) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              "name": "Madhouse Wallet Navigation",
+              "description": "Main navigation links for Madhouse Wallet documentation and support",
+              "itemListElement": [
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 1,
+                  "name": "Getting Started",
+                  "description": "Learn how to create your Madhouse Wallet account and get started",
+                  "url": "https://docs.madhousewallet.com"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 2,
+                  "name": "Get Paid",
+                  "description": "How to receive international payments and remittances",
+                  "url": "https://docs.madhousewallet.com/get-paid"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 3,
+                  "name": "Send Money",
+                  "description": "Transfer funds to Kenya, Nigeria, and India",
+                  "url": "https://docs.madhousewallet.com/transfer-funds"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 4,
+                  "name": "Cash Out",
+                  "description": "Withdraw to M-Pesa, bank accounts, and mobile money",
+                  "url": "https://docs.madhousewallet.com/cash-out"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 5,
+                  "name": "Fees",
+                  "description": "Transparent pricing and fee structure",
+                  "url": "https://docs.madhousewallet.com/fees"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 6,
+                  "name": "Privacy Policy",
+                  "description": "How we protect your data and privacy",
+                  "url": "https://docs.madhousewallet.com/legal-policies/privacy"
+                }
+              ]
             })
           }}
         />

@@ -55,7 +55,7 @@ Madhouse Wallet helps you send money to Kenya, Nigeria, and India. We're perfect
 
 **Website:** https://madhousewallet.com
 **App:** https://app.madhousewallet.com/welcome
-**Documentation:** https://madhouse-wallet.gitbook.io/docs
+**Documentation:** https://docs.madhousewallet.com
 
 ## Primary Services
 
@@ -331,7 +331,7 @@ Yes! Madhouse Wallet automatically converts international payments (USD, EUR, GB
 
 **Website:** https://madhousewallet.com
 **Create Wallet:** https://app.madhousewallet.com/welcome
-**Documentation:** https://madhouse-wallet.gitbook.io/docs
+**Documentation:** https://docs.madhousewallet.com
 **Customer Support:** info@madhousewallet.com
 **Security Issues:** Report via GitHub Security Advisory at https://github.com/Madhouse-Wallet/Splash-page/security/advisories/new
 

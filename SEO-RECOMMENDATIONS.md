@@ -472,7 +472,7 @@ This SEO strategy is based on expert recommendations from:
 
 For questions about SEO implementation:
 - **Email:** info@madhousewallet.com
-- **Documentation:** https://madhouse-wallet.gitbook.io/docs
+- **Documentation:** https://docs.madhousewallet.com
 - **Security:** Report via [GitHub Security Advisory](https://github.com/Madhouse-Wallet/Splash-page/security/advisories/new)
 
 ---

@@ -56,7 +56,7 @@ const SolutionSec: React.FC = () => {
                       Have Any Questions?
                     </h2>
                     <p className="m-0 text-sm" style={{ color: "var(--textSecondary)" }}>
-                      <Link href="https://madhouse-wallet.gitbook.io/docs" target="_blank" className="hover:underline" style={{color: "var(--primaryColor)"}}>
+                      <Link href="https://docs.madhousewallet.com" target="_blank" className="hover:underline" style={{color: "var(--primaryColor)"}}>
                         View our documentation
                       </Link> or email us for more information.
                     </p>
