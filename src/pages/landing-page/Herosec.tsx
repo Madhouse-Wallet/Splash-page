@@ -35,9 +35,9 @@ const Herosec: React.FC = () => {
                   className="m-0 font-bold text-5xl md:text-6xl"
                   style={{ lineHeight: "1.1", color: "var(--textPrimary)" }}
                 >
-                  <span className="themeClr">Payments for International Business</span>
+                  <span className="themeClr">Payments</span> for International Business
                   <br />
-                  Make money move like you do
+                  
                 </h1>
                 <p className="text-lg mt-4 mb-6" style={{ maxWidth: "600px", color: "var(--textSecondary)" }}>
                   Accept international payments and receive remittances instantly.
