@@ -49,7 +49,7 @@ Payment App for Small Business | Remittance App Kenya, Nigeria, India - Madhouse
 
 **AFTER (Simple):**
 ```
-Madhouse Wallet - Send Money to Kenya, Nigeria & India | Accept International Payments
+Madhouse Wallet - Send Money to Africa, India & China | Accept International Payments
 ```
 
 **Why Better:**

@@ -33,7 +33,7 @@ export default function Document() {
         <link rel="dns-prefetch" href="https://app.madhousewallet.com" />
 
         {/* Primary Meta Tags - Clear, Simple, User-Friendly */}
-        <meta name="title" content="Madhouse Wallet - Send Money to Kenya, Nigeria & India | Accept International Payments" />
+        <meta name="title" content="Madhouse Wallet - Send Money to Africa, India & China | Accept International Payments" />
         <meta name="description" content="Madhouse Wallet helps small businesses accept payments from customers worldwide. Send money to Kenya, Nigeria, and India. Cash out to M-Pesa or your bank account instantly. Lower fees than Western Union or PayPal. Not a crypto app." />
         <meta name="keywords" content="payment app for small business, remittance app Kenya, payment app Nigeria, remittance app India, send money to Kenya, send money to Nigeria, send money to India, accept international payments, business payment app, mobile money Kenya, mobile money Nigeria, international payment app, cross-border payments, receive money from abroad, merchant payment app, fiat currency wallet, small business payment solution, M-Pesa integration, best remittance app, payment app for freelancers, receive payments internationally, cash out mobile money, alternative to PayPal Kenya, alternative to Wise Nigeria, remittance app for small business, accept payments from multiple countries, low-cost international payments, payment gateway for small business, passkey authentication, money services business, NOT cryptocurrency wallet, NOT crypto storage, NOT memetoken wallet" />
         <meta name="author" content="Madhouse Wallet" />
@@ -66,7 +66,7 @@ export default function Document() {
         {/* Open Graph / Facebook - Clear and Simple */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://madhousewallet.com/" />
-        <meta property="og:title" content="Madhouse Wallet - Send Money to Kenya, Nigeria & India" />
+        <meta property="og:title" content="Madhouse Wallet - Send Money to Africa, India & China" />
         <meta property="og:description" content="Send money home or accept payments from customers worldwide. Cash out to M-Pesa instantly. 70% cheaper than Western Union. Made for small businesses and families in Kenya, Nigeria, and India." />
         <meta property="og:image" content="https://media.madhousewallet.com/og-image.png" />
         <meta property="og:image:alt" content="Madhouse Wallet - Payment App for Small Business" />
@@ -81,7 +81,7 @@ export default function Document() {
         {/* Twitter - Clear and Simple */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://madhousewallet.com/" />
-        <meta name="twitter:title" content="Madhouse Wallet - Send Money to Kenya, Nigeria & India" />
+        <meta name="twitter:title" content="Madhouse Wallet - Send Money to Africa, India & China" />
         <meta name="twitter:description" content="Send money home to Kenya, Nigeria, or India. Accept payments from customers worldwide. Cash out to M-Pesa instantly. 70% cheaper than Western Union." />
         <meta name="twitter:image" content="https://media.madhousewallet.com/twitter-image.png" />
         <meta name="twitter:image:alt" content="Madhouse Wallet Payment App Interface" />
@@ -1160,7 +1160,7 @@ export default function Document() {
           crossOrigin="anonymous"
         />
 
-        <title>Madhouse Wallet - Send Money to Kenya, Nigeria & India | Accept International Payments</title>
+        <title>Madhouse Wallet - Send Money to Africa, India & China | Accept International Payments</title>
       </Head>
       <body>
         <Main />
