@@ -69,7 +69,7 @@ const Herosec: React.FC = () => {
                 src={mobile}
                 height={10000}
                 width={10000}
-                style={{ maxWidth: 300 }}
+                style={{ maxWidth: 420 }}
                 className="max-w-full mx-auto h-auto w-auto"
               />
             </div>
