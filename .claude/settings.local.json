@@ -6,7 +6,13 @@
       "Bash(git commit:*)",
       "WebSearch",
       "WebFetch(domain:docs.madhouse.ag)",
-      "WebFetch(domain:docs.madhousewallet.com)"
+      "WebFetch(domain:docs.madhousewallet.com)",
+      "Bash(python -c \"from PIL import Image; img = Image.open\\(''src/Assets/Images/home.png''\\); print\\(img.size\\)\")",
+      "Bash(python:*)",
+      "Bash(python3 -c \"from PIL import Image; img = Image.open\\(''c:/Users/qwalker/source/Splash-page/src/Assets/Images/home.png''\\); print\\(img.size\\)\")",
+      "Bash(pip install Pillow -q)",
+      "Bash(python3 -c \"print\\(''PIL ready''\\)\")",
+      "Bash(python3 -c \":*)"
     ],
     "deny": [],
     "ask": []
