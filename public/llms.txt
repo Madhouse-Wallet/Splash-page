@@ -44,7 +44,7 @@ Madhouse Wallet helps you send money to Kenya, Nigeria, and India. We're perfect
 - Lower fees than PayPal and Western Union
 
 **Legal & Safe:**
-- Company: The Walker Ledger LLC (DBA: Madhouse Wallet)
+- Company: Madhouse Wallet
 - Licensed: FinCEN Registered Money Services Business #31000303426052
 - We're a real, regulated money transfer service
 

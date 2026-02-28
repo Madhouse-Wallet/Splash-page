@@ -119,7 +119,7 @@ export default function Document() {
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Madhouse Wallet",
-              "legalName": "The Walker Ledger LLC",
+              "legalName": "Madhouse Wallet",
               "alternateName": ["Madhouse Payment App", "Madhouse Remittance App", "Madhouse Business Wallet"],
               "description": "Madhouse Wallet helps small businesses in Kenya, Nigeria, and India accept payments from customers around the world. Send money to family back home or cash out your earnings to M-Pesa and bank accounts. We're a real money transfer service, not a crypto app.",
               "disambiguatingDescription": "Madhouse Wallet (madhousewallet.com) is a payment app that helps small businesses accept international payments and send money to Kenya, Nigeria, and India. We are NOT: a cryptocurrency wallet (like Tangem or Ledger), NOT the Madhouse (MAD) memetoken, NOT Madhouse.ag (a crypto DEX aggregator), and NOT a blockchain/DeFi service. We are a regulated money transfer service (FinCEN #31000303426052) for sending and receiving real money through M-Pesa, bank accounts, and mobile money.",
@@ -145,7 +145,7 @@ export default function Document() {
               ],
               "founder": {
                 "@type": "Organization",
-                "name": "The Walker Ledger LLC"
+                "name": "Madhouse Wallet"
               },
               "foundingDate": "2023",
               "keywords": "payment app, remittance app, small business payments, international payments, M-Pesa, mobile money, bank transfer, fiat currency, payment processor, NOT cryptocurrency, NOT memetoken",
@@ -247,7 +247,7 @@ export default function Document() {
               "@context": "https://schema.org",
               "@type": "FinancialService",
               "name": "Madhouse Wallet Payment & Remittance Service",
-              "legalName": "The Walker Ledger LLC",
+              "legalName": "Madhouse Wallet",
               "description": "Madhouse Wallet helps you send money internationally and accept payments from customers worldwide. Cash out to M-Pesa, bank accounts, and mobile money in Kenya, Nigeria, and India. Lower fees than Western Union. Not a cryptocurrency service.",
               "disambiguatingDescription": "Licensed money transfer service (FinCEN #31000303426052) for sending real money to Kenya, Nigeria, and India. NOT a cryptocurrency wallet, NOT Madhouse.ag (crypto DEX aggregator), NOT the Madhouse (MAD) memetoken, NOT for trading or storing crypto.",
               "url": "https://madhousewallet.com",
