@@ -28,9 +28,9 @@ const JoinUsSec: React.FC = () => {
                   <h2 className="m-0 font-medium md:text-4xl text-2xl py-2" style={{ color: "var(--textPrimary)" }}>
                     Madhouse <span className="themeClr"> Wallet</span>
                   </h2>
-                    <p className="m-0 py-2" style={{ color: "var(--textSecondary)" }}>
+                    {/* <p className="m-0 py-2" style={{ color: "var(--textSecondary)" }}>
                       FinCEN Registration Number: 31000303426052
-                    </p>
+                    </p> */}
                    <p className="m-0 py-2" style={{ color: "var(--textSecondary)" }}>
                     <a href="https://docs.madhousewallet.com/legal-policies/privacy" className="hover:underline">Privacy Policy</a>
                     </p>
