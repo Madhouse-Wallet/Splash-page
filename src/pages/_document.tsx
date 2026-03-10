@@ -28,9 +28,13 @@ export default function Document() {
 
         {/* Resource Hints for Performance */}
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://media.madhousewallet.com" />
         <link rel="dns-prefetch" href="https://docs.madhousewallet.com" />
         <link rel="dns-prefetch" href="https://app.madhousewallet.com" />
+        <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
 
         {/* Primary Meta Tags - Clear, Simple, User-Friendly */}
         <meta name="title" content="Madhouse Wallet - Send Money to Africa, India & China | Accept International Payments" />
@@ -1161,6 +1165,19 @@ export default function Document() {
         />
 
         <title>Madhouse Wallet - Send Money to Africa, India & China | Accept International Payments</title>
+
+        {/* Google Ads Tag (gtag.js) - AW-18002110915 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18002110915" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-18002110915');
+            `,
+          }}
+        />
       </Head>
       <body>
         <Main />
