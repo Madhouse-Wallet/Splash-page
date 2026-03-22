@@ -24,12 +24,11 @@ const VideoSec2 = () => {
             <div className="sm:col-span-6 col-span-12 my-2">
               <div className="sectionHeader">
                 <h2 className="m-0 font-bold text-3xl text-white py-2 uppercase ">
-                  Accept {" "}
-                  <span className="text-green-500">Apple Pay</span>
+                  Send Global{" "}
+                  <span className="themeClr">Payouts</span>
                 </h2>
                 <p className="m-0 text-gray-500">
-                  Customers use apple pay, google pay and debit card. 
-                  Cash out to your bank account or mobile money.
+                  Pay employees, vendors, and partners in 43+ currencies. Local delivery via M-Pesa in Kenya, bank transfer in Nigeria, and more.
                 </p>
               </div>
             </div>

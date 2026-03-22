@@ -18,10 +18,10 @@ const NewFearureSection: React.FC = () => {
                 style={{ maxWidth: 400 }}
               >
                 <h2 className="m-0 font-medium text-3xl py-2" style={{ color: "var(--textPrimary)" }}>
-                  Intuitive invoicing for your customers
+                  A real US bank account for your business
                 </h2>
                 <p className="m-0" style={{ color: "var(--textSecondary)" }}>
-                  so you can focus on growing your business
+                  Hold dollars, receive transfers, and pay out globally
                 </p>
               </div>
             </div>
@@ -39,16 +39,12 @@ const NewFearureSection: React.FC = () => {
                     <div className="md:col-span-6 col-span-12 p-lg-5 self-center relative">
                       <h2 className="m-0 font-medium text-3xl py-2" style={{ color: "var(--textPrimary)" }}>
 
-                        Receive payments fast
+                        Virtual USD Account
                       </h2>
                       <p className="m-0" style={{ color: "var(--textSecondary)" }}>
-                        Get paid with our international money transfer service.
+                        Get a US bank account with routing and account numbers — no US address or entity required.
                         <br /> <br />
-                        
-
-                        Cash out to a bank account or mobile money.
-                        Withdraw remittances to countries like the USA, Nigeria,
-                        Kenya, and Ghana.
+                        Receive wire transfers, ACH credits, and direct deposits from US partners, clients, and platforms.
                       </p>
                     </div>
                     <div className="md:col-span-5 col-span-12 pt-lg-5 px-lg-5 relative">
@@ -73,12 +69,10 @@ const NewFearureSection: React.FC = () => {
                         width={10000}
                       />
                       <h2 className="m-0 font-medium text-3xl py-2" style={{ color: "var(--textPrimary)" }}>
-                        Refer and Get Paid!
+                        Invoice and Get Paid
                       </h2>
                       <p className="m-0" style={{ color: "var(--textSecondary)" }}>
-                        We offer a commission program for those 
-                        who want to refer gig workers to Madhouse Wallet.
-                        Start earning now!
+                        Create professional invoices and collect ACH payments automatically. Track payment status in real time with webhooks and account statements.
                       </p>
                     </div>
                     <div className="md:col-span-6 col-span-12 relative self-end">

@@ -8,33 +8,27 @@ const FeatureSection: React.FC = () => {
   const data = [
     {
       icn: icn1,
-      title: "Secure by Design",
+      title: "Enterprise-Grade Security",
       descrp:
-        "Your money is protected with modern passkey authentication. Security that works for you, not against you.",
+        "WebAuthn passkey authentication on every transaction. No passwords, no SMS codes, no phishing risk.",
     },
-    // {
-    //   icn: icn2,
-    //   title: "Bitcoin Loan",
-    //   descrp:
-    //     "Lorem ipsum dolor sit amet consectetur. Aliquam habitant ipsum lectus sed dui dignissim leo sem. ",
-    // },
     {
       icn: icn5,
-      title: "Accept Payments Globally",
+      title: "Collect Bank Payments from the US",
       descrp:
-        "Connect with customers and family across 45+ countries. No borders, no hassle.",
+        "Pull funds directly from US bank accounts — one-time charges or recurring subscription billing. This is called ACH Direct Debit in the United States.",
     },
     {
       icn: icn3,
-      title: "Grow Your Money",
+      title: "Pay Out to 43+ Currencies",
       descrp:
-        "Invest in bitcoin or earn interest on your savings. Make your money work as hard as you do.",
+        "Send funds to Kenya (KES), Nigeria (NGN), India (INR), China (CNY), Philippines (PHP), and more.",
     },
     {
       icn: icn4,
-      title: "Cash Out Instantly",
+      title: "Developer-Friendly API",
       descrp:
-        "Move money to your bank account or mobile money in minutes. Your money, your timing.",
+        "Integrate with RESTful APIs. Manage payments, invoices, and payouts programmatically with API keys and webhooks.",
     },
   ];
   return (

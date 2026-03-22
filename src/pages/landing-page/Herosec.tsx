@@ -35,14 +35,13 @@ const Herosec: React.FC = () => {
                   className="m-0 font-bold text-5xl md:text-6xl"
                   style={{ lineHeight: "1.1", color: "var(--textPrimary)" }}
                 >
-                  <span className="themeClr">Payments</span> for International Business
+                  <span className="themeClr">Your US Dollar Account.</span> Pay Out Globally.
                   <br />
-                  
+
                 </h1>
                 <p className="text-lg mt-4 mb-6" style={{ maxWidth: "600px", color: "var(--textSecondary)" }}>
-                  Accept international payments and receive remittances instantly.
-                  Cash out to <Link href="#features" className="hover:underline" style={{color: "var(--primaryColor)"}}>mobile money or bank accounts</Link> in 45+ countries with low fees.
-                  Perfect for small businesses, freelancers, and entrepreneurs.
+                  Get a virtual USD account with routing and account numbers — receive wire transfers, direct deposits, and bank pull payments from US customers.
+                  Send payouts to 43+ currencies including KES, NGN, INR, and CNY.
                 </p>
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">
                   <Link
@@ -50,7 +49,7 @@ const Herosec: React.FC = () => {
                     href="https://app.madhousewallet.com/welcome"
                     className="flex font-normal items-center justify-between commonBtn btn rounded-pill"
                   >
-                    Create Wallet
+                    Open an Account
                     <span className="icn ms-1">{right}</span>
                   </Link>
                   <Link
@@ -58,14 +57,14 @@ const Herosec: React.FC = () => {
                     target="_blank"
                     className="flex btn items-center justify-between commonBtn borderedBtn font-normal rounded-pill"
                   >
-                    Get Started <span className="icn ms-1">{right}</span>
+                    View API Docs <span className="icn ms-1">{right}</span>
                   </Link>
                 </div>
               </BannerContent>
             </div>
             <div className="md:col-span-5 col-span-12 text-center">
               <Image
-                alt="Madhouse Wallet mobile app interface - accept international payments on mobile"
+                alt="Madhouse Wallet dashboard - ACH payments and international payouts"
                 src={mobile}
                 height={10000}
                 width={10000}

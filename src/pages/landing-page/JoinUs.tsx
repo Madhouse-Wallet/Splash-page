@@ -44,7 +44,7 @@ const JoinUsSec: React.FC = () => {
                       href="https://app.madhousewallet.com/welcome"
                       className="flex font-normal items-center justify-between commonBtn btn rounded-pill"
                     >
-                      Create Wallet
+                      Open an Account
                       <span className="icn ms-1">{right}</span>
                     </Link>
                     <Link
@@ -52,7 +52,7 @@ const JoinUsSec: React.FC = () => {
                       target="_blank"
                       className="flex btn items-center justify-between commonBtn borderedBtn font-normal rounded-pill"
                     >
-                      Email Us <span className="icn ms-1">{right}</span>
+                      Contact Sales <span className="icn ms-1">{right}</span>
                     </Link>
                   </div>
                 </div>
