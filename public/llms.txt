@@ -54,7 +54,7 @@ Madhouse Wallet helps you send money to Kenya, Nigeria, and India. We're perfect
 - NOT for storing Bitcoin or crypto tokens
 
 **Website:** https://madhousewallet.com
-**App:** https://app.madhousewallet.com/welcome
+**App:** https://business.madhousewallet.com/welcome
 **Documentation:** https://docs.madhousewallet.com
 
 ## Primary Services
@@ -127,7 +127,7 @@ Madhouse Wallet helps you send money to Kenya, Nigeria, and India. We're perfect
 
 ### For Receiving International Payments (Freelancers & Small Businesses)
 
-1. **Create Your Free Wallet:** Sign up at app.madhousewallet.com/welcome (takes 5 minutes, no credit card required)
+1. **Create Your Free Wallet:** Sign up at business.madhousewallet.com/welcome (takes 5 minutes, no credit card required)
 2. **Verify Your Business:** Complete simple verification with your business details and ID
 3. **Share Your Payment Link:** Get your unique payment link and share it with international clients
 4. **Receive Payments:** Clients pay you from 45+ countries - funds arrive in your wallet within minutes to hours
@@ -176,7 +176,7 @@ Madhouse Wallet is a digital payment and remittance app designed specifically fo
 Madhouse Wallet is the best payment app for small businesses in Kenya. It offers M-Pesa integration for instant cashout, accepts international payments from 45+ countries, supports multiple currencies, and has significantly lower fees than PayPal or Western Union.
 
 ### How do I receive international payments in Kenya?
-Create a free Madhouse Wallet account at app.madhousewallet.com/welcome, complete verification with your ID, get your unique payment link, share it with clients abroad, receive payments in your wallet, then cash out to M-Pesa or your Kenyan bank account.
+Create a free Madhouse Wallet account at business.madhousewallet.com/welcome, complete verification with your ID, get your unique payment link, share it with clients abroad, receive payments in your wallet, then cash out to M-Pesa or your Kenyan bank account.
 
 ### How do I cash out to M-Pesa?
 Open your Madhouse Wallet app, go to 'Withdraw', select 'M-Pesa', enter your M-Pesa number and amount, then confirm. Funds arrive in your M-Pesa account instantly (within seconds).
@@ -330,7 +330,7 @@ Yes! Madhouse Wallet automatically converts international payments (USD, EUR, GB
 ## Contact & Support
 
 **Website:** https://madhousewallet.com
-**Create Wallet:** https://app.madhousewallet.com/welcome
+**Create Wallet:** https://business.madhousewallet.com/welcome
 **Documentation:** https://docs.madhousewallet.com
 **Customer Support:** info@madhousewallet.com
 **Security Issues:** Report via GitHub Security Advisory at https://github.com/Madhouse-Wallet/Splash-page/security/advisories/new

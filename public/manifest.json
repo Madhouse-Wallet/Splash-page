@@ -1,7 +1,7 @@
 {
-  "name": "Madhouse Wallet - Payment App for Small Business",
+  "name": "Madhouse Wallet — Virtual USD Account & Global Business Payments",
   "short_name": "Madhouse Wallet",
-  "description": "Accept international payments and remittances. Cash out to M-Pesa and bank accounts in Kenya, Nigeria, India.",
+  "description": "Virtual USD bank account with routing and account numbers. Collect direct debit and recurring bank payments from US customers. Send payouts to Kenya, Nigeria, India, China, and 43+ currencies. Built for international businesses.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0915",
@@ -28,16 +28,16 @@
   "related_applications": [
     {
       "platform": "web",
-      "url": "https://app.madhousewallet.com/welcome"
+      "url": "https://business.madhousewallet.com/welcome"
     }
   ],
   "prefer_related_applications": false,
   "shortcuts": [
     {
-      "name": "Create Wallet",
+      "name": "Open an Account",
       "short_name": "Sign Up",
-      "description": "Create your free Madhouse Wallet account",
-      "url": "https://app.madhousewallet.com/welcome",
+      "description": "Create your Madhouse Wallet business account",
+      "url": "https://business.madhousewallet.com/welcome",
       "icons": [
         {
           "src": "/favicn.png",
@@ -46,9 +46,9 @@
       ]
     },
     {
-      "name": "Documentation",
-      "short_name": "Docs",
-      "description": "Read Madhouse Wallet documentation",
+      "name": "API Documentation",
+      "short_name": "API Docs",
+      "description": "Developer documentation for payments, payouts, and webhooks",
       "url": "https://docs.madhousewallet.com",
       "icons": [
         {

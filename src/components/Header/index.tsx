@@ -56,7 +56,7 @@ const Header: React.FC = () => {
               </ThemeToggle>
               <Link
                 target="_blank"
-                href={"https://app.madhousewallet.com/"}
+                href={"https://business.madhousewallet.com/"}
                 className="btn flex items-center justify-center text-white commonBtn rounded-full"
                 style={{ minWidth: "unset" }}
               >

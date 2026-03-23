@@ -12,12 +12,11 @@ const VideoSec1 = () => {
             <div className="sm:col-span-6 col-span-12 my-2">
               <div className="sectionHeader">
                 <h2 className="m-0 font-bold text-3xl uppercase text-white py-2">
-                  Handle Payments{" "}
-                  <span className="themeClr block">with ease</span>
+                  Accounts Receivable just got easier{" "}
+                  <span className="themeClr block">with direct debit</span>
                 </h2>
                 <p className="m-0 text-gray-500">
-                  Send and accept invoices.
-                  Provide a thoughtful checkout experience for your customers. 
+                  Collect one-time or recurring payments directly from your customers' US bank accounts — similar to a direct debit or standing order. Known as ACH in the United States.
                 </p>
               </div>
             </div>

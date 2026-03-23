@@ -11,17 +11,22 @@ const SolutionSec: React.FC = () => {
     {
       title: "What is Madhouse Wallet?",
       descp:
-        "Madhouse Wallet is a financial solution to enable people to accept international payments with privacy and peace of mind. Learn more about our secure payment features and passkey authentication.",
+        "Madhouse Wallet gives international businesses a virtual USD account with routing and account numbers, the ability to collect bank payments from US customers, and the ability to send payouts to 43+ currencies worldwide.",
     },
     {
-      title: "Why use Madhouse Wallet?",
+      title: "Who is Madhouse Wallet for?",
       descp:
-        "Signing up is quick and easy. No credit checks, no paperwork, and no minimum balance required. Get started with our simple wallet creation process and start accepting payments from 45+ countries.",
+        "Madhouse Wallet is built for international businesses that need a US dollar account, want to collect recurring or one-time bank payments from US clients, or need to pay employees and vendors in Kenya, Nigeria, India, China, and beyond.",
     },
     {
-      title: "How can I get paid referring Madhouse Wallet?",
+      title: "How does collecting bank payments from US customers work?",
       descp:
-        "Contact us to get started. Find merchants in your local area or online. Earn passive income on each transaction for life. Join our partner program today.",
+        "You authorize a bank pull — similar to a direct debit or standing order — and we collect the funds from your customer's US bank account. This is processed via the ACH network in the United States. Funds settle to your virtual USD account within 1–3 business days.",
+    },
+    {
+      title: "What are payment links and when should I use them?",
+      descp:
+        "Payment links are shareable URLs you generate from your dashboard and send to any customer by email or message. The customer opens the link and pays directly from their US bank account — no card, no account setup required on their end. Use them for one-off charges, quotes, or any situation where setting up a full direct debit is more than you need.",
     },
   ];
   const [tab, setTab] = useState(1);
@@ -53,12 +58,12 @@ const SolutionSec: React.FC = () => {
                     style={{ maxWidth: 450 }}
                   >
                     <h2 className="m-0 font-medium text-3xl py-2" style={{ color: "var(--textPrimary)" }}>
-                      Have Any Questions?
+                      Frequently Asked Questions
                     </h2>
                     <p className="m-0 text-sm" style={{ color: "var(--textSecondary)" }}>
                       <Link href="https://docs.madhousewallet.com" target="_blank" className="hover:underline" style={{color: "var(--primaryColor)"}}>
-                        View our documentation
-                      </Link> or email us for more information.
+                        Read our documentation
+                      </Link> or contact our sales team for details.
                     </p>
                   </div>
                 </div>
@@ -70,19 +75,19 @@ const SolutionSec: React.FC = () => {
                           <div key={key} className="py-2">
                             <button
                               onClick={() => setTab(key)}
-                              className="border-0 p-0 flex items-center justify-between gap-2 w-full transition-all"
+                              className="border-0 p-0 flex items-start justify-between gap-2 w-full transition-all text-left"
                               style={{
                                 color: tab == key ? "var(--textPrimary)" : "var(--textSecondary)",
                                 fontWeight: tab == key ? 600 : 400
                               }}
                             >
-                              <div className="flex items-center gap-2">
-                                <span className="icn rounded-circle h-4 w-4 bg-[#E2682B]"></span>
-                                <p className="m-0 font-normal text-base">
+                              <div className="flex items-start gap-2 flex-1 min-w-0">
+                                <span className="icn rounded-circle h-4 w-4 flex-shrink-0 mt-1 bg-[#E2682B]"></span>
+                                <p className="m-0 font-normal text-base text-left">
                                   {item.title}
                                 </p>
                               </div>
-                              <span className="arrow">{right}</span>
+                              <span className="arrow flex-shrink-0 mt-1">{right}</span>
                             </button>
                           </div>
                         ))}

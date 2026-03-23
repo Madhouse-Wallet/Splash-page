@@ -9,56 +9,62 @@ const CardSection: React.FC = () => {
   const data = [
     {
       icon: icn1,
-      title: "Secure Transactions",
+      title: "Virtual USD Account",
       descp:
-        "Passkey authentication for security",
+        "Get a US bank account with routing and account numbers. Receive wire transfers, ACH credits, and direct deposits.",
     },
     {
       icon: icn2,
-      title: "Predictable Fees",
+      title: "USD Direct Debit",
       descp:
-        "No hideen costs for you or your customers",
+        "Pull payments directly from your US customers' bank accounts — like a standing order or direct debit, initiated by you.",
     },
     {
       icon: icn3,
-      title: "Easy to use",
+      title: "Payment Links",
       descp:
-        "Sign up in minutes and start sending and receiving payments immediately.",
+        "Generate a shareable payment link in seconds. Send it by email or message — customers pay from their bank account, no card needed.",
     },
     {
       icon: icn4,
-      title: "A Ledger You Can Trust",
+      title: "International Payouts",
       descp:
-        "No disputes, no missing records—just clarity and trust.",
+        "Send payments to 43+ currencies including KES, NGN, INR, CNY, and PHP.",
     },
     {
       icon: icn5,
-      title: "Top Tier Support",
-      descp: "Get help when you need it with our dedicated support team",
-    },
-    {
-      icon: icn10,
-      title: "Backup and Recovery Support",
+      title: "Subscription Billing",
       descp:
-        "Easily back up and recover your wallet with our secure recovery options",
+        "Set up recurring bank transfers on weekly, monthly, or yearly cycles. Your customers authorize once — you collect automatically.",
     },
     {
       icon: icn6,
-      title: "Multiple Payment Options",
+      title: "Invoice Management",
+      descp: "Create and send professional invoices. Customers pay directly from their bank account — no card required.",
+    },
+    {
+      icon: icn10,
+      title: "Enterprise Security",
       descp:
-        "Accept payments via debit cards, bank transfers, and mobile money.",
+        "WebAuthn passkey authentication protects every transaction. No passwords to steal.",
+    },
+    {
+      icon: icn6,
+      title: "API Access",
+      descp:
+        "Integrate payments into your platform with developer-friendly APIs and webhooks.",
     },
     {
       icon: icn9,
-      title: "Put Your Dollars to Work",
+      title: "Compliance Ready",
       descp:
-        "Invest your funds directly from the wallet and earn interest.",
+        "Built-in KYC onboarding and transaction monitoring for regulatory peace of mind.",
     },
     {
       icon: icn9,
-      title: "Global Access and Payouts",
+      title: "Real-Time Tracking",
       descp:
-        "Make payments to over 45 countries—including the USA, Kenya, Nigeria, and Ghana.",
+        "Monitor every payment with live status updates, webhooks, and account statements.",
     },
   ];
   var settings = {
@@ -111,7 +117,7 @@ const CardSection: React.FC = () => {
                   >
                     <span className="icn flex justify-center">{dot}</span>
                     <h4 className="m-0 font-normal py-2 text-xl" style={{ color: "var(--textPrimary)" }}>
-                       Receiving money internationally can be simple.
+                       One account to collect, hold, and send money globally.
                     </h4>
                   </div>
                 </div>

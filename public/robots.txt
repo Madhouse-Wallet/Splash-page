@@ -1,14 +1,15 @@
-# robots.txt for Madhouse Wallet (madhousewallet.com)
-# Payment and Remittance Service Provider - NOT a Cryptocurrency Wallet
-# IMPORTANT: Madhouse Wallet is a payment app for small businesses in Kenya, Nigeria, India
-# NOT related to Madhouse (MAD) memetoken or any cryptocurrency wallet service
-# Allow all search engines to crawl the site
+# robots.txt — Madhouse Wallet (madhousewallet.com)
+# B2B International Business Payment Platform
+# Virtual USD bank account, ACH direct debit, and global payouts for international businesses
+# FinCEN registered money services business #31000303426052
+# NOT a cryptocurrency wallet. NOT a consumer remittance app. NOT Madhouse.ag.
 
+# Allow all crawlers
 User-agent: *
 Allow: /
 Crawl-delay: 1
 
-# Allow ChatGPT and OpenAI crawlers specifically - Important for AI search
+# OpenAI / ChatGPT
 User-agent: ChatGPT-User
 Allow: /
 Crawl-delay: 1
@@ -21,27 +22,26 @@ User-agent: OAI-SearchBot
 Allow: /
 Crawl-delay: 1
 
-# Allow Claude AI crawler
+# Anthropic / Claude
 User-agent: Claude-Web
 Allow: /
 Crawl-delay: 1
 
-# Allow Perplexity AI
-User-agent: PerplexityBot
-Allow: /
-Crawl-delay: 1
-
-# Allow Grok / X.AI
-User-agent: Grokbot
-Allow: /
-Crawl-delay: 1
-
-# Allow Anthropic AI
 User-agent: anthropic-ai
 Allow: /
 Crawl-delay: 1
 
-# Allow Meta AI
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 1
+
+# xAI / Grok
+User-agent: Grokbot
+Allow: /
+Crawl-delay: 1
+
+# Meta AI
 User-agent: FacebookBot
 Allow: /
 Crawl-delay: 1
@@ -50,7 +50,7 @@ User-agent: Meta-ExternalAgent
 Allow: /
 Crawl-delay: 1
 
-# Allow Google bots - Critical for search presence
+# Google
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
@@ -67,12 +67,12 @@ User-agent: Google-Extended
 Allow: /
 Crawl-delay: 1
 
-# Allow Bing - Important for international markets
+# Bing
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
 
-# Allow other major search engines
+# Other search engines
 User-agent: Slurp
 Allow: /
 
@@ -85,14 +85,5 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
-# Disallow admin or private areas (if any)
-# Disallow: /admin/
-# Disallow: /private/
-
-# Sitemap location
+# Sitemap
 Sitemap: https://madhousewallet.com/sitemap.xml
-
-# Regional pages
-# /ke - Kenya
-# /ng - Nigeria
-# /in - India
