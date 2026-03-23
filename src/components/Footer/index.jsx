@@ -14,6 +14,17 @@ const Footer = () => {
             app.madhousewallet.com
           </a>
         </p>
+        <a
+          href="https://wa.me/14847739576"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="whatsapp-link"
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.42A9.953 9.953 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm-1.44 13.07c-1.52-.87-2.76-2.11-3.63-3.63l1.03-1.03a.75.75 0 0 0 .18-.77l-.72-2.16a.75.75 0 0 0-.71-.51H6a.75.75 0 0 0-.75.75C5.25 13.49 10.51 18.75 16.75 18.75a.75.75 0 0 0 .75-.75v-.69a.75.75 0 0 0-.51-.71l-2.16-.72a.75.75 0 0 0-.77.18l-1.03 1.03a9.914 9.914 0 0 1-.46-.02z" fill="currentColor"/>
+          </svg>
+          WhatsApp Support
+        </a>
       </MigrationNotice>
       <FooterDiv className="siteFooter py-2 z-10 relative border-t">
         {/* <Image
@@ -139,6 +150,26 @@ const MigrationNotice = styled.div`
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+
+  .whatsapp-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--borderColor);
+    color: #25D366;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+      color: #25D366;
+    }
+
+    svg {
+      flex-shrink: 0;
     }
   }
 `;
