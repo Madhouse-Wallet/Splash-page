@@ -124,7 +124,7 @@ Deprecated SVG logos should not be used. Request vector versions from brand@madh
 - Security issues: Report via GitHub Security Advisory
 - Product focus: Cross-border payments, remittances, local cashout options
 - Target audience: Individuals receiving remittances, small businesses, crypto beginners
-- Main CTA: "Create Wallet" → app.madhousewallet.com/welcome
+- Main CTA: "Create Wallet" → business.madhousewallet.com/welcome
 - Docs: docs.madhousewallet.com
 
 ## Linting Notes

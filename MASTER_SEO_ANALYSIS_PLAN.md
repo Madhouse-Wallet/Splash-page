@@ -239,7 +239,7 @@ Even for non-blog pages, sections can be marked as articles:
 <meta property="al:ios:url" content="madhousewallet://open">
 <meta property="al:android:app_name" content="Madhouse Wallet">
 <meta property="al:android:package" content="com.madhousewallet.app">
-<meta property="al:web:url" content="https://app.madhousewallet.com/welcome">
+<meta property="al:web:url" content="https://business.madhousewallet.com/welcome">
 ```
 
 #### **Add Additional Open Graph Tags**

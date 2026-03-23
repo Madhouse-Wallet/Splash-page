@@ -7,6 +7,14 @@ import styled from "styled-components";
 const Footer = () => {
   return (
     <>
+      <MigrationNotice>
+        <p className="m-0">
+          Looking for the old app?{" "}
+          <a href="https://app.madhousewallet.com" target="_blank" rel="noopener noreferrer">
+            app.madhousewallet.com
+          </a>
+        </p>
+      </MigrationNotice>
       <FooterDiv className="siteFooter py-2 z-10 relative border-t">
         {/* <Image
           src={bg}
@@ -110,6 +118,31 @@ const Footer = () => {
     </>
   );
 };
+const MigrationNotice = styled.div`
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 9999;
+  background-color: var(--backgroundCard);
+  border: 1px solid var(--borderColor);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 12px;
+  color: var(--textSecondary);
+  box-shadow: 0 4px 16px var(--shadowColor);
+  max-width: 240px;
+
+  a {
+    color: var(--primaryColor);
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+`;
+
 const FooterDiv = styled.footer`
   font-family: "Funnel Display", serif;
   background-color: var(--footerBg);

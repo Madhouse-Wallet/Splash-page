@@ -28,7 +28,7 @@
   "related_applications": [
     {
       "platform": "web",
-      "url": "https://app.madhousewallet.com/welcome"
+      "url": "https://business.madhousewallet.com/welcome"
     }
   ],
   "prefer_related_applications": false,
@@ -37,7 +37,7 @@
       "name": "Open an Account",
       "short_name": "Sign Up",
       "description": "Create your Madhouse Wallet business account",
-      "url": "https://app.madhousewallet.com/welcome",
+      "url": "https://business.madhousewallet.com/welcome",
       "icons": [
         {
           "src": "/favicn.png",

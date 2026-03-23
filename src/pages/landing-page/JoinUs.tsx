@@ -41,7 +41,7 @@ const JoinUsSec: React.FC = () => {
                   <div className="mt-4 flex itmes-center justify-center gap-3 flex-wrap">
                     <Link
                       target="_blank"
-                      href="https://app.madhousewallet.com/welcome"
+                      href="https://business.madhousewallet.com/welcome"
                       className="flex font-normal items-center justify-between commonBtn btn rounded-pill"
                     >
                       Open an Account

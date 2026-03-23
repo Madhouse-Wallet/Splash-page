@@ -32,7 +32,7 @@ export default function Document() {
         <link rel="preconnect" href="https://www.google-analytics.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://media.madhousewallet.com" />
         <link rel="dns-prefetch" href="https://docs.madhousewallet.com" />
-        <link rel="dns-prefetch" href="https://app.madhousewallet.com" />
+        <link rel="dns-prefetch" href="https://business.madhousewallet.com" />
         <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
 
@@ -461,7 +461,7 @@ export default function Document() {
                   "position": 1,
                   "name": "Open an Account",
                   "description": "Create your Madhouse Wallet business account",
-                  "url": "https://app.madhousewallet.com/welcome"
+                  "url": "https://business.madhousewallet.com/welcome"
                 },
                 {
                   "@type": "SiteNavigationElement",

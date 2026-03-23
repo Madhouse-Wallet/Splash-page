@@ -46,7 +46,7 @@ const Herosec: React.FC = () => {
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">
                   <Link
                     target="_blank"
-                    href="https://app.madhousewallet.com/welcome"
+                    href="https://business.madhousewallet.com/welcome"
                     className="flex font-normal items-center justify-between commonBtn btn rounded-pill"
                   >
                     Open an Account
