@@ -35,12 +35,12 @@ const Herosec: React.FC = () => {
                   className="m-0 font-bold text-5xl md:text-6xl"
                   style={{ lineHeight: "1.1", color: "var(--textPrimary)" }}
                 >
-                  <span className="themeClr">Your US Dollar Account.</span> Pay Out Globally.
+                  <span className="themeClr">Your US Dollar Account</span> for Global Business
                   <br />
 
                 </h1>
                 <p className="text-lg mt-4 mb-6" style={{ maxWidth: "600px", color: "var(--textSecondary)" }}>
-                  Get a virtual USD account with routing and account numbers — receive wire transfers, direct deposits, and bank pull payments from US customers.
+                  Get a Virtual USD account that can easily accept payments. Receive same day bank transfers, direct deposits, and direct debit from US customers.
                   Send payouts to 43+ currencies including KES, NGN, INR, and CNY.
                 </p>
                 <div className="btnWrpper mt-3 flex items-center gap-2 flex-wrap">

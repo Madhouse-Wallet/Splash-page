@@ -14,9 +14,9 @@ const FeatureSection: React.FC = () => {
     },
     {
       icn: icn5,
-      title: "Collect Bank Payments from the US",
+      title: "Invoicing the Way It Should Be",
       descrp:
-        "Pull funds directly from US bank accounts — one-time charges or recurring subscription billing. This is called ACH Direct Debit in the United States.",
+        "Customize your branding to create professional invoices for your clients.",
     },
     {
       icn: icn3,

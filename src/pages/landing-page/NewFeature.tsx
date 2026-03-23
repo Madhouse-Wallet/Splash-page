@@ -69,17 +69,20 @@ const NewFearureSection: React.FC = () => {
                         width={10000}
                       />
                       <h2 className="m-0 font-medium text-3xl py-2" style={{ color: "var(--textPrimary)" }}>
-                        Invoice and Get Paid
+                        Payment Links
                       </h2>
                       <p className="m-0" style={{ color: "var(--textSecondary)" }}>
-                        Create professional invoices and collect ACH payments automatically. Track payment status in real time with webhooks and account statements.
+                        Generate a shareable payment link in seconds and send it to any customer by email or message.
+                        <br /> <br />
+                        Customers pay directly from their US bank account — no card, no login, no friction. Counts toward your monthly volume alongside direct debits and invoices.
                       </p>
                     </div>
                     <div className="md:col-span-6 col-span-12 relative self-end">
                       <Image
                         src={img2}
                         alt=""
-                        className="max-w-full h-auto w-full object-contain"
+                        className="h-auto object-contain mx-auto"
+                        style={{ maxWidth: 280 }}
                         height={10000}
                         width={10000}
                       />

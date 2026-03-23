@@ -23,6 +23,11 @@ const SolutionSec: React.FC = () => {
       descp:
         "You authorize a bank pull — similar to a direct debit or standing order — and we collect the funds from your customer's US bank account. This is processed via the ACH network in the United States. Funds settle to your virtual USD account within 1–3 business days.",
     },
+    {
+      title: "What are payment links and when should I use them?",
+      descp:
+        "Payment links are shareable URLs you generate from your dashboard and send to any customer by email or message. The customer opens the link and pays directly from their US bank account — no card, no account setup required on their end. Use them for one-off charges, quotes, or any situation where setting up a full direct debit is more than you need.",
+    },
   ];
   const [tab, setTab] = useState(1);
   const [openIndex, setOpenIndex] = useState<number | null>(null);

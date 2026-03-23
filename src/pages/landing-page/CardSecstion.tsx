@@ -21,18 +21,24 @@ const CardSection: React.FC = () => {
     },
     {
       icon: icn3,
+      title: "Payment Links",
+      descp:
+        "Generate a shareable payment link in seconds. Send it by email or message — customers pay from their bank account, no card needed.",
+    },
+    {
+      icon: icn4,
       title: "International Payouts",
       descp:
         "Send payments to 43+ currencies including KES, NGN, INR, CNY, and PHP.",
     },
     {
-      icon: icn4,
+      icon: icn5,
       title: "Subscription Billing",
       descp:
         "Set up recurring bank transfers on weekly, monthly, or yearly cycles. Your customers authorize once — you collect automatically.",
     },
     {
-      icon: icn5,
+      icon: icn6,
       title: "Invoice Management",
       descp: "Create and send professional invoices. Customers pay directly from their bank account — no card required.",
     },

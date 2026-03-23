@@ -25,7 +25,7 @@ const VideoSec2 = () => {
               <div className="sectionHeader">
                 <h2 className="m-0 font-bold text-3xl text-white py-2 uppercase ">
                   Send Global{" "}
-                  <span className="themeClr">Payouts</span>
+                  <span className="themeClr">Payments</span>
                 </h2>
                 <p className="m-0 text-gray-500">
                   Pay employees, vendors, and partners in 43+ currencies. Local delivery via M-Pesa in Kenya, bank transfer in Nigeria, and more.
